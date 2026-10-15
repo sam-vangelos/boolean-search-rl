@@ -1,0 +1,48 @@
+[project]
+name = "cloris-boolean-rl"
+version = "0.1.0"
+description = "Stage 3 training rig: GRPO on the residual the deterministic Boolean enricher cannot reach."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+# Everything the rig needs to build splits, build prompts, compute rewards and
+# run the non-model half of the eval. Standard library plus a test runner: the
+# vendored scorer imports nothing, so this stays installable anywhere.
+core = [
+  "pytest>=8.0",
+]
+# The model half. Installed locally only for the CPU smoke; the real run is a
+# free Colab T4, where the notebook installs its own pinned set.
+train = [
+  "torch>=2.4",
+  "transformers>=4.51",
+  "trl>=0.14",
+  "peft>=0.13",
+  "datasets>=3.0",
+  "accelerate>=1.0",
+]
+# Colab-only. Unsloth's 4-bit path needs CUDA and does not resolve on macOS
+# arm64; wandb is behind CLORIS_RL_WANDB and never required.
+train_gpu = [
+  "unsloth",
+  "bitsandbytes",
+]
+wandb = [
+  "wandb>=0.18",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["cloris_boolean_rl*"]
+
+[tool.setuptools.package-data]
+"cloris_boolean_rl.scorer" = ["lexicons/*.json", "VENDORED_FROM.json"]
+"cloris_boolean_rl.data" = ["fixtures/*.json", "splits/*.json", "promptsets/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

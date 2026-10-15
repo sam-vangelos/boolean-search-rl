@@ -1,0 +1,2953 @@
+{
+  "note": "Every generated_strings[].boolean and coverage_gaps[].suggested_boolean across the 20 LinkedIn campaign execution plans in the Cloris working tree, extracted read-only for prompt building. Cloris commit 685cf29c12380d37b6e8e630016f6e2be2214727; the plan JSONs are run output and are not themselves versioned.",
+  "extracted": "2026-09-21",
+  "count": 491,
+  "strings": [
+    {
+      "id": "9000000012-engagement-lead-20260801-gs000",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"forward-deployed\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\" OR \"multi-agent\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs001",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"solutions engineer\" OR \"forward deployed\" OR \"field engineer\" OR \"customer engineer\" OR \"field CTO\" OR \"technical account\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs002",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"solutions engineer\" OR \"forward deployed\" OR \"customer engineer\" OR \"applied AI\" OR \"technical success\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs003",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"POC to production\" OR \"pilot to production\" OR \"proof of concept to production\" OR \"prototype to production\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs004",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\" OR \"delivery manager\" OR \"practice lead\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"multi-agent\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs005",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\" OR \"senior manager\" OR \"associate director\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs006",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"multi-agent\" OR \"RAG\") AND (\"engagement\" OR \"delivery lead\" OR \"client-facing\" OR \"pre-sales\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs007",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"AWS Professional Services\" OR \"Microsoft Industry Solutions\" OR \"Microsoft Consulting Services\" OR \"Google Cloud Consulting\" OR \"Google Cloud Professional Services\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs008",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"field engineering\" OR \"resident architect\" OR \"professional services\" OR \"delivery\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs009",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"center of excellence\" OR \"CoE\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"use case\" OR \"use cases\" OR \"stakeholders\" OR \"roadmap\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs010",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\") AND (\"use case\" OR \"use cases\" OR \"stakeholders\" OR \"front office\" OR \"compliance\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs011",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"statement of work\" OR \"SOW\" OR \"SOWs\" OR \"pre-sales\" OR \"presales\" OR \"P&L\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"AI solutions\") AND (\"delivery\" OR \"engagement\" OR \"client\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs012",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"LangGraph\" OR \"multi-agent\" OR \"agentic AI\" OR \"RAG pipeline\" OR \"RAG pipelines\") AND (\"technical roadmap\" OR \"code reviews\" OR \"system design\" OR \"architecture\") AND (\"client\" OR \"clients\" OR \"stakeholders\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs013",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"founder\" OR \"co-founder\" OR \"cofounder\" OR \"founding\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\" OR \"multi-agent\" OR \"agentic\") AND (\"enterprise\" OR \"Fortune 500\" OR \"clients\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs014",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"fractional CTO\" OR \"fractional Chief Technology Officer\" OR \"AI advisor\" OR \"independent AI consultant\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\" OR \"multi-agent\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs015",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"developer relations\" OR \"developer advocate\" OR \"DevRel\" OR \"AI evangelist\") AND (\"LLM\" OR \"RAG\" OR \"LangChain\" OR \"generative AI\") AND (\"enterprise\" OR \"solutions\" OR \"workshops\" OR \"professional services\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs016",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"keynote\" OR \"conference speaker\" OR \"guest lecturer\" OR \"advisory board\") AND (\"generative AI\" OR \"LLM\" OR \"multi-agent\") AND (\"delivery\" OR \"client\" OR \"solutions\" OR \"consulting\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs017",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"multi-agent\") AND (\"client engagements\" OR \"client delivery\" OR \"client-facing\") NOT (\"account executive\" OR \"quota\" OR \"scrum master\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-gs018",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\" OR \"artificial intelligence\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-cg000",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "coverage_gaps",
+      "boolean": "(\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\") AND (\"machine learning\" OR \"data science\" OR \"AI/ML\") AND (\"client\" OR \"stakeholders\" OR \"SOW\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-cg001",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "coverage_gaps",
+      "boolean": "(\"IBM Watson\" OR \"Watson\") AND (\"client\" OR \"engagement\" OR \"delivery\") AND (\"AI\" OR \"machine learning\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-cg002",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "coverage_gaps",
+      "boolean": "(Toptal OR Andela OR BairesDev OR Gigster OR Lemon.io) AND (\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"delivery\" OR \"engagement\" OR \"client\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260801-cg004",
+      "run": "9000000012-engagement-lead-20260801",
+      "source": "coverage_gaps",
+      "boolean": "(\"product lead\" OR \"head of product\" OR \"principal product manager\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\") AND (\"enterprise\" OR \"Fortune 500\") AND (\"machine learning engineer\" OR \"data scientist\" OR \"ML engineer\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs000",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"forward-deployed\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\" OR \"multi-agent\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs001",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"solutions engineer\" OR \"forward deployed\" OR \"field engineer\" OR \"customer engineer\" OR \"field CTO\" OR \"technical account\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs002",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"solutions engineer\" OR \"forward deployed\" OR \"customer engineer\" OR \"applied AI\" OR \"technical success\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs003",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"POC to production\" OR \"pilot to production\" OR \"proof of concept to production\" OR \"prototype to production\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs004",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\" OR \"delivery manager\" OR \"practice lead\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"multi-agent\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs005",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\" OR \"senior manager\" OR \"associate director\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs006",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"multi-agent\" OR \"RAG\") AND (\"engagement\" OR \"delivery lead\" OR \"client-facing\" OR \"pre-sales\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs007",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"AWS Professional Services\" OR \"Microsoft Industry Solutions\" OR \"Microsoft Consulting Services\" OR \"Google Cloud Consulting\" OR \"Google Cloud Professional Services\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs008",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"solutions architect\" OR \"field engineering\" OR \"resident architect\" OR \"professional services\" OR \"delivery\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs009",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"center of excellence\" OR \"CoE\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"use case\" OR \"use cases\" OR \"stakeholders\" OR \"roadmap\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs010",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\") AND (\"use case\" OR \"use cases\" OR \"stakeholders\" OR \"front office\" OR \"compliance\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs011",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"statement of work\" OR \"SOW\" OR \"SOWs\" OR \"pre-sales\" OR \"presales\" OR \"P&L\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"AI solutions\") AND (\"delivery\" OR \"engagement\" OR \"client\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs012",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"LangGraph\" OR \"multi-agent\" OR \"agentic AI\" OR \"RAG pipeline\" OR \"RAG pipelines\") AND (\"technical roadmap\" OR \"code reviews\" OR \"system design\" OR \"architecture\") AND (\"client\" OR \"clients\" OR \"stakeholders\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs013",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"founder\" OR \"co-founder\" OR \"cofounder\" OR \"founding\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\" OR \"multi-agent\" OR \"agentic\") AND (\"enterprise\" OR \"Fortune 500\" OR \"clients\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs014",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"fractional CTO\" OR \"fractional Chief Technology Officer\" OR \"AI advisor\" OR \"independent AI consultant\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\" OR \"multi-agent\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs015",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"developer relations\" OR \"developer advocate\" OR \"DevRel\" OR \"AI evangelist\") AND (\"LLM\" OR \"RAG\" OR \"LangChain\" OR \"generative AI\") AND (\"enterprise\" OR \"solutions\" OR \"workshops\" OR \"professional services\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs016",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"keynote\" OR \"conference speaker\" OR \"guest lecturer\" OR \"advisory board\") AND (\"generative AI\" OR \"LLM\" OR \"multi-agent\") AND (\"delivery\" OR \"client\" OR \"solutions\" OR \"consulting\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs017",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"multi-agent\") AND (\"client engagements\" OR \"client delivery\" OR \"client-facing\") NOT (\"account executive\" OR \"quota\" OR \"scrum master\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-gs018",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"machine learning\" OR \"artificial intelligence\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-cg000",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "coverage_gaps",
+      "boolean": "(\"engagement lead\" OR \"engagement manager\" OR \"delivery lead\") AND (\"machine learning\" OR \"data science\" OR \"AI/ML\") AND (\"client\" OR \"stakeholders\" OR \"SOW\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-cg001",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "coverage_gaps",
+      "boolean": "(\"IBM Watson\" OR \"Watson\") AND (\"client\" OR \"engagement\" OR \"delivery\") AND (\"AI\" OR \"machine learning\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-cg002",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "coverage_gaps",
+      "boolean": "(Toptal OR Andela OR BairesDev OR Gigster OR Lemon.io) AND (\"generative AI\" OR \"GenAI\" OR \"LLM\") AND (\"delivery\" OR \"engagement\" OR \"client\")"
+    },
+    {
+      "id": "9000000012-engagement-lead-20260729-cg004",
+      "run": "9000000012-engagement-lead-20260729",
+      "source": "coverage_gaps",
+      "boolean": "(\"product lead\" OR \"head of product\" OR \"principal product manager\") AND (\"LLM\" OR \"generative AI\" OR \"RAG\") AND (\"enterprise\" OR \"Fortune 500\") AND (\"machine learning engineer\" OR \"data scientist\" OR \"ML engineer\")"
+    },
+    {
+      "id": "9000000001-gs000",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"ICE\" OR \"Intercontinental Exchange\" OR \"CME Group\" OR \"CME\" OR \"CBOE\" OR \"Nasdaq\" OR \"NYSE\" OR \"DTCC\" OR \"OCC\" OR \"LCH\" OR \"Eurex\" OR \"Tradeweb\" OR \"MarketAxess\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"GenAI\" OR \"generative AI\" OR \"data science\" OR \"engineering\")"
+    },
+    {
+      "id": "9000000001-gs001",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"JPMorgan\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Citigroup\" OR \"Citi\" OR \"Bank of America\") AND (\"AI Accelerator\" OR \"AI Labs\" OR \"AI Core\" OR \"AI Research\" OR \"AI Strategy\" OR \"Applied AI\" OR \"CAIO\" OR \"Chief AI Officer\") AND (\"built\" OR \"deployed\" OR \"production\" OR \"scaled\" OR \"shipped\" OR \"architected\" OR \"platform\")"
+    },
+    {
+      "id": "9000000001-gs002",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"capital markets\" OR \"investment banking\" OR \"asset management\" OR \"wealth management\" OR \"institutional banking\") AND (\"Head of AI\" OR \"Head of ML\" OR \"Head of AI Engineering\" OR \"Head of AI Platform\" OR \"Chief AI\" OR \"AI Labs\" OR \"AI Core\") AND (\"GenAI\" OR \"generative AI\" OR \"LLM\" OR \"large language model\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000001-gs003",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"JPMorgan\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Citigroup\" OR \"Citi\" OR \"Bank of America\" OR \"Barclays\" OR \"UBS\") AND (\"artificial intelligence\" OR \"machine learning\" OR \"data science\" OR \"AI platform\" OR \"AI engineering\") AND (\"capital markets\" OR \"trading\" OR \"front office\" OR \"middle office\" OR \"investment banking\" OR \"markets technology\")"
+    },
+    {
+      "id": "9000000001-gs004",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"BlackRock\" OR \"Vanguard\" OR \"Fidelity\" OR \"TIAA\" OR \"Wellington\" OR \"Franklin Templeton\" OR \"PIMCO\" OR \"Invesco\" OR \"State Street\" OR \"T. Rowe Price\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"artificial intelligence\" OR \"data science\" OR \"GenAI\" OR \"generative AI\" OR \"NLP\")"
+    },
+    {
+      "id": "9000000001-gs005",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"Citadel\" OR \"Two Sigma\" OR \"D.E. Shaw\" OR \"Point72\" OR \"AQR\" OR \"Bridgewater\" OR \"Man Group\" OR \"Millennium\" OR \"Balyasny\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"data science\" OR \"GenAI\" OR \"generative AI\" OR \"NLP\" OR \"artificial intelligence\")"
+    },
+    {
+      "id": "9000000001-gs006",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"JPMorgan\" OR \"Goldman Sachs\" OR \"Morgan Stanley\") AND (\"Head of AI\" OR \"Head of ML\" OR \"AI Engineering\" OR \"AI Platform\" OR \"Applied AI\" OR \"AI Labs\" OR \"Executive Director\" OR \"Managing Director\") AND (\"GenAI\" OR \"generative AI\" OR \"LLM\" OR \"large language model\")"
+    },
+    {
+      "id": "9000000001-gs007",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"Citigroup\" OR \"Citi\" OR \"Bank of America\" OR \"Barclays\" OR \"HSBC\" OR \"UBS\" OR \"Deutsche Bank\" OR \"BNP Paribas\") AND (\"Head of AI\" OR \"Head of ML\" OR \"AI Engineering\" OR \"AI Platform\" OR \"Applied AI\" OR \"AI Labs\" OR \"Executive Director\" OR \"Managing Director\") AND (\"GenAI\" OR \"generative AI\" OR \"LLM\" OR \"large language model\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000001-gs008",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"Executive Director\" OR \"Managing Director\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"artificial intelligence\" OR \"GenAI\" OR \"generative AI\") AND (\"capital markets\" OR \"investment banking\" OR \"asset management\" OR \"wealth management\" OR \"institutional banking\" OR \"markets technology\")"
+    },
+    {
+      "id": "9000000001-gs009",
+      "run": "9000000001",
+      "source": "generated_strings",
+      "boolean": "(\"Renaissance Technologies\" OR \"Hudson River Trading\" OR \"Jane Street\" OR \"Millennium\" OR \"Balyasny\" OR \"Schonfeld\" OR \"ExodusPoint\" OR \"Squarepoint\" OR \"WorldQuant\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"data science\" OR \"research\" OR \"engineering\" OR \"technology\")"
+    },
+    {
+      "id": "9000000001-cg000",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"Behavox\" OR \"NICE Actimize\" OR \"Verafin\" OR \"ComplyAdvantage\" OR \"Shield\" OR \"Relativity\" OR \"Kensho\" OR \"Ayasdi\") AND (\"CTO\" OR \"Chief Technology Officer\" OR \"VP Engineering\" OR \"Head of AI\" OR \"Director\" OR \"co-founder\" OR \"cofounder\")"
+    },
+    {
+      "id": "9000000001-cg001",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"Credit Suisse\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"GenAI\" OR \"generative AI\" OR \"data science\" OR \"technology\") AND (\"Head of\" OR \"Director\" OR \"VP\" OR \"Managing Director\" OR \"Executive Director\")"
+    },
+    {
+      "id": "9000000001-cg002",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"JPMorgan\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Citi\" OR \"Bank of America\" OR \"BlackRock\") AND (\"platform engineering\" OR \"developer platform\" OR \"internal platform\" OR \"engineering platform\" OR \"infrastructure engineering\") AND (\"GenAI\" OR \"generative AI\" OR \"LLM\" OR \"AI\" OR \"machine learning\") AND (\"VP\" OR \"Director\" OR \"Executive Director\" OR \"Managing Director\" OR \"Head of\")"
+    },
+    {
+      "id": "9000000001-cg003",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"sovereign wealth\" OR \"pension fund\" OR \"endowment\" OR \"GIC\" OR \"CPP Investments\" OR \"Ontario Teachers\" OR \"CalPERS\" OR \"CalSTRS\" OR \"ADIA\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"GenAI\" OR \"data science\") AND (\"Head of\" OR \"Director\" OR \"VP\" OR \"Managing Director\" OR \"CTO\")"
+    },
+    {
+      "id": "9000000001-cg004",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"BlackRock\" OR \"Citadel\" OR \"Two Sigma\" OR \"D.E. Shaw\" OR \"Point72\" OR \"AQR\" OR \"Bridgewater\" OR \"Man Group\" OR \"Wellington\" OR \"Fidelity\") AND (\"quantitative research\" OR \"quantitative analytics\" OR \"quant research\" OR \"systematic\" OR \"alpha research\") AND (\"Head of\" OR \"Director\" OR \"Managing Director\" OR \"VP\" OR \"Principal\" OR \"CTO\")"
+    },
+    {
+      "id": "9000000001-cg005",
+      "run": "9000000001",
+      "source": "coverage_gaps",
+      "boolean": "(\"family office\" OR \"multi-family office\" OR \"multi family office\" OR \"private office\") AND (\"AI\" OR \"ML\" OR \"machine learning\" OR \"GenAI\" OR \"technology\") AND (\"CTO\" OR \"Head of\" OR \"Director\" OR \"VP\" OR \"Chief\")"
+    },
+    {
+      "id": "9000000002-gs000",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"forward deployment\" OR \"deployment engineer\" OR \"deployment strategist\" OR \"implementation engineer\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"LangChain\" OR \"copilot\")"
+    },
+    {
+      "id": "9000000002-gs001",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"solutions engineer\" OR \"customer engineer\" OR \"field engineer\" OR \"solutions delivery\" OR \"technical delivery\") AND (\"LLM\" OR \"LangChain\" OR \"LangGraph\" OR \"agentic\" OR \"RAG\" OR \"copilot\")"
+    },
+    {
+      "id": "9000000002-gs002",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"forward deployment\" OR \"field engineer\" OR \"implementation engineer\" OR \"deployment engineer\" OR \"deployment strategist\") AND (\"integration\" OR \"integrations\" OR \"API\" OR \"data pipeline\" OR \"connector\" OR \"production\")"
+    },
+    {
+      "id": "9000000002-gs003",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"professional services\" OR \"consulting engineer\" OR \"delivery engineer\" OR \"client delivery\" OR \"technical consultant\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"LangChain\")"
+    },
+    {
+      "id": "9000000002-gs004",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"implementation engineer\" OR \"customer deployment\" OR \"enterprise deployment\" OR \"customer implementation\") AND (\"Python\" OR \"TypeScript\") AND (\"enterprise\" OR \"customer\")"
+    },
+    {
+      "id": "9000000002-gs005",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"engineer\" OR \"engineering\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"deployed\" OR \"production\")"
+    },
+    {
+      "id": "9000000002-gs006",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"engineer\" OR \"engineering\" OR \"applied AI\" OR \"forward deployed\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"deployed\" OR \"production\")"
+    },
+    {
+      "id": "9000000002-gs007",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"engineer\" OR \"engineering\" OR \"applied AI\" OR \"forward deployed\") AND (\"deployed\" OR \"production\" OR \"customer\" OR \"enterprise\" OR \"integration\")"
+    },
+    {
+      "id": "9000000002-gs008",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"founding engineer\" OR \"first engineer\" OR \"technical co-founder\" OR \"technical cofounder\" OR \"co-founder\" OR \"cofounder\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"LangChain\")"
+    },
+    {
+      "id": "9000000002-gs009",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"document understanding\" OR \"contract analysis\" OR \"knowledge assistant\" OR \"intelligent search\" OR \"semantic search\" OR \"compliance workflow\") AND (\"deployed\" OR \"production\" OR \"built\" OR \"shipped\")"
+    },
+    {
+      "id": "9000000002-gs010",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"agentic workflow\" OR \"agentic\" OR \"multi-agent\" OR \"agent routing\" OR \"tool calling\" OR \"function calling\") AND (\"production\" OR \"deployed\" OR \"shipped\" OR \"architected\")"
+    },
+    {
+      "id": "9000000002-gs011",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"LangGraph\" OR \"LangSmith\" OR \"LangChain\") AND (\"production\" OR \"deployed\" OR \"enterprise\" OR \"customer\" OR \"shipped\")"
+    },
+    {
+      "id": "9000000002-gs012",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"retrieval augmented generation\" OR \"RAG pipeline\" OR \"retrieval pipeline\" OR \"embeddings\" OR \"reranking\" OR \"vector search\" OR \"vector database\") AND (\"production\" OR \"deployed\" OR \"built\" OR \"shipped\")"
+    },
+    {
+      "id": "9000000002-gs013",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"FastAPI\" OR \"microservices\" OR \"event-driven\") AND (\"LLM\" OR \"generative AI\" OR \"LangChain\" OR \"agentic\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000002-gs014",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"AI engineer\" OR \"GenAI engineer\" OR \"LLM engineer\" OR \"generative AI engineer\" OR \"applied AI engineer\") AND (\"production\" OR \"deployed\" OR \"shipped\" OR \"customer\" OR \"enterprise\")"
+    },
+    {
+      "id": "9000000002-gs015",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"ML engineer\" OR \"machine learning engineer\" OR \"applied scientist\" OR \"applied ML\" OR \"NLP engineer\") AND (\"LLM\" OR \"LangChain\" OR \"agentic\" OR \"RAG\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000002-gs016",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"embedded\" OR \"customer deployment\") AND (\"integration\" OR \"integrations\" OR \"connector\" OR \"onboarding\") AND (\"LLM\" OR \"generative AI\" OR \"applied AI\")"
+    },
+    {
+      "id": "9000000002-gs017",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"CrewAI\" OR \"AutoGen\" OR \"Semantic Kernel\" OR \"Haystack\" OR \"LlamaIndex\") AND (\"production\" OR \"deployed\" OR \"shipped\" OR \"enterprise\" OR \"customer\")"
+    },
+    {
+      "id": "9000000002-gs018",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"copilot\" OR \"AI assistant\" OR \"chat assistant\" OR \"conversational AI\" OR \"voice agent\") AND (\"production\" OR \"deployed\" OR \"enterprise\" OR \"shipped\" OR \"launched\")"
+    },
+    {
+      "id": "9000000002-gs019",
+      "run": "9000000002",
+      "source": "generated_strings",
+      "boolean": "(\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"copilot\" OR \"LangChain\") AND (\"banking\" OR \"financial services\" OR \"insurance\" OR \"capital markets\" OR \"fintech\")"
+    },
+    {
+      "id": "9000000002-cg000",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"forward deployed\" OR \"customer\" OR \"enterprise\") AND (\"data scientist\" OR \"applied scientist\") AND (\"built\" OR \"shipped\" OR \"deployed\" OR \"production\")"
+    },
+    {
+      "id": "9000000002-cg001",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"backend engineer\" OR \"fullstack engineer\" OR \"full stack engineer\" OR \"full-stack engineer\" OR \"software engineer\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000002-cg002",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"RAG\" OR \"copilot\") AND (\"healthcare\" OR \"legal tech\" OR \"government\" OR \"public sector\")"
+    },
+    {
+      "id": "9000000002-cg003",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"engineer\" OR \"engineering\") AND (\"deployed\" OR \"production\" OR \"customer\" OR \"integration\")"
+    },
+    {
+      "id": "9000000002-cg004",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"staff engineer\" OR \"senior staff engineer\" OR \"principal engineer\") AND (\"LLM\" OR \"LangChain\" OR \"agentic\" OR \"RAG\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000002-cg005",
+      "run": "9000000002",
+      "source": "coverage_gaps",
+      "boolean": "(\"evaluation harness\" OR \"evals\" OR \"guardrails\" OR \"prompt optimization\") AND (\"LLM\" OR \"generative AI\" OR \"agentic\" OR \"LangChain\" OR \"production\")"
+    },
+    {
+      "id": "9000000016-gs000",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"fine-tuning\" OR \"fine tuning\" OR \"fine-tune\" OR \"finetuning\") AND (\"HuggingFace\" OR \"Hugging Face\" OR \"transformers\" OR \"PyTorch\") AND (\"dataset\" OR \"evaluation\" OR \"benchmark\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs001",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"fine-tuning\" OR \"fine tuning\" OR \"fine-tune\" OR \"finetuning\") AND (\"LoRA\" OR \"PEFT\" OR \"SFT\" OR \"supervised fine-tuning\") AND (\"dataset\" OR \"evaluation\" OR \"benchmark\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs002",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-bench\" OR \"HumanEval\" OR \"MBPP\" OR \"LiveCodeBench\") AND (\"repo sandbox\" OR \"repository evaluation\" OR \"sandbox environment\" OR \"containerized\") AND (\"benchmark\" OR \"evaluation\" OR \"dataset\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs003",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"code evaluation\") AND (\"unit test generation\" OR \"patch verification\" OR \"code review\" OR \"static analysis\") AND (\"benchmark\" OR \"evaluation\" OR \"dataset\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs004",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"AI agent\" OR \"AI agents\" OR \"multi-agent\" OR \"agentic\") AND (\"function calling\" OR \"API schema\" OR \"tool schema\" OR \"state machine\") AND (\"evaluation\" OR \"benchmark\" OR \"validation\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs005",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"tool calling\" OR \"function calling\" OR \"tool use\" OR \"browser-use\") AND (\"agent evaluation\" OR \"trajectory analysis\" OR \"workflow simulation\" OR \"multi-step\") AND (\"evaluation\" OR \"benchmark\" OR \"validation\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs006",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"deep learning\" OR \"ML engineer\" OR \"data scientist\") AND (\"model training\" OR \"fine-tuning\" OR \"fine tuning\" OR \"evaluation\") AND (\"pipeline\" OR \"dataset\" OR \"model\") AND (\"Mercado Libre\" OR \"EPAM\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"data labeling\")"
+    },
+    {
+      "id": "9000000016-gs007",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"deep learning\" OR \"data science\" OR \"artificial intelligence\") AND (\"model training\" OR \"fine-tuning\" OR \"evaluation\" OR \"data quality\") AND (\"Habi\" OR \"Addi\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"data labeling\")"
+    },
+    {
+      "id": "9000000016-gs008",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"NLP\" OR \"natural language processing\" OR \"recommender system\" OR \"recommendation system\") AND (\"transformer\" OR \"transformers\" OR \"BERT\" OR \"GPT\") AND (\"training\" OR \"evaluation\" OR \"dataset\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs009",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"remote\" OR \"distributed team\" OR \"fully remote\") AND (\"fine-tuning\" OR \"model training\" OR \"deep learning\" OR \"machine learning\") AND (\"evaluation\" OR \"dataset\" OR \"benchmark\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs010",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"data quality\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"model evaluation\") AND (\"validation\" OR \"synthetic data\" OR \"data curation\" OR \"deduplication\") AND (\"pipeline\" OR \"dataset\" OR \"training\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs011",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"multimodal\" OR \"vision-language\" OR \"vision language\" OR \"VLM\") AND (\"evaluation\" OR \"benchmark\" OR \"dataset\" OR \"fine-tuning\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs012",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"research assistant\" OR \"research engineer\" OR \"research scientist\" OR \"PhD\") AND (\"dataset\" OR \"benchmark\" OR \"evaluation\" OR \"deep learning\") AND (\"training\" OR \"fine-tuning\" OR \"model\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs013",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"Machine Learning Engineer\" OR \"ML Engineer\" OR \"Research Engineer\" OR \"Applied Scientist\") AND (\"fine-tuning\" OR \"model training\" OR \"evaluation\" OR \"benchmark\") AND (\"pipeline\" OR \"evaluation harness\" OR \"training pipeline\") NOT (\"AI trainer\" OR \"RLHF specialist\" OR \"RAG chatbot\" OR \"AI transformation\" OR \"Teleperformance\")"
+    },
+    {
+      "id": "9000000016-gs014",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"fine-tuning\" OR \"fine tuning\" OR \"finetuning\" OR \"post-training\" OR \"instruction tuning\") AND (\"reward model\" OR \"reward modeling\" OR RLHF OR DPO OR GRPO OR PPO OR \"preference data\" OR \"alignment\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs015",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"fine-tuning\" OR \"fine tuning\" OR \"finetuning\" OR \"model training\" OR \"post-training\") AND (HuggingFace OR \"Hugging Face\" OR PyTorch OR transformers OR LoRA OR PEFT OR SFT OR trl OR DeepSpeed) AND (dataset OR evaluation OR benchmark OR \"data quality\" OR \"data curation\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs016",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"tool calling\" OR \"function calling\" OR \"browser-use\" OR \"browser use\" OR \"computer-use\" OR \"computer use\" OR MCP OR \"Model Context Protocol\") AND (evaluation OR benchmark OR validation OR \"synthetic data\" OR dataset OR pipeline) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs017",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"AI agent\" OR \"AI agents\" OR \"multi-agent\" OR \"agentic\" OR LangChain OR LangGraph OR CrewAI OR AutoGen) AND (\"multi-step\" OR \"long-horizon\" OR \"trajectory analysis\" OR \"workflow simulation\" OR \"agent evaluation\" OR \"automated evaluation\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs018",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"code evaluation\" OR \"program synthesis\" OR \"SWE-bench\" OR HumanEval OR MBPP OR LiveCodeBench OR openhands OR aider) AND (evaluation OR benchmark OR dataset OR \"unit test\" OR validation) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs019",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(NLP OR \"natural language processing\" OR \"recommender system\" OR \"recommendation system\" OR \"recommendation engine\" OR \"information retrieval\" OR \"text mining\") AND (transformer OR transformers OR BERT OR GPT OR \"language model\" OR \"language models\" OR embeddings OR \"fine-tuning\") AND (training OR evaluation OR dataset OR pipeline OR \"deep learning\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs020",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(NLP OR \"natural language processing\" OR \"sentiment analysis\" OR \"text classification\" OR \"named entity recognition\" OR \"text generation\") AND (\"fine-tuning\" OR \"model training\" OR \"training data\" OR \"data quality\" OR \"data curation\" OR \"synthetic data\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs021",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"data quality\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"model evaluation\" OR \"automated evaluation\" OR \"evaluation framework\") AND (validation OR \"synthetic data\" OR \"data curation\" OR deduplication OR decontamination OR \"quality metrics\" OR rubric) AND (\"machine learning\" OR \"deep learning\" OR \"model training\" OR \"fine-tuning\" OR pipeline) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs022",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "remote AND (\"fine-tuning\" OR \"model training\" OR \"deep learning\" OR \"machine learning\" OR LLM OR \"large language model\") AND (evaluation OR dataset OR benchmark OR \"data quality\" OR \"training data\" OR \"synthetic data\" OR \"evaluation harness\" OR \"data curation\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs023",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"deep learning\" OR \"ML engineer\" OR \"data scientist\" OR \"research engineer\" OR \"AI engineer\" OR NLP OR \"computer vision\") AND (\"model training\" OR \"fine-tuning\" OR \"fine tuning\" OR evaluation OR benchmark OR \"data quality\" OR \"training data\" OR \"reinforcement learning\") NOT (\"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs024",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"deep learning\" OR \"data science\" OR \"artificial intelligence\" OR NLP OR \"computer vision\" OR \"neural network\") AND (\"model training\" OR \"fine-tuning\" OR evaluation OR \"data quality\" OR dataset OR benchmark OR \"training pipeline\" OR \"reinforcement learning\") NOT (\"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs025",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(multimodal OR \"vision-language\" OR \"vision language\" OR VLM OR \"document understanding\" OR \"chart reasoning\" OR OCR OR \"mathematical reasoning\" OR \"STEM reasoning\") AND (evaluation OR benchmark OR dataset OR \"fine-tuning\" OR training OR \"deep learning\" OR \"computer vision\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs026",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"research assistant\" OR \"research engineer\" OR \"research scientist\" OR PhD OR postdoctoral OR investigador) AND (dataset OR benchmark OR evaluation OR \"deep learning\" OR \"neural network\" OR \"reinforcement learning\" OR PyTorch OR TensorFlow) AND (training OR \"fine-tuning\" OR model OR pipeline OR \"open source\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs027",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"fine-tuning\" OR \"model training\" OR evaluation OR benchmark OR \"data quality\" OR \"training data\" OR \"post-training\" OR RLHF OR \"synthetic data\" OR \"data curation\") AND (pipeline OR \"evaluation harness\" OR \"training pipeline\" OR \"model behavior\" OR \"deep learning\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-gs028",
+      "run": "9000000016",
+      "source": "generated_strings",
+      "boolean": "(\"reinforcement learning\" OR \"reward model\" OR \"reward modeling\" OR RLHF OR DPO OR PPO OR GRPO OR \"post-training\" OR \"preference data\") AND (environment OR evaluation OR benchmark OR dataset OR \"training data\" OR pipeline) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\" OR \"content moderation\" OR \"reward function\")"
+    },
+    {
+      "id": "9000000016-cg000",
+      "run": "9000000016",
+      "source": "coverage_gaps",
+      "boolean": "(\"aprendizaje profundo\" OR \"aprendizaje automático\" OR \"aprendizaje por refuerzo\" OR \"procesamiento de lenguaje natural\") AND (\"ajuste fino\" OR entrenamiento OR evaluación OR dataset OR modelo OR \"datos sintéticos\") NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs)"
+    },
+    {
+      "id": "9000000016-cg001",
+      "run": "9000000016",
+      "source": "coverage_gaps",
+      "boolean": "(\"Isaac Sim\" OR MuJoCo OR PyBullet OR \"Unity ML-Agents\" OR \"sim-to-real\" OR \"embodied AI\" OR \"simulation environment\") AND (training OR evaluation OR dataset OR \"reinforcement learning\" OR agent) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs OR \"data labeling\")"
+    },
+    {
+      "id": "9000000016-cg002",
+      "run": "9000000016",
+      "source": "coverage_gaps",
+      "boolean": "(\"machine learning\" OR \"deep learning\" OR \"model training\" OR \"fine-tuning\" OR NLP OR \"computer vision\") AND (evaluation OR dataset OR training OR benchmark OR pipeline) NOT (\"data labeling\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000016-cg004",
+      "run": "9000000016",
+      "source": "coverage_gaps",
+      "boolean": "(Kaggle OR \"competitive programming\" OR \"machine learning competition\" OR \"data science competition\") AND (\"deep learning\" OR \"model training\" OR \"fine-tuning\" OR evaluation OR benchmark) NOT (Teleperformance OR Concentrix OR \"TELUS International\" OR Outlier OR TaskUs)"
+    },
+    {
+      "id": "9000000004-gs000",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"data labeling\" OR \"data annotation\" OR \"annotation operations\" OR \"labeling operations\" OR \"training data\" OR \"RLHF\" OR \"reinforcement learning from human feedback\") AND (\"program manager\" OR \"operations manager\" OR \"delivery manager\" OR \"delivery lead\" OR \"program lead\") AND (\"workstreams\" OR \"concurrent\" OR \"ramp-up\" OR \"ramp up\" OR \"ramp-down\" OR \"ramp down\" OR \"throughput\")"
+    },
+    {
+      "id": "9000000004-gs001",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"delivery operations\" OR \"delivery management\" OR \"service delivery\") AND (\"AI\" OR \"artificial intelligence\" OR \"machine learning\" OR \"ML\") AND (\"cost\" OR \"budget\" OR \"P&L\" OR \"margin\") AND (\"dashboards\" OR \"metrics\" OR \"KPIs\" OR \"tracking\")"
+    },
+    {
+      "id": "9000000004-gs002",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"operations manager\" OR \"operations lead\" OR \"operations director\" OR \"program manager\") AND (\"BPO\" OR \"outsourcing\" OR \"managed services\" OR \"offshore\" OR \"nearshore\") AND (\"ramp-up\" OR \"ramp up\" OR \"ramp-down\" OR \"ramp down\" OR \"multiple accounts\" OR \"multiple clients\" OR \"concurrent workstreams\") NOT (\"SAFe\" OR \"Scaled Agile\" OR \"scrum master\" OR \"agile coach\")"
+    },
+    {
+      "id": "9000000004-gs003",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"trust and safety\" OR \"content moderation\" OR \"content operations\" OR \"policy operations\") AND (\"program manager\" OR \"operations manager\" OR \"operations lead\" OR \"delivery manager\") AND (\"headcount\" OR \"workforce\" OR \"vendors\" OR \"throughput\" OR \"SLA\" OR \"SLAs\" OR \"concurrent\")"
+    },
+    {
+      "id": "9000000004-gs004",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"localization\" OR \"QA operations\" OR \"quality assurance operations\" OR \"game testing\" OR \"localization operations\") AND (\"program manager\" OR \"operations manager\" OR \"project manager\" OR \"delivery manager\") AND (\"concurrent\" OR \"workstreams\" OR \"ramp\" OR \"multiple projects\" OR \"headcount\" OR \"workforce\") NOT (\"SAFe\" OR \"Scaled Agile\" OR \"PMP\" OR \"agile coach\")"
+    },
+    {
+      "id": "9000000004-gs005",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"Scale AI\" OR \"Appen\" OR \"Labelbox\" OR \"Surge AI\" OR \"Remotasks\" OR \"Sama\" OR \"CloudFactory\" OR \"iMerit\" OR \"Invisible Technologies\") AND (\"program manager\" OR \"operations manager\" OR \"delivery manager\" OR \"project manager\" OR \"operations lead\" OR \"delivery lead\")"
+    },
+    {
+      "id": "9000000004-gs006",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"workforce management\" OR \"workforce operations\" OR \"workforce planning\") AND (\"technology\" OR \"AI\" OR \"data\" OR \"machine learning\" OR \"tech\") AND (\"dashboards\" OR \"metrics\" OR \"analytics\" OR \"reporting\" OR \"tracking\") AND (\"escalations\" OR \"escalation management\" OR \"stakeholder management\" OR \"cross-functional\")"
+    },
+    {
+      "id": "9000000004-gs007",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"vendor management\" OR \"vendor operations\" OR \"supplier management\" OR \"outsourced operations\") AND (\"program manager\" OR \"technical program manager\" OR \"operations manager\" OR \"delivery manager\") AND (\"SLA\" OR \"SLAs\" OR \"cost\" OR \"budget\" OR \"margin\" OR \"P&L\") AND (\"quality\" OR \"throughput\" OR \"metrics\" OR \"dashboards\") NOT (\"Accenture\" OR \"Deloitte\" OR \"McKinsey\" OR \"BCG\" OR \"Bain\" OR \"PwC\" OR \"KPMG\" OR \"EY\")"
+    },
+    {
+      "id": "9000000004-gs008",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"technical program manager\" OR \"senior technical program manager\" OR \"staff technical program manager\" OR \"principal technical program manager\") AND (\"AI\" OR \"artificial intelligence\" OR \"machine learning\" OR \"ML\" OR \"data\" OR \"NLP\" OR \"LLM\" OR \"large language model\") AND (\"workstreams\" OR \"concurrent\" OR \"multiple programs\" OR \"cross-functional\") NOT (\"SAFe\" OR \"Scaled Agile\" OR \"scrum master\" OR \"agile coach\" OR \"Accenture\" OR \"Deloitte\")"
+    },
+    {
+      "id": "9000000004-gs009",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"technical program manager\" OR \"senior technical program manager\" OR \"TPM\") AND (\"budget\" OR \"cost\" OR \"P&L\" OR \"financial accountability\" OR \"cost accountability\") AND (\"dashboards\" OR \"metrics\" OR \"analytics\" OR \"instrumentation\" OR \"reporting\") NOT (\"SAFe\" OR \"Scaled Agile\" OR \"Accenture\" OR \"Deloitte\" OR \"McKinsey\" OR \"BCG\" OR \"PwC\")"
+    },
+    {
+      "id": "9000000004-gs010",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"data factory\" OR \"data pipeline\" OR \"data operations\" OR \"data production\") AND (\"program manager\" OR \"operations manager\" OR \"delivery manager\" OR \"general manager\" OR \"GM\") AND (\"cost\" OR \"budget\" OR \"revenue\" OR \"margin\") AND (\"quality\" OR \"throughput\" OR \"SLA\" OR \"SLAs\")"
+    },
+    {
+      "id": "9000000004-gs011",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"technical program manager\" OR \"program manager\" OR \"operations manager\") AND (\"escalations\" OR \"escalation management\") AND (\"stakeholders\" OR \"stakeholder management\" OR \"cross-functional\") AND (\"budget\" OR \"cost\" OR \"P&L\" OR \"financial\") NOT (\"Accenture\" OR \"Deloitte\" OR \"McKinsey\" OR \"BCG\" OR \"Bain\" OR \"PwC\" OR \"KPMG\" OR \"EY\" OR \"SAFe\" OR \"Scaled Agile\")"
+    },
+    {
+      "id": "9000000004-gs012",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"chief of staff\" OR \"CoS\" OR \"acting director\" OR \"shadow director\") AND (\"operations\" OR \"delivery\" OR \"program\" OR \"engineering\") AND (\"AI\" OR \"data\" OR \"technology\" OR \"tech\" OR \"machine learning\") AND (\"dashboards\" OR \"metrics\" OR \"tracking\" OR \"reporting\" OR \"analytics\")"
+    },
+    {
+      "id": "9000000004-gs013",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"AHT\" OR \"average handle time\" OR \"average handling time\" OR \"handle time\") AND (\"program manager\" OR \"operations manager\" OR \"delivery manager\" OR \"workforce manager\" OR \"operations lead\")"
+    },
+    {
+      "id": "9000000004-gs014",
+      "run": "9000000004",
+      "source": "generated_strings",
+      "boolean": "(\"technical program manager\" OR \"senior program manager\" OR \"program manager\") AND (\"ramp-up\" OR \"ramp up\" OR \"ramp-down\" OR \"ramp down\" OR \"ramping\") AND (\"workstreams\" OR \"concurrent\" OR \"parallel\" OR \"simultaneous\") NOT (\"SAFe\" OR \"Scaled Agile\" OR \"scrum master\" OR \"Accenture\" OR \"Deloitte\" OR \"McKinsey\")"
+    },
+    {
+      "id": "9000000004-cg000",
+      "run": "9000000004",
+      "source": "coverage_gaps",
+      "boolean": "(\"strategy and operations\" OR \"strategy & operations\" OR \"business operations\" OR \"bizops\" OR \"biz ops\" OR \"RevOps\") AND (\"AI\" OR \"machine learning\" OR \"data\" OR \"LLM\") AND (\"workstreams\" OR \"programs\" OR \"concurrent\" OR \"dashboards\" OR \"metrics\")"
+    },
+    {
+      "id": "9000000004-cg001",
+      "run": "9000000004",
+      "source": "coverage_gaps",
+      "boolean": "(\"program manager\" OR \"technical program manager\") AND (\"clearance\" OR \"TS/SCI\" OR \"classified\" OR \"DoD\" OR \"defense\") AND (\"AI\" OR \"machine learning\" OR \"data\" OR \"analytics\") AND (\"contractors\" OR \"workforce\" OR \"vendors\" OR \"multiple programs\")"
+    },
+    {
+      "id": "9000000004-cg002",
+      "run": "9000000004",
+      "source": "coverage_gaps",
+      "boolean": "(\"account manager\" OR \"engagement manager\" OR \"delivery head\" OR \"account delivery\") AND (\"technology\" OR \"AI\" OR \"data\" OR \"analytics\" OR \"digital\") AND (\"headcount\" OR \"FTE\" OR \"workforce\" OR \"multiple projects\" OR \"concurrent\") AND (\"P&L\" OR \"revenue\" OR \"margin\" OR \"cost\" OR \"budget\") NOT (\"sales\" OR \"business development\")"
+    },
+    {
+      "id": "9000000004-cg003",
+      "run": "9000000004",
+      "source": "coverage_gaps",
+      "boolean": "(\"marketplace operations\" OR \"gig economy\" OR \"crowd operations\" OR \"platform operations\") AND (\"program manager\" OR \"operations manager\" OR \"operations lead\") AND (\"quality\" OR \"throughput\" OR \"cost\" OR \"metrics\" OR \"dashboards\")"
+    },
+    {
+      "id": "9000000004-cg004",
+      "run": "9000000004",
+      "source": "coverage_gaps",
+      "boolean": "(\"Scale AI\" OR \"ScaleAI\") AND (\"program\" OR \"operations\" OR \"delivery\" OR \"project\" OR \"lead\" OR \"manager\")"
+    },
+    {
+      "id": "9000000007-gs000",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"engagement manager\" OR \"engagement lead\" OR \"case team leader\" OR \"project leader\") AND (\"end-to-end\" OR \"end to end\" OR \"multi-stakeholder\" OR \"multi stakeholder\" OR \"workstream\" OR \"workstreams\") AND (\"expanded\" OR \"multi-year\" OR \"account growth\")"
+    },
+    {
+      "id": "9000000007-gs001",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"chief of staff\" OR \"business operations\" OR \"strategy and operations\" OR \"biz ops\" OR \"founder's associate\") AND (\"human data\" OR \"data annotation\" OR \"data labeling\" OR \"AI lab\" OR \"frontier AI\" OR \"RLHF\") AND (\"scaled\" OR \"process improvement\" OR \"throughput\" OR \"zero to one\" OR \"0 to 1\")"
+    },
+    {
+      "id": "9000000007-gs002",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"data labelling\" OR \"RLHF\" OR \"human data\" OR \"AI training data\") AND (\"annotators\" OR \"raters\" OR \"labelers\" OR \"labellers\" OR \"contributor pool\" OR \"freelancer network\") AND (\"quality framework\" OR \"calibration\" OR \"annotation quality\" OR \"throughput\" OR \"SLA\" OR \"SLAs\")"
+    },
+    {
+      "id": "9000000007-gs003",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"vendor management\" OR \"vendor operations\" OR \"outsourcing operations\") AND (\"data annotation\" OR \"data labeling\" OR \"annotation quality\" OR \"data quality\" OR \"AI training data\")"
+    },
+    {
+      "id": "9000000007-gs004",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"human data\" OR \"data operations\" OR \"model evaluation\" OR \"red teaming\" OR \"evaluations\" OR \"annotation\") AND (\"program\" OR \"operations\" OR \"vendor\" OR \"workforce\")"
+    },
+    {
+      "id": "9000000007-gs005",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"inter-annotator agreement\" OR \"inter annotator agreement\" OR \"annotation quality\" OR \"calibration sessions\" OR \"gold standard tasks\" OR \"QA framework\" OR \"quality bar\")"
+    },
+    {
+      "id": "9000000007-gs006",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"playbook\" OR \"playbooks\" OR \"SOPs\" OR \"standard operating procedures\" OR \"runbooks\") AND (\"annotation\" OR \"labeling\" OR \"contributors\" OR \"distributed workforce\" OR \"freelancer network\")"
+    },
+    {
+      "id": "9000000007-gs007",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"BPO\" OR \"managed services\" OR \"business process outsourcing\") AND (\"SLA\" OR \"SLAs\" OR \"service level\" OR \"quality assurance\" OR \"workforce management\") AND (\"client\" OR \"account\" OR \"stakeholder\")"
+    },
+    {
+      "id": "9000000007-gs008",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"localization\" OR \"linguistic quality\" OR \"language operations\" OR \"translation operations\") AND (\"linguists\" OR \"translators\" OR \"freelancers\" OR \"vendor network\") AND (\"quality\" OR \"program\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000007-gs009",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"marketplace operations\" OR \"supply operations\" OR \"driver operations\" OR \"courier operations\" OR \"partner operations\") AND (\"onboarding\" OR \"incentives\" OR \"supply growth\" OR \"performance management\" OR \"gig\")"
+    },
+    {
+      "id": "9000000007-gs010",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"expert network\" OR \"expert operations\" OR \"expert recruiting\") AND (\"client\" OR \"delivery\" OR \"engagements\" OR \"program\") AND (\"scaled\" OR \"operations\" OR \"quality\")"
+    },
+    {
+      "id": "9000000007-gs011",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"rater program\" OR \"search quality\" OR \"ads quality\" OR \"evaluation program\") AND (\"vendors\" OR \"raters\" OR \"guidelines\" OR \"quality metrics\") NOT (\"search quality rater\")"
+    },
+    {
+      "id": "9000000007-gs012",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"crowdsourcing\" OR \"crowd workforce\" OR \"crowdwork\" OR \"microtasking\") AND (\"program\" OR \"operations\" OR \"quality\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000007-gs013",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"community operations\" OR \"community ops\" OR \"creator operations\" OR \"freelancer operations\" OR \"contributor operations\") AND (\"scaled\" OR \"thousands\" OR \"hundreds\" OR \"onboarding\" OR \"quality\")"
+    },
+    {
+      "id": "9000000007-gs014",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"engagement manager\" OR \"engagement lead\" OR \"delivery lead\" OR \"delivery manager\" OR \"implementation lead\") AND (\"client delivery\" OR \"end-to-end delivery\" OR \"end to end delivery\" OR \"multi-stakeholder\") AND (\"expanded\" OR \"multi-year\" OR \"account growth\" OR \"grew the account\")"
+    },
+    {
+      "id": "9000000007-gs015",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"delivery lead\" OR \"delivery manager\" OR \"program manager\" OR \"program lead\" OR \"operations lead\" OR \"operations manager\") AND (\"annotation\" OR \"labeling\" OR \"labelling\" OR \"AI training data\" OR \"human data\" OR \"model evaluation\")"
+    },
+    {
+      "id": "9000000007-gs016",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"client-facing\" OR \"client facing\" OR \"trusted advisor\" OR \"account expansion\" OR \"account growth\" OR \"QBR\" OR \"quarterly business review\") AND (\"operations\" OR \"delivery\" OR \"program\" OR \"implementation\") NOT (\"renewals\" OR \"renewal quota\")"
+    },
+    {
+      "id": "9000000007-gs017",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"human data\" OR \"AI training data\" OR \"data annotation operations\" OR \"annotation program\") NOT (\"machine learning engineer\" OR \"research scientist\" OR \"software engineer\" OR \"AI trainer\" OR \"search quality rater\" OR \"freelance annotator\")"
+    },
+    {
+      "id": "9000000007-gs018",
+      "run": "9000000007",
+      "source": "generated_strings",
+      "boolean": "(\"annotation\" OR \"labeling\" OR \"human data\" OR \"AI training data\" OR \"data operations\") AND (\"quality\" OR \"delivery\" OR \"program\" OR \"workforce\")"
+    },
+    {
+      "id": "9000000007-cg000",
+      "run": "9000000007",
+      "source": "coverage_gaps",
+      "boolean": "(\"field operations\" OR \"panel management\" OR \"site management\") AND (\"quality control\" OR \"protocol\" OR \"data quality\") AND (\"interviewers\" OR \"panelists\" OR \"field teams\")"
+    },
+    {
+      "id": "9000000007-cg001",
+      "run": "9000000007",
+      "source": "coverage_gaps",
+      "boolean": "(\"data labelling\" OR \"annotation operations\" OR \"delivery operations\") AND (\"annotators\" OR \"labellers\" OR \"quality analysts\" OR \"team leads\") AND (\"client\" OR \"programme\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000007-cg002",
+      "run": "9000000007",
+      "source": "coverage_gaps",
+      "boolean": "(\"trust and safety\" OR \"content moderation\" OR \"policy operations\") AND (\"reviewers\" OR \"moderators\" OR \"vendor\" OR \"workforce\") AND (\"quality\" OR \"program\" OR \"scaled\")"
+    },
+    {
+      "id": "9000000011-gs000",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"rater calibration\" OR \"annotator calibration\" OR \"calibration cycles\" OR \"quality rubrics\" OR \"gold standard dataset\" OR \"annotation standards\" OR \"labeling guidelines\")"
+    },
+    {
+      "id": "9000000011-gs001",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"Surge AI\" OR \"Invisible Technologies\" OR \"Mercor\" OR \"Outlier AI\" OR \"Snorkel AI\" OR \"Handshake AI\" OR \"micro1\" OR \"Scale AI\") AND (\"program manager\" OR \"operations manager\" OR \"delivery manager\" OR \"quality manager\" OR \"team lead\" OR \"engagement manager\")"
+    },
+    {
+      "id": "9000000011-gs002",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"video annotation\" OR \"image annotation\" OR \"audio annotation\" OR \"video labeling\" OR \"audio labeling\" OR \"multimodal annotation\" OR \"multimodal data\")"
+    },
+    {
+      "id": "9000000011-gs003",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"preference data\" OR \"human feedback\") AND (\"video annotation\" OR \"image annotation\" OR \"computer vision\" OR \"multimodal\")"
+    },
+    {
+      "id": "9000000011-gs004",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"anotação de dados\" OR \"rotulagem de dados\" OR \"anotación de datos\" OR \"etiquetado de datos\") AND (\"inteligência artificial\" OR \"inteligencia artificial\" OR \"aprendizado de máquina\" OR \"aprendizaje automático\")"
+    },
+    {
+      "id": "9000000011-gs005",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"human data\" OR \"AI data services\" OR \"AI training data\") AND (\"delivery manager\" OR \"operations manager\" OR \"program manager\" OR \"operations lead\" OR \"delivery lead\" OR \"program lead\")"
+    },
+    {
+      "id": "9000000011-gs006",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"supervised fine-tuning\" OR \"SFT\" OR \"red teaming\" OR \"model evaluation\" OR \"preference data\") AND (\"annotation\" OR \"annotators\" OR \"raters\" OR \"data quality\" OR \"guidelines\")"
+    },
+    {
+      "id": "9000000011-gs007",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"data labeling\" OR \"data annotation\" OR \"annotation operations\" OR \"labeling operations\" OR \"AI training data\") AND (\"program manager\" OR \"delivery manager\" OR \"operations lead\" OR \"operations manager\" OR \"project lead\" OR \"program lead\")"
+    },
+    {
+      "id": "9000000011-gs008",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"engagement manager\" OR \"client partner\" OR \"delivery lead\" OR \"account director\" OR \"client services\") AND (\"data labeling\" OR \"data annotation\" OR \"AI training data\" OR \"RLHF\" OR \"annotation services\")"
+    },
+    {
+      "id": "9000000011-gs009",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"search quality\" OR \"ads quality\" OR \"rater program\" OR \"quality raters\" OR \"search evaluation\") AND (\"program manager\" OR \"operations manager\" OR \"team lead\" OR \"project manager\" OR \"quality lead\")"
+    },
+    {
+      "id": "9000000011-gs010",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"data operations\" OR \"data annotation\" OR \"data labeling\" OR \"human evaluation\" OR \"content moderation\" OR \"trust and safety\" OR \"search quality\")"
+    },
+    {
+      "id": "9000000011-gs011",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"content moderation\" OR \"trust and safety\" OR \"data operations\" OR \"machine learning operations\")"
+    },
+    {
+      "id": "9000000011-gs012",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"AI training\" OR \"content moderation\" OR \"trust and safety\")"
+    },
+    {
+      "id": "9000000011-gs013",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"trust and safety\" OR \"content moderation\" OR \"platform integrity\") AND (\"vendor management\" OR \"calibration\" OR \"quality framework\" OR \"policy enforcement\" OR \"quality audits\")"
+    },
+    {
+      "id": "9000000011-gs014",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"BPO\" OR \"business process outsourcing\") AND (\"data annotation\" OR \"data labeling\" OR \"content moderation\" OR \"AI training\") AND (\"operations\" OR \"delivery\" OR \"transformation\" OR \"quality\")"
+    },
+    {
+      "id": "9000000011-gs015",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"Welocalize\" OR \"Lionbridge\" OR \"TransPerfect\" OR \"Pactera\" OR \"DataForce\" OR \"Centific\" OR \"e2f\" OR \"TELUS International\") AND (\"AI data\" OR \"data annotation\" OR \"data labeling\" OR \"AI training\" OR \"data collection\")"
+    },
+    {
+      "id": "9000000011-gs016",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"Remotasks\" OR \"Alignerr\" OR \"Labelbox\" OR \"SuperAnnotate\" OR \"Kili Technology\" OR \"Encord\") AND (\"operations\" OR \"program manager\" OR \"quality manager\" OR \"team lead\" OR \"community manager\" OR \"delivery\") NOT (\"freelance\" OR \"freelancer\")"
+    },
+    {
+      "id": "9000000011-gs017",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"AI training data\" OR \"annotation services\") AND (\"founder\" OR \"co-founder\" OR \"cofounder\" OR \"founding\")"
+    },
+    {
+      "id": "9000000011-gs018",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"crowdsourcing\" OR \"crowd operations\" OR \"crowdsourced data\" OR \"managed workforce\") AND (\"annotation\" OR \"labeling\" OR \"AI training\" OR \"data quality\") AND (\"manager\" OR \"lead\" OR \"operations\")"
+    },
+    {
+      "id": "9000000011-gs019",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"moderação de conteúdo\" OR \"moderación de contenido\" OR \"qualidade de dados\" OR \"calidad de datos\") AND (\"operações\" OR \"operaciones\" OR \"gerente\" OR \"líder\" OR \"coordenador\" OR \"coordinador\")"
+    },
+    {
+      "id": "9000000011-gs020",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"artificial intelligence\" OR \"LLM\" OR \"generative AI\" OR \"computer vision\")"
+    },
+    {
+      "id": "9000000011-gs021",
+      "run": "9000000011",
+      "source": "generated_strings",
+      "boolean": "(\"annotation\" OR \"labeling\" OR \"labelling\") AND (\"LLM\" OR \"generative AI\" OR \"machine learning\" OR \"artificial intelligence\") AND (\"operations\" OR \"program\" OR \"quality\" OR \"team\") NOT (\"software engineer\" OR \"machine learning engineer\" OR \"data scientist\")"
+    },
+    {
+      "id": "9000000011-cg000",
+      "run": "9000000011",
+      "source": "coverage_gaps",
+      "boolean": "(\"Accenture\" OR \"Cognizant\" OR \"Wipro\" OR \"Infosys BPM\" OR \"Capgemini\") AND (\"data annotation\" OR \"data labeling\" OR \"content moderation\" OR \"AI training data\") AND (\"operations\" OR \"delivery\" OR \"program\")"
+    },
+    {
+      "id": "9000000011-cg001",
+      "run": "9000000011",
+      "source": "coverage_gaps",
+      "boolean": "(\"lidar\" OR \"autonomous driving\" OR \"autonomous vehicle\" OR \"ADAS\" OR \"sensor data\") AND (\"annotation\" OR \"labeling\" OR \"labelling\" OR \"ground truth\") AND (\"program\" OR \"operations\" OR \"quality\" OR \"team\")"
+    },
+    {
+      "id": "9000000011-cg002",
+      "run": "9000000011",
+      "source": "coverage_gaps",
+      "boolean": "(\"computational linguistics\" OR \"linguistic annotation\" OR \"speech data\" OR \"speech recognition data\") AND (\"project manager\" OR \"program manager\" OR \"lead\" OR \"operations\")"
+    },
+    {
+      "id": "9000000011-cg003",
+      "run": "9000000011",
+      "source": "coverage_gaps",
+      "boolean": "(\"annotation platform\" OR \"labeling platform\" OR \"annotation tooling\" OR \"labeling workflow\") AND (\"product manager\" OR \"program manager\" OR \"product owner\")"
+    },
+    {
+      "id": "9000000011-cg004",
+      "run": "9000000011",
+      "source": "coverage_gaps",
+      "boolean": "(\"operational excellence\" OR \"process transformation\" OR \"process design\" OR \"continuous improvement\") AND (\"content moderation\" OR \"trust and safety\" OR \"BPO\" OR \"digital operations\") AND (\"client\" OR \"quality\" OR \"vendor\")"
+    },
+    {
+      "id": "9000000021-gs000",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"Labelbox\" OR \"CVAT\" OR \"Label Studio\" OR \"SuperAnnotate\" OR \"Encord\" OR \"Dataloop\" OR \"V7 Darwin\" OR \"Scale Nucleus\") AND (\"project manager\" OR \"program manager\" OR \"operations manager\" OR \"team lead\" OR \"delivery lead\")"
+    },
+    {
+      "id": "9000000021-gs001",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"OpenAI\" OR \"Anthropic\" OR \"DeepMind\" OR \"Meta AI\" OR \"frontier AI\") AND (\"data annotation\" OR \"data labeling\" OR \"human evaluation\" OR \"annotation operations\" OR \"RLHF\") AND (\"program manager\" OR \"project manager\" OR \"delivery\" OR \"operations manager\")"
+    },
+    {
+      "id": "9000000021-gs002",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"LiDAR\" OR \"sensor fusion\" OR \"ADAS\" OR \"autonomous driving\") AND (\"annotation\" OR \"labeling\" OR \"ground truth\") AND (\"project manager\" OR \"program manager\" OR \"operations\" OR \"team lead\")"
+    },
+    {
+      "id": "9000000021-gs003",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"speech data\" OR \"voice data\" OR \"audio annotation\" OR \"speech recognition\" OR \"text-to-speech\" OR \"Defined.ai\" OR \"DefinedCrowd\") AND (\"data collection\" OR \"annotation\" OR \"labeling\" OR \"transcription\") AND (\"project manager\" OR \"program manager\" OR \"operations manager\" OR \"team lead\")"
+    },
+    {
+      "id": "9000000021-gs004",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"inter-annotator agreement\" OR \"inter-rater reliability\" OR \"Cohen's kappa\" OR \"golden set\" OR \"annotation guidelines\") AND (\"calibration\" OR \"rubric\" OR \"rubrics\" OR \"quality assurance\" OR \"QC\")"
+    },
+    {
+      "id": "9000000021-gs005",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"image generation\" OR \"text-to-image\" OR \"video generation\" OR \"generative AI evaluation\" OR \"diffusion models\") AND (\"evaluation\" OR \"annotation\" OR \"human feedback\" OR \"quality assessment\") AND (\"project manager\" OR \"program manager\" OR \"operations\" OR \"team lead\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000021-gs006",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"program manager\" OR \"project manager\" OR \"delivery manager\" OR \"operations manager\" OR \"team lead\" OR \"project lead\" OR \"engagement manager\")"
+    },
+    {
+      "id": "9000000021-gs007",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"annotation lead\" OR \"annotation team lead\" OR \"labeling lead\" OR \"data labeling manager\" OR \"annotation manager\" OR \"annotation operations manager\")"
+    },
+    {
+      "id": "9000000021-gs008",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"video annotation\" OR \"video labeling\" OR \"video QA\" OR \"frame-level\" OR \"temporal annotation\") AND (\"manager\" OR \"operations\" OR \"program\" OR \"quality\")"
+    },
+    {
+      "id": "9000000021-gs009",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"computer vision\" OR \"bounding boxes\" OR \"image segmentation\" OR \"object detection\") AND (\"annotation\" OR \"labeling\" OR \"ground truth\" OR \"dataset\") AND (\"operations\" OR \"project manager\" OR \"program manager\" OR \"team lead\")"
+    },
+    {
+      "id": "9000000021-gs010",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"hired and trained\" OR \"built and scaled\" OR \"from scratch\" OR \"0 to 1\" OR \"ramped\") AND (\"annotators\" OR \"annotation\" OR \"data labeling\" OR \"AI training data\" OR \"labeling workforce\")"
+    },
+    {
+      "id": "9000000021-gs011",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"AI training data\" OR \"annotation operations\" OR \"labeling operations\" OR \"RLHF\")"
+    },
+    {
+      "id": "9000000021-gs012",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"taxonomy\" OR \"catalog management\" OR \"content operations\" OR \"data enrichment\" OR \"data curation\") AND (\"machine learning\" OR \"training data\" OR \"annotation\" OR \"labeling\") AND (\"manager\" OR \"head of\" OR \"team lead\" OR \"operations\")"
+    },
+    {
+      "id": "9000000021-gs013",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"data labeling\" OR \"data annotation\" OR \"labeling operations\" OR \"annotation operations\") AND (\"video annotation\" OR \"image annotation\" OR \"computer vision\" OR \"multimodal\" OR \"audio annotation\")"
+    },
+    {
+      "id": "9000000021-gs014",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"AI training data\") AND (\"manager\" OR \"operations\" OR \"delivery\" OR \"program\") NOT (\"freelancer\" OR \"self-employed\" OR \"independent contractor\")"
+    },
+    {
+      "id": "9000000021-gs015",
+      "run": "9000000021",
+      "source": "generated_strings",
+      "boolean": "(\"operations transformation\" OR \"process improvement\" OR \"continuous improvement\") AND (\"BPO\" OR \"outsourcing\" OR \"shared services\") AND (\"annotation\" OR \"data labeling\" OR \"content moderation\" OR \"AI training data\")"
+    },
+    {
+      "id": "9000000021-cg000",
+      "run": "9000000021",
+      "source": "coverage_gaps",
+      "boolean": "(\"data collection\" OR \"dataset collection\" OR \"data acquisition\") AND (\"image\" OR \"video\" OR \"speech\" OR \"audio\") AND (\"project manager\" OR \"program manager\" OR \"operations\")"
+    },
+    {
+      "id": "9000000021-cg001",
+      "run": "9000000021",
+      "source": "coverage_gaps",
+      "boolean": "(\"P&L\" OR \"account growth\" OR \"revenue growth\" OR \"margin\") AND (\"annotation\" OR \"data labeling\" OR \"AI training data\" OR \"data services\")"
+    },
+    {
+      "id": "9000000018-gs000",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\" OR \"technical business analyst\") AND (\"acceptance criteria\" OR \"user stories\") AND (\"UAT\" OR \"user acceptance testing\")"
+    },
+    {
+      "id": "9000000018-gs001",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"reconciliation\" OR \"fund operations\" OR \"middle office\" OR \"fund accounting\") AND (\"requirements\" OR \"process mapping\" OR \"workflow\") AND (\"API\" OR \"data mapping\" OR \"SQL\")"
+    },
+    {
+      "id": "9000000018-gs002",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"Advent Geneva\" OR \"eFront\" OR \"Investran\" OR \"Allvue\" OR \"Enfusion\" OR \"Charles River\" OR \"Aladdin\") AND (\"business analyst\" OR \"requirements gathering\" OR \"user stories\" OR \"data mapping\")"
+    },
+    {
+      "id": "9000000018-gs003",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\") AND (\"hedge fund\" OR \"private equity\" OR \"alternative investments\" OR \"private credit\" OR \"asset management\") AND (\"user stories\" OR \"acceptance criteria\" OR \"requirements gathering\" OR \"UAT\")"
+    },
+    {
+      "id": "9000000018-gs004",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"CBAP\" OR \"CCBA\" OR \"IIBA\") AND (\"SQL\" OR \"API\" OR \"UAT\" OR \"data mapping\")"
+    },
+    {
+      "id": "9000000018-gs005",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"traceability matrix\" OR \"requirements traceability\") AND (\"UAT\" OR \"acceptance criteria\" OR \"test scenarios\")"
+    },
+    {
+      "id": "9000000018-gs006",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"product owner\" OR \"product analyst\" OR \"product manager\") AND (\"user stories\" OR \"acceptance criteria\") AND (\"UAT\" OR \"requirements gathering\" OR \"traceability\") AND (\"hedge fund\" OR \"asset management\" OR \"private equity\" OR \"capital markets\" OR \"trading\")"
+    },
+    {
+      "id": "9000000018-gs007",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\" OR \"product owner\") AND (\"user stories\" OR \"acceptance criteria\" OR \"UAT\" OR \"requirements gathering\")"
+    },
+    {
+      "id": "9000000018-gs008",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"requirements\" OR \"user stories\" OR \"acceptance criteria\" OR \"implementation\") AND (\"UAT\" OR \"data mapping\" OR \"API\" OR \"SQL\")"
+    },
+    {
+      "id": "9000000018-gs009",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\" OR \"consultant\") AND (\"capital markets\" OR \"asset management\" OR \"hedge fund\" OR \"wealth management\" OR \"buy-side\" OR \"buy side\") AND (\"user stories\" OR \"acceptance criteria\" OR \"UAT\" OR \"functional specifications\")"
+    },
+    {
+      "id": "9000000018-gs010",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"trade lifecycle\" OR \"order management\" OR \"post-trade\" OR \"trade settlement\" OR \"corporate actions\") AND (\"business analyst\" OR \"requirements\" OR \"user stories\" OR \"functional specifications\") AND (\"UAT\" OR \"SQL\" OR \"data mapping\" OR \"API\")"
+    },
+    {
+      "id": "9000000018-gs011",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"systems analyst\" OR \"integration analyst\" OR \"solutions analyst\" OR \"implementation analyst\" OR \"implementation consultant\") AND (\"requirements\" OR \"user stories\" OR \"functional specifications\") AND (\"API\" OR \"SQL\" OR \"data mapping\" OR \"data flows\")"
+    },
+    {
+      "id": "9000000018-gs012",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"process mapping\" OR \"current state\" OR \"future state\" OR \"as-is\" OR \"to-be\") AND (\"stakeholder interviews\" OR \"discovery sessions\" OR \"facilitated workshops\" OR \"requirements workshops\") AND (\"user stories\" OR \"acceptance criteria\" OR \"functional requirements\" OR \"BRD\")"
+    },
+    {
+      "id": "9000000018-gs013",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"BRD\" OR \"business requirements document\" OR \"FRD\" OR \"functional specification\" OR \"functional specifications\") AND (\"UAT\" OR \"test scenarios\" OR \"defect triage\" OR \"sign-off\") AND (\"SQL\" OR \"API\" OR \"data flows\" OR \"data mapping\")"
+    },
+    {
+      "id": "9000000018-gs014",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"event-driven\" OR \"workflow automation\" OR \"orchestration\" OR \"Camunda\" OR \"Appian\") AND (\"business analyst\" OR \"requirements\" OR \"user stories\" OR \"process flows\") AND (\"finance\" OR \"operations\" OR \"trading\" OR \"fund\" OR \"banking\")"
+    },
+    {
+      "id": "9000000018-gs015",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\") AND (\"JIRA\" OR \"Confluence\") AND (\"acceptance criteria\" OR \"backlog refinement\" OR \"epics\") AND (\"SQL\" OR \"API\")"
+    },
+    {
+      "id": "9000000018-gs016",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"business analyst\" OR \"business systems analyst\" OR \"technical business analyst\") AND (\"user stories\" OR \"acceptance criteria\" OR \"UAT\" OR \"requirements\")"
+    },
+    {
+      "id": "9000000018-gs017",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"requirements\" OR \"process improvement\" OR \"workflow\") AND (\"SQL\" OR \"data mapping\" OR \"API\" OR \"automation\") AND (\"fund\" OR \"investor\" OR \"NAV\" OR \"portfolio\")"
+    },
+    {
+      "id": "9000000018-gs018",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"data analyst\" OR \"data business analyst\") AND (\"requirements gathering\" OR \"user stories\" OR \"stakeholder interviews\") AND (\"data lineage\" OR \"data mapping\" OR \"ETL\") AND (\"asset management\" OR \"capital markets\" OR \"fund\" OR \"banking\" OR \"hedge fund\")"
+    },
+    {
+      "id": "9000000018-gs019",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"acceptance criteria\" AND \"UAT\" AND \"SQL\") NOT (\"business analyst\" OR \"product owner\" OR \"systems analyst\" OR \"scrum master\" OR \"project manager\")"
+    },
+    {
+      "id": "9000000018-gs020",
+      "run": "9000000018",
+      "source": "generated_strings",
+      "boolean": "(\"SQL\" OR \"API\" OR \"data mapping\" OR \"data flows\") AND (\"UAT\" OR \"acceptance criteria\" OR \"traceability\")"
+    },
+    {
+      "id": "9000000018-cg000",
+      "run": "9000000018",
+      "source": "coverage_gaps",
+      "boolean": "(\"UAT lead\" OR \"UAT manager\" OR \"test analyst\") AND (\"acceptance criteria\" OR \"requirements gathering\" OR \"user stories\") AND (\"SQL\" OR \"API\" OR \"stakeholder\")"
+    },
+    {
+      "id": "9000000018-cg001",
+      "run": "9000000018",
+      "source": "coverage_gaps",
+      "boolean": "(\"regulatory reporting\" OR \"KYC\" OR \"AML\" OR \"compliance technology\") AND (\"business analyst\" OR \"user stories\" OR \"functional specifications\") AND (\"UAT\" OR \"traceability\" OR \"data mapping\")"
+    },
+    {
+      "id": "9000000018-cg002",
+      "run": "9000000018",
+      "source": "coverage_gaps",
+      "boolean": "(\"business analyst\" OR \"user stories\" OR \"requirements\") AND (\"generative AI\" OR \"ChatGPT\" OR \"GPT-4\" OR \"AI tools\" OR \"Copilot\") AND (\"documentation\" OR \"acceptance criteria\" OR \"process flows\")"
+    },
+    {
+      "id": "9000000018-cg003",
+      "run": "9000000018",
+      "source": "coverage_gaps",
+      "boolean": "(\"software engineer\" OR \"solutions engineer\" OR \"technical program manager\") AND (\"requirements gathering\" OR \"user stories\" OR \"stakeholder interviews\") AND (\"hedge fund\" OR \"asset management\" OR \"capital markets\" OR \"trading\")"
+    },
+    {
+      "id": "9000000015-gs000",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"human data\" OR \"RLHF\") AND (\"annotators\" OR \"labelers\" OR \"contributors\" OR \"distributed workforce\")"
+    },
+    {
+      "id": "9000000015-gs001",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"engagement manager\" OR \"delivery lead\" OR \"head of operations\" OR \"operations lead\") AND (\"client-facing\" OR \"client delivery\") AND (\"SLA\" OR \"SLAs\" OR \"throughput\" OR \"quality assurance\")"
+    },
+    {
+      "id": "9000000015-gs002",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"inter-annotator agreement\" OR \"golden set\" OR \"golden sets\" OR \"annotation guidelines\" OR \"quality rubric\" OR \"error analysis\") AND (\"annotation\" OR \"labeling\" OR \"evaluation\" OR \"raters\")"
+    },
+    {
+      "id": "9000000015-gs003",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"expert network\" OR \"expert community\" OR \"expert marketplace\" OR \"contributor pool\" OR \"expert recruitment\") AND (\"onboarding\" OR \"vetting\" OR \"quality assurance\" OR \"performance management\")"
+    },
+    {
+      "id": "9000000015-gs004",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"human feedback\" OR \"preference data\" OR \"model evaluation\" OR \"LLM evaluation\") AND (\"program manager\" OR \"project lead\" OR \"operations manager\" OR \"delivery manager\" OR \"data operations\")"
+    },
+    {
+      "id": "9000000015-gs005",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"localization\" OR \"language services\" OR \"translation services\") AND (\"freelance linguists\" OR \"linguists\" OR \"translators\" OR \"vendor network\") AND (\"quality\" OR \"SLA\" OR \"turnaround\")"
+    },
+    {
+      "id": "9000000015-gs006",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"content moderation\" OR \"trust and safety\" OR \"trust & safety\") AND (\"operations manager\" OR \"program manager\" OR \"delivery lead\" OR \"vendor management\") AND (\"quality\" OR \"SLA\" OR \"throughput\" OR \"moderators\")"
+    },
+    {
+      "id": "9000000015-gs007",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"PhD\" OR \"postdoctoral\" OR \"research scientist\") AND (\"crowdsourcing\" OR \"data collection\" OR \"human evaluation\" OR \"Mechanical Turk\" OR \"annotation\") AND (\"project management\" OR \"operations\" OR \"managed a team\")"
+    },
+    {
+      "id": "9000000015-gs008",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"McKinsey\" OR \"Bain\" OR \"BCG\" OR \"Boston Consulting\") AND (\"machine learning\" OR \"LLM\" OR \"generative AI\" OR \"annotation\" OR \"training data\") AND (\"operations\" OR \"implementation\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000015-gs009",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"OpenAI\" OR \"Anthropic\" OR \"DeepMind\" OR \"xAI\" OR \"Meta AI\") AND (\"annotation\" OR \"human data\" OR \"training data\" OR \"evaluation\") AND (\"delivery\" OR \"operations\" OR \"program\")"
+    },
+    {
+      "id": "9000000015-gs010",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"data operations\" OR \"annotation operations\" OR \"labeling operations\" OR \"AI operations\") AND (\"contributors\" OR \"annotators\" OR \"workforce\" OR \"freelancers\" OR \"vendors\")"
+    },
+    {
+      "id": "9000000015-gs011",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"frontier AI\" OR \"foundation models\" OR \"large language models\" OR \"AI labs\") AND (\"human data\" OR \"training data\" OR \"evaluations\" OR \"red teaming\") AND (\"program manager\" OR \"project lead\" OR \"operations\" OR \"delivery\")"
+    },
+    {
+      "id": "9000000015-gs012",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"crowdsourcing\" OR \"crowdsourced\" OR \"Mechanical Turk\" OR \"MTurk\" OR \"crowd workers\") AND (\"quality control\" OR \"task design\" OR \"guidelines\" OR \"training data\" OR \"pipeline\")"
+    },
+    {
+      "id": "9000000015-gs013",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"marketplace operations\" OR \"supply operations\" OR \"gig workforce\" OR \"freelancer operations\") AND (\"onboarding\" OR \"incentives\" OR \"quality\" OR \"throughput\")"
+    },
+    {
+      "id": "9000000015-gs014",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"turnaround time\" OR \"throughput\" OR \"root cause\" OR \"SLA\") AND (\"annotation\" OR \"labeling\" OR \"data quality\" OR \"content operations\") AND (\"playbook\" OR \"SOPs\" OR \"process improvement\" OR \"workflow\")"
+    },
+    {
+      "id": "9000000015-gs015",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"head of delivery\" OR \"delivery operations\" OR \"client operations\" OR \"customer operations\") AND (\"startup\" OR \"Series A\" OR \"Series B\" OR \"early-stage\") AND (\"SLA\" OR \"playbook\" OR \"quality assurance\" OR \"workflows\")"
+    },
+    {
+      "id": "9000000015-gs016",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"implementation lead\" OR \"implementation manager\" OR \"solutions lead\") AND (\"machine learning\" OR \"LLM\" OR \"generative AI\" OR \"data pipeline\")"
+    },
+    {
+      "id": "9000000015-gs017",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"data annotation\" OR \"data labeling\" OR \"training data\") AND (\"delivery\" OR \"operations\" OR \"program\") NOT (\"data annotator\" OR \"freelance annotator\" OR \"search quality rater\" OR \"AI trainer\")"
+    },
+    {
+      "id": "9000000015-gs018",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"annotation\" OR \"labeling\" OR \"RLHF\" OR \"training data\" OR \"human data\" OR \"model evaluation\")"
+    },
+    {
+      "id": "9000000015-gs019",
+      "run": "9000000015",
+      "source": "generated_strings",
+      "boolean": "(\"operations\" OR \"delivery\" OR \"program manager\" OR \"project manager\" OR \"quality\")"
+    },
+    {
+      "id": "9000000015-cg000",
+      "run": "9000000015",
+      "source": "coverage_gaps",
+      "boolean": "(\"speech data\" OR \"linguistic data\" OR \"data collection projects\" OR \"transcription\") AND (\"project manager\" OR \"program manager\" OR \"operations\") AND (\"annotators\" OR \"vendors\" OR \"quality\" OR \"guidelines\")"
+    },
+    {
+      "id": "9000000015-cg001",
+      "run": "9000000015",
+      "source": "coverage_gaps",
+      "boolean": "(\"Scale AI\" OR \"Surge AI\" OR \"Invisible Technologies\" OR \"iMerit\" OR \"CloudFactory\" OR \"Appen\") AND (\"delivery\" OR \"project\" OR \"operations\" OR \"quality\")"
+    },
+    {
+      "id": "9000000015-cg002",
+      "run": "9000000015",
+      "source": "coverage_gaps",
+      "boolean": "(\"subject matter experts\" OR \"SMEs\" OR \"domain experts\") AND (\"recruited\" OR \"onboarded\" OR \"vetted\" OR \"sourcing\") AND (\"training data\" OR \"evaluation\" OR \"LLM\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000015-cg003",
+      "run": "9000000015",
+      "source": "coverage_gaps",
+      "boolean": "(\"clinical operations\" OR \"clinical trial\" OR \"multi-site study\") AND (\"site management\" OR \"protocol\" OR \"enrollment\") AND (\"vendors\" OR \"timelines\" OR \"quality\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs000",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-bench\" OR \"SWE bench\" OR \"HumanEval\" OR \"MBPP\" OR \"LiveCodeBench\" OR \"BigCodeBench\") AND (\"fine-tuning\" OR \"post-training\" OR \"RLHF\" OR \"DPO\" OR \"SFT\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs001",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"RL environment\" OR \"RL environments\" OR \"agent sandbox\" OR \"trajectory collection\" OR \"agentic environment\" OR \"agentic environments\") AND (\"coding agent\" OR \"code generation\" OR \"software engineering agent\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs002",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"lm-evaluation-harness\" OR \"OpenAI Evals\" OR \"EleutherAI\" OR \"BigCode\" OR \"HELM benchmark\") AND (\"LLM\" OR \"language model\" OR \"evaluation\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs003",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"reward model\" OR \"reward modeling\" OR \"reward models\") AND (\"code\" OR \"coding\" OR \"code generation\" OR \"software engineering\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs004",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"evals\" OR \"benchmark\" OR \"benchmarks\" OR \"post-training\" OR \"fine-tuning\" OR \"training data\" OR \"data quality\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs005",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"evals\" OR \"post-training\" OR \"human data\" OR \"data quality\" OR \"synthetic data\" OR \"RLHF\") AND (\"code\" OR \"coding\" OR \"code generation\" OR \"software engineering\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs006",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"Python\" OR \"pipeline\" OR \"pipelines\" OR \"engineer\" OR \"engineering\") AND (\"code\" OR \"coding\" OR \"SWE-bench\" OR \"code generation\" OR \"RLHF\" OR \"fine-tuning\") NOT (\"account executive\" OR \"customer success\" OR \"sales development\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs007",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"frontier lab\" OR \"frontier labs\" OR \"frontier model\" OR \"frontier models\") AND (\"evals\" OR \"post-training\" OR \"data quality\" OR \"RLHF\" OR \"benchmark\" OR \"human data\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs008",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"staff machine learning engineer\" OR \"principal machine learning engineer\" OR \"staff research engineer\" OR \"principal research engineer\" OR \"member of technical staff\" OR \"senior machine learning engineer\") AND (\"evals\" OR \"evaluation harness\" OR \"benchmarking\" OR \"model quality\" OR \"model evaluation\" OR \"data quality\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs009",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"synthetic data\" OR \"data generation pipeline\" OR \"dataset generation\" OR \"data augmentation pipeline\") AND (\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"fine-tuning\" OR \"post-training\" OR \"code generation\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs010",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"annotation pipeline\" OR \"annotation guidelines\" OR \"labeling workflow\" OR \"labeling workflows\" OR \"labeling pipeline\" OR \"reviewer workflow\") AND (\"LLM\" OR \"RLHF\" OR \"fine-tuning\" OR \"model\" OR \"machine learning\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs011",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"eval harness\" OR \"evaluation harness\" OR \"LLM evals\" OR \"built evals\" OR \"eval suite\" OR \"model evaluation pipeline\") AND (\"code\" OR \"coding\" OR \"code generation\" OR \"software engineering\" OR \"agent\" OR \"agents\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs012",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"instruction tuning\" OR \"supervised fine-tuning\" OR \"LoRA\" OR \"PEFT\" OR \"DPO\") AND (\"dataset\" OR \"datasets\" OR \"data pipeline\" OR \"evals\" OR \"evaluation\" OR \"data quality\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs013",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"preference data\" OR \"human feedback data\" OR \"human preference\") AND (\"pipeline\" OR \"pipelines\" OR \"data quality\" OR \"annotation\" OR \"evaluation\") NOT (\"robotics\" OR \"autonomous vehicles\" OR \"self-driving\" OR \"sim-to-real\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs014",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"tech lead\" OR \"technical lead\" OR \"led a team\" OR \"led the team\") AND (\"LLM\" OR \"large language model\" OR \"post-training\" OR \"RLHF\" OR \"fine-tuning\") AND (\"evals\" OR \"evaluation\" OR \"benchmark\" OR \"data quality\" OR \"dataset\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs015",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"program synthesis\" OR \"code generation\" OR \"code LLM\" OR \"code LLMs\" OR \"neural code\") AND (\"NeurIPS\" OR \"ICLR\" OR \"ICML\" OR \"ACL\" OR \"EMNLP\" OR \"arXiv\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs016",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"coding agent\" OR \"coding agents\" OR \"SWE agent\" OR \"software engineering agent\" OR \"code assistant\") AND (\"evals\" OR \"benchmark\" OR \"benchmarks\" OR \"training data\" OR \"fine-tuned\" OR \"fine-tuning\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs017",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"data-centric AI\" OR \"data-centric\" OR \"dataset curation\" OR \"data curation\") AND (\"model performance\" OR \"fine-tuning\" OR \"training data\" OR \"LLM\" OR \"evaluation\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs018",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"RLHF\" OR \"evals\" OR \"fine-tuning\" OR \"model evaluation\") AND (\"Python\" OR \"pipeline\" OR \"pipelines\" OR \"infrastructure\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-gs019",
+      "run": "9000000005-fresh-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"human data\" OR \"human-data\" OR \"data operations\" OR \"expert data\") AND (\"LLM\" OR \"RLHF\" OR \"post-training\" OR \"frontier\") AND (\"engineer\" OR \"engineering\" OR \"Python\" OR \"pipeline\" OR \"technical\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-cg000",
+      "run": "9000000005-fresh-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"LLM evaluation\" OR \"evals\" OR \"eval\" OR \"observability\") AND (\"Braintrust\" OR \"LangSmith\" OR \"Arize\" OR \"Humanloop\" OR \"Weights & Biases\" OR \"Weights and Biases\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-cg001",
+      "run": "9000000005-fresh-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"Copilot\" OR \"CodeWhisperer\" OR \"code intelligence\" OR \"ML for code\" OR \"AI for code\") AND (\"applied scientist\" OR \"research engineer\" OR \"machine learning\") AND (\"evaluation\" OR \"training\" OR \"dataset\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-cg002",
+      "run": "9000000005-fresh-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"test generation\" OR \"mutation testing\" OR \"fuzzing\" OR \"program analysis\") AND (\"LLM\" OR \"machine learning\" OR \"language model\" OR \"fine-tuning\")"
+    },
+    {
+      "id": "9000000005-fresh-20260727-cg003",
+      "run": "9000000005-fresh-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"Kaggle\" OR \"grandmaster\" OR \"Kaggle Master\") AND (\"LLM\" OR \"fine-tuning\" OR \"fine-tuned\" OR \"NLP\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs000",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"agent trajectories\" OR \"trajectory collection\" OR \"trajectory data\" OR \"agent rollouts\" OR \"rollout data\") AND (\"execution feedback\" OR \"verifiable rewards\" OR \"unit tests\" OR \"sandboxed execution\" OR \"SWE-bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs001",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"Terminal-Bench\" OR \"MLE-bench\" OR \"Multi-SWE-bench\" OR \"KernelBench\" OR \"Aider Polyglot\" OR \"SWE-Lancer\" OR \"Commit0\" OR \"CRUXEval\" OR \"RepoBench\" OR \"SWT-Bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs002",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-Factory\" OR \"SWE-ReX\" OR \"AgentGym\" OR \"CodeGym\" OR \"Atropos\" OR \"NeMo Gym\" OR \"Harbor Environments\" OR \"OpenHands Runtime\" OR \"MLGym\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs003",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"Agentless\" OR \"AutoCodeRover\" OR \"Moatless Tools\" OR \"mini-SWE-agent\" OR \"OpenDevin\" OR \"CodeAct\" OR \"SWE-agent\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs004",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"OSS-Instruct\" OR \"Evol-Instruct-Code\" OR \"Magicoder-Evol-Instruct\" OR \"CommitPack\" OR \"The Stack v2\" OR \"StarCoderData\" OR \"OpenCodeInstruct\" OR \"OpenCodeReasoning\" OR \"KodCode\" OR \"SWE-RL\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs005",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"verl\" OR \"OpenRLHF\" OR \"GRPO\" OR \"DAPO\" OR \"SkyRL\" OR \"prime-rl\" OR \"torchtune\" OR \"NeMo-RL\") AND (\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"software engineering agent\" OR \"code model\" OR \"SWE-bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs006",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"RLVR\" OR \"verifiable rewards\" OR \"execution feedback\" OR \"reward signal\" OR \"reward model\") AND (\"code generation\" OR \"coding agent\" OR \"coding agents\" OR \"unit tests\" OR \"software engineering\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs007",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"Qwen3-Coder\" OR \"Codestral\" OR \"Devstral\" OR \"Granite Code\" OR \"CodeGemma\" OR \"Seed-Coder\" OR \"Kimi-Dev\" OR \"WizardCoder\" OR \"Magicoder\") AND (\"fine-tuned\" OR \"fine-tuning\" OR \"post-training\" OR \"reinforcement learning\" OR \"RLHF\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs008",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"E2B\" OR \"Daytona\" OR \"Runloop\" OR \"code sandbox\" OR \"sandboxed execution\" OR \"execution sandbox\" OR \"Firecracker\") AND (\"coding agent\" OR \"coding agents\" OR \"agent rollouts\" OR \"LLM\" OR \"reinforcement learning\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs009",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"eval harness\" OR \"evaluation harness\" OR \"execution-based evaluation\" OR \"execution-based evals\" OR \"benchmark construction\" OR \"built evals\" OR \"evals infrastructure\") AND (\"code generation\" OR \"coding agent\" OR \"coding agents\" OR \"code models\" OR \"SWE-bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs010",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"synthetic data generation\" OR \"synthetic data pipeline\" OR \"data curation\" OR \"training data pipeline\" OR \"instruction data\") AND (\"code generation\" OR \"coding agent\" OR \"coding agents\" OR \"repository-level\" OR \"code models\" OR \"SWE-bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs011",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"agent trajectories\" OR \"trajectory collection\" OR \"trajectory data\" OR \"agent rollouts\") AND (\"GRPO\" OR \"PPO\" OR \"reinforcement learning\" OR \"SFT\" OR \"reward model\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs012",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"NeurIPS\" OR \"ICLR\" OR \"ICML\" OR \"COLM\" OR \"ACL\") AND (\"code generation\" OR \"coding agents\" OR \"program repair\" OR \"program synthesis\" OR \"SWE-bench\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs013",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"RL environments\" OR \"RL environment\" OR \"agentic environments\" OR \"environment design\") AND (\"reinforcement learning\") NOT (\"robotics\" OR \"autonomous vehicles\" OR \"self-driving\" OR \"sim-to-real\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs014",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"code generation\" OR \"coding models\" OR \"code models\" OR \"SWE-bench\" OR \"post-training\" OR \"RLHF\" OR \"coding agents\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs015",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"fine-tuning\" OR \"RLHF\" OR \"reinforcement learning\" OR \"evals\" OR \"evaluation harness\" OR \"RL environments\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs016",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"software engineering agent\" OR \"code model\" OR \"coding capabilities\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs017",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"founding engineer\" OR \"co-founder\" OR \"cofounder\" OR \"CTO\" OR \"founding researcher\") AND (\"coding agents\" OR \"coding agent\" OR \"code generation\" OR \"post-training\" OR \"RL environments\" OR \"LLM evaluation\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs018",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"program synthesis\" OR \"program repair\" OR \"code LLM\" OR \"code LLMs\" OR \"neural code generation\" OR \"code intelligence\" OR \"LLM for code\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs019",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"fine-tuning\" OR \"fine-tuned\" OR \"RLHF\" OR \"DPO\" OR \"reinforcement learning\") AND (\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"software engineering agent\" OR \"code model\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-gs020",
+      "run": "9000000005-prre-code-20260727",
+      "source": "generated_strings",
+      "boolean": "(\"coding agents\" OR \"code generation\" OR \"SWE-bench\" OR \"post-training\" OR \"RL environments\" OR \"evals\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-cg000",
+      "run": "9000000005-prre-code-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"Codeforces\" OR \"ICPC\" OR \"IOI\" OR \"competitive programming\") AND (\"LLM\" OR \"post-training\" OR \"reinforcement learning\" OR \"coding agents\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-cg001",
+      "run": "9000000005-prre-code-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"quality rubric\" OR \"quality rubrics\" OR \"rubric design\" OR \"human data\" OR \"data quality\") AND (\"coding\" OR \"code generation\" OR \"SWE-bench\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-cg002",
+      "run": "9000000005-prre-code-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"maintainer\" OR \"core contributor\" OR \"open-source contributor\") AND (\"coding agent\" OR \"eval harness\" OR \"LLM evaluation\" OR \"code generation\")"
+    },
+    {
+      "id": "9000000005-prre-code-20260727-cg003",
+      "run": "9000000005-prre-code-20260727",
+      "source": "coverage_gaps",
+      "boolean": "(\"Copilot\" OR \"Amazon Q Developer\" OR \"CodeWhisperer\" OR \"Tabnine\") AND (\"fine-tuning\" OR \"post-training\" OR \"evaluation\" OR \"model training\")"
+    },
+    {
+      "id": "9000000005-gs000",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-bench\" OR \"SWEbench\" OR \"HumanEval\" OR \"MBPP\" OR \"LiveCodeBench\" OR \"code generation benchmark\" OR \"coding benchmark\") AND (\"fine-tuning\" OR \"fine tuning\" OR \"post-training\" OR \"post training\" OR \"RLHF\" OR \"SFT\")"
+    },
+    {
+      "id": "9000000005-gs001",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"lm-evaluation-harness\" OR \"lm-eval\" OR \"EvalPlus\" OR \"BigCodeBench\" OR \"SWE-agent\" OR \"AgentBench\" OR \"terminal-bench\" OR \"OpenAI Evals\")"
+    },
+    {
+      "id": "9000000005-gs002",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"RL environment\" OR \"RL environments\" OR \"agent sandbox\" OR \"agentic environments\" OR \"trajectory collection\" OR \"agent trajectories\" OR \"rollout collection\") AND (\"LLM\" OR \"language model\" OR \"coding agent\" OR \"code generation\" OR \"post-training\")"
+    },
+    {
+      "id": "9000000005-gs003",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"code execution sandbox\" OR \"sandboxed execution\" OR \"repository sandbox\" OR \"unit test generation\" OR \"test case generation\" OR \"execution environment\") AND (\"LLM\" OR \"coding agent\" OR \"code generation\" OR \"language model\")"
+    },
+    {
+      "id": "9000000005-gs004",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"reward model\" OR \"reward modeling\" OR \"reward modelling\" OR \"preference data\" OR \"preference optimization\" OR \"DPO\") AND (\"code generation\" OR \"coding\" OR \"SWE-bench\" OR \"programming\" OR \"software engineering\")"
+    },
+    {
+      "id": "9000000005-gs005",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"evals\" OR \"evaluation\" OR \"fine-tuning\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\" OR \"benchmarks\")"
+    },
+    {
+      "id": "9000000005-gs006",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"coding\" OR \"code generation\" OR \"fine-tuning\" OR \"post-training\" OR \"Python\")"
+    },
+    {
+      "id": "9000000005-gs007",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"coding\" OR \"code generation\" OR \"SWE-bench\" OR \"codegen\" OR \"programming\") AND (\"Python\" OR \"engineer\" OR \"researcher\")"
+    },
+    {
+      "id": "9000000005-gs008",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"coding\" OR \"code generation\" OR \"codegen\" OR \"SWE-bench\" OR \"coding agent\" OR \"software engineering agent\")"
+    },
+    {
+      "id": "9000000005-gs009",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"staff machine learning engineer\" OR \"principal machine learning engineer\" OR \"staff research engineer\" OR \"principal research engineer\" OR \"member of technical staff\" OR \"senior research engineer\") AND (\"evals\" OR \"eval harness\" OR \"evaluation harness\" OR \"model evaluation\" OR \"model quality\" OR \"benchmarking\" OR \"benchmarks\")"
+    },
+    {
+      "id": "9000000005-gs010",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"eval harness\" OR \"evaluation harness\" OR \"eval infrastructure\" OR \"evaluation infrastructure\" OR \"LLM evals\" OR \"model evaluation pipeline\" OR \"eval pipeline\" OR \"built evals\") AND (\"LLM\" OR \"language model\" OR \"foundation model\" OR \"generative AI\")"
+    },
+    {
+      "id": "9000000005-gs011",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"post training\" OR \"instruction tuning\" OR \"SFT\" OR \"RLHF\") AND (\"data quality\" OR \"data curation\" OR \"synthetic data\" OR \"evals\" OR \"evaluation\" OR \"benchmark\")"
+    },
+    {
+      "id": "9000000005-gs012",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"synthetic data\" OR \"data augmentation\" OR \"dataset generation\" OR \"data generation pipeline\" OR \"data curation\") AND (\"LLM\" OR \"language model\" OR \"fine-tuning\" OR \"post-training\" OR \"code generation\")"
+    },
+    {
+      "id": "9000000005-gs013",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"annotation pipeline\" OR \"annotation guidelines\" OR \"labeling workflows\" OR \"labeling workflow\" OR \"human review\" OR \"reviewer workflow\" OR \"quality rubrics\" OR \"human data\") AND (\"LLM\" OR \"RLHF\" OR \"fine-tuning\" OR \"model training\" OR \"evals\")"
+    },
+    {
+      "id": "9000000005-gs014",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"reinforcement learning\") AND (\"coding agent\" OR \"code generation\" OR \"LLM\" OR \"language model\" OR \"software engineering agent\") NOT (\"robotics\" OR \"self-driving\" OR \"autonomous vehicles\" OR \"sim-to-real\" OR \"locomotion\")"
+    },
+    {
+      "id": "9000000005-gs015",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"program synthesis\" OR \"code generation\" OR \"code LLM\" OR \"code language models\" OR \"neural code\") AND (\"NeurIPS\" OR \"ICLR\" OR \"ICML\" OR \"EMNLP\" OR \"publications\" OR \"PhD\")"
+    },
+    {
+      "id": "9000000005-gs016",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"tech lead\" OR \"technical lead\" OR \"led a team\" OR \"team lead\") AND (\"fine-tuning\" OR \"RLHF\" OR \"post-training\" OR \"LLM\") AND (\"data quality\" OR \"evals\" OR \"evaluation\" OR \"benchmark\" OR \"annotation\")"
+    },
+    {
+      "id": "9000000005-gs017",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"error analysis\" OR \"failure modes\" OR \"failure analysis\" OR \"quality metrics\" OR \"grading rubric\" OR \"grading rubrics\") AND (\"LLM\" OR \"language model\" OR \"model outputs\" OR \"fine-tuned\")"
+    },
+    {
+      "id": "9000000005-gs018",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"built a benchmark\" OR \"designed a benchmark\" OR \"benchmark design\" OR \"benchmark creation\" OR \"eval dataset\" OR \"evaluation dataset\" OR \"created benchmarks\") AND (\"LLM\" OR \"language model\" OR \"coding\" OR \"agent\" OR \"model\")"
+    },
+    {
+      "id": "9000000005-gs019",
+      "run": "9000000005",
+      "source": "generated_strings",
+      "boolean": "(\"coding\" OR \"code generation\" OR \"evals\" OR \"post-training\" OR \"fine-tuning\" OR \"data quality\" OR \"benchmark\")"
+    },
+    {
+      "id": "9000000005-cg000",
+      "run": "9000000005",
+      "source": "coverage_gaps",
+      "boolean": "(\"forward deployed engineer\" OR \"forward-deployed engineer\" OR \"applied AI engineer\" OR \"solutions architect\") AND (\"fine-tuning\" OR \"evals\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\")"
+    },
+    {
+      "id": "9000000005-cg001",
+      "run": "9000000005",
+      "source": "coverage_gaps",
+      "boolean": "(\"Scale AI\" OR \"Surge AI\" OR \"Mercor\" OR \"Snorkel\") AND (\"coding\" OR \"code generation\" OR \"SWE-bench\" OR \"RLHF\" OR \"evals\")"
+    },
+    {
+      "id": "9000000005-cg002",
+      "run": "9000000005",
+      "source": "coverage_gaps",
+      "boolean": "(\"Together AI\" OR \"MosaicML\" OR \"Predibase\" OR \"Arcee\" OR \"Nous Research\") AND (\"post-training\" OR \"fine-tuning\" OR \"evals\" OR \"data quality\")"
+    },
+    {
+      "id": "9000000005-cg003",
+      "run": "9000000005",
+      "source": "coverage_gaps",
+      "boolean": "(\"Kaggle Grandmaster\" OR \"Kaggle Master\" OR \"ICPC\" OR \"competitive programming\") AND (\"LLM\" OR \"fine-tuning\" OR \"evals\" OR \"synthetic data\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs000",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"LangGraph\" OR \"LangChain\" OR \"LlamaIndex\") AND (\"RAG\" OR \"retrieval-augmented generation\" OR \"retrieval augmented generation\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs001",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"hybrid retrieval\" OR \"hybrid search\" OR \"cross-encoder\" OR \"reranker\" OR \"reranking\" OR \"BM25\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs002",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"MCP server\" OR \"Model Context Protocol\" OR \"tool-calling agents\" OR \"tool calling\") AND (\"LLM\" OR \"agentic\" OR \"multi-agent\" OR \"LangGraph\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs003",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"LLM evaluation\" OR \"evaluation harness\" OR \"eval harness\" OR \"LLM evals\" OR \"RAGAS\" OR \"LLM-as-a-judge\" OR \"LLM as a judge\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs004",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"QLoRA\" OR \"LoRA\" OR \"DPO\" OR \"RLHF\" OR \"supervised fine-tuning\" OR \"SFT\" OR \"PEFT\") AND (\"LLM\" OR \"large language model\" OR \"fine-tuned\" OR \"Hugging Face\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs005",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"forward deployed\" OR \"forward-deployed\") AND (\"LLM\" OR \"GenAI\" OR \"generative AI\" OR \"machine learning\" OR \"AI engineer\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs006",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"founding AI engineer\" OR \"founding ML engineer\" OR \"founding machine learning engineer\" OR \"first AI hire\" OR \"founding engineer\") AND (\"LLM\" OR \"RAG\" OR \"GenAI\" OR \"generative AI\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs007",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"vLLM\" OR \"DSPy\" OR \"AutoGen\" OR \"CrewAI\" OR \"Semantic Kernel\" OR \"Haystack\" OR \"Ollama\" OR \"PydanticAI\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs008",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"Pinecone\" OR \"Weaviate\" OR \"pgvector\" OR \"Qdrant\" OR \"Milvus\" OR \"FAISS\" OR \"vector search\" OR \"vector database\") AND (\"LLM\" OR \"RAG\" OR \"embeddings\" OR \"semantic search\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs009",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"Azure OpenAI\" OR \"Amazon Bedrock\" OR \"AWS Bedrock\" OR \"Vertex AI\") AND (\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"multi-agent\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs010",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"search relevance\" OR \"learning to rank\" OR \"information retrieval\" OR \"query understanding\" OR \"search ranking\") AND (\"LLM\" OR \"embeddings\" OR \"semantic search\" OR \"RAG\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs011",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"applied scientist\" OR \"research engineer\") AND (\"RAG\" OR \"LangGraph\" OR \"LangChain\" OR \"agentic\" OR \"fine-tuned\") AND (\"production\" OR \"deployed\" OR \"shipped\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs012",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"LangGraph\" OR \"LangChain\" OR \"RAG\" OR \"agentic\" OR \"multi-agent\" OR \"fine-tuned\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs013",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"Python\" OR \"machine learning\" OR \"LLM\" OR \"backend\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs014",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"RAG\" OR \"LangChain\" OR \"LangGraph\" OR \"agentic\" OR \"generative AI\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs015",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"RAG\" OR \"agentic\" OR \"LangGraph\" OR \"multi-agent\" OR \"LLM fine-tuning\" OR \"retrieval-augmented\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs016",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"FastAPI\" OR \"MLflow\" OR \"Terraform\" OR \"Kubernetes\") AND (\"LLM\" OR \"RAG\" OR \"GenAI\" OR \"generative AI\" OR \"agentic\" OR \"LangChain\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs017",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"agentic\" OR \"multi-agent\" OR \"AI agents\" OR \"agentic workflows\" OR \"agent orchestration\") AND (\"LLM\" OR \"GPT-4\" OR \"Claude\" OR \"OpenAI\" OR \"LangGraph\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs018",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"copilot\" OR \"AI assistant\" OR \"conversational AI\") AND (\"LangChain\" OR \"LangGraph\" OR \"RAG\" OR \"fine-tuned\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs019",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"RAG\" OR \"LangChain\" OR \"agentic\" OR \"LLM\") NOT (\"Director of\" OR \"Vice President\" OR \"Head of AI\" OR \"recruiter\" OR \"talent acquisition\" OR \"sourcing\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-gs020",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "generated_strings",
+      "boolean": "(\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"vector database\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-cg000",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "coverage_gaps",
+      "boolean": "(\"Fractal\" OR \"Quantiphi\" OR \"Tredence\" OR \"ZS Associates\" OR \"Sigmoid\" OR \"Tribe AI\" OR \"Slalom Build\") AND (\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-cg001",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "coverage_gaps",
+      "boolean": "(\"built an LLM\" OR \"built a RAG\" OR \"built an AI agent\" OR \"shipped an LLM\" OR \"LLM-powered\") "
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-cg002",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "coverage_gaps",
+      "boolean": "(\"legal AI\" OR \"clinical LLM\" OR \"healthcare LLM\" OR \"document intelligence\" OR \"contract intelligence\") AND (\"RAG\" OR \"LLM\" OR \"fine-tuned\" OR \"embeddings\")"
+    },
+    {
+      "id": "9000000017-principal-ai-engineer-20260807-cg003",
+      "run": "9000000017-principal-ai-engineer-20260807",
+      "source": "coverage_gaps",
+      "boolean": "(\"Senior Data Scientist\" OR \"Lead Data Scientist\" OR \"Staff Data Scientist\") AND (\"LangChain\" OR \"LangGraph\" OR \"RAG\" OR \"Azure OpenAI\" OR \"agentic\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs000",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"IFEval\" OR \"RewardBench\" OR \"Arena-Hard\" OR \"Arena-Hard-Auto\" OR \"AlpacaEval\" OR \"WildBench\" OR \"MMLU-Pro\" OR \"GPQA\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs001",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"lm-evaluation-harness\" OR \"lm-eval-harness\" OR \"lm-eval\" OR \"lighteval\" OR \"Inspect AI\" OR \"OpenCompass\" OR \"HELM benchmark\" OR \"Open LLM Leaderboard\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs002",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-bench\" OR \"SWE-bench Verified\" OR \"SWE-bench Lite\" OR \"SWE-agent\" OR \"OpenHands\" OR \"OpenDevin\" OR \"LiveCodeBench\" OR \"HumanEval\" OR \"EvalPlus\" OR \"MultiPL-E\" OR \"CodeContests\" OR \"BigCodeBench\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs003",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"BFCL\" OR \"Berkeley Function Calling Leaderboard\" OR \"τ-bench\" OR \"tau-bench\" OR \"ToolBench\" OR \"AgentBench\" OR \"WebArena\" OR \"OSWorld\" OR \"GAIA benchmark\" OR \"Terminal-Bench\" OR \"Mind2Web\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs004",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"reward model\" OR \"reward modeling\" OR \"reward modelling\" OR \"Bradley-Terry\" OR \"modelo de recompensa\") AND (\"LLM\" OR \"large language model\" OR \"language model\" OR \"RLHF\" OR \"RLAIF\") NOT (\"AI Trainer\" OR \"annotator\" OR \"anotador\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs005",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"MBPP\" OR \"MBPP+\") AND (\"HumanEval\" OR \"code generation\" OR \"program synthesis\" OR \"LLM\" OR \"large language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs006",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Sabiá-2\" OR \"Sabiá-3\" OR \"Sabia-2\" OR \"Sabia-3\" OR \"Cabrita\" OR \"Tucano\" OR \"Gervásio\" OR \"Albertina\" OR \"PTT5\" OR \"Open PT LLM Leaderboard\" OR \"Open Portuguese LLM Leaderboard\" OR \"BLUEX\" OR \"ENEM Challenge\") AND (\"LLM\" OR \"large language model\" OR \"language model\" OR \"modelo de linguagem\" OR \"fine-tuning\" OR \"instruction tuning\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs007",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"fine-tuning\" OR \"SFT\" OR \"instruction tuning\" OR \"LLM evaluation\" OR \"post-training\" OR \"large language model\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs008",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"instruction tuning\" OR \"post-training\" OR \"reward model\" OR \"evaluation harness\" OR \"LLM-as-a-judge\" OR \"DPO\" OR \"large language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs009",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"IBM Research\" OR \"Microsoft Research\" OR \"Samsung Research\" OR \"Samsung R&D Institute\" OR \"Motorola Solutions\" OR \"Intel Labs\" OR \"Google Research\" OR \"Amazon Science\" OR \"NVIDIA Research\") AND (\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"reward model\" OR \"LLM evaluation\" OR \"evaluation harness\" OR \"DPO\" OR \"distillation\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs010",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"AI Quality Engineer\" OR \"AI Quality Engineering\" OR \"LLM Quality\" OR \"Model Quality Engineer\" OR \"Evaluation Engineer\" OR \"Evals Engineer\" OR \"AI Evaluation Engineer\" OR \"LLM Evaluation Engineer\") AND (\"LLM\" OR \"large language model\" OR \"generative AI\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"LLM-as-a-judge\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs011",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"LLM-as-a-judge\" OR \"LLM as a judge\" OR \"LLM-as-judge\" OR \"LLM judge\" OR \"judge model\" OR \"model-as-a-judge\" OR \"automated grader\" OR \"auto-grader\" OR \"autograder\") AND (\"LLM\" OR \"large language model\" OR \"language model\" OR \"RLHF\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs012",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"preference data\" OR \"preference dataset\" OR \"pairwise preferences\" OR \"human preference data\" OR \"rubric-based evaluation\" OR \"rubric grading\" OR \"rejection sampling\" OR \"best-of-N\") AND (\"LLM\" OR \"large language model\" OR \"RLHF\" OR \"language model\") NOT (\"AI Trainer\" OR \"annotator\" OR \"anotador\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs013",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"knowledge distillation\" OR \"model distillation\" OR \"distilled model\" OR \"teacher model\" OR \"student model\") AND (\"LLM\" OR \"large language model\" OR \"instruction tuning\" OR \"SFT\" OR \"RLHF\" OR \"language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs014",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"synthetic data generation\" OR \"synthetic dataset\" OR \"synthetic instructions\" OR \"Self-Instruct\" OR \"Evol-Instruct\" OR \"Magpie\" OR \"data curation pipeline\" OR \"dados sintéticos\") AND (\"LLM\" OR \"large language model\" OR \"instruction tuning\" OR \"SFT\" OR \"fine-tuning\" OR \"language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs015",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"post-training team\" OR \"alignment team\" OR \"evals team\" OR \"model evaluation team\" OR \"foundation model team\" OR \"LLM research team\" OR \"model training team\") AND (\"LLM\" OR \"large language model\" OR \"RLHF\" OR \"fine-tuning\" OR \"language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs016",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"founder\" OR \"co-founder\" OR \"cofounder\" OR \"CTO\" OR \"Chief Technology Officer\" OR \"Head of AI\" OR \"Head of Research\" OR \"Head of Machine Learning\" OR \"VP of AI\") AND (\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"reward model\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"synthetic data generation\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs017",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"post-training\" OR \"reward model\" OR \"instruction tuning\" OR \"evaluation harness\") NOT (\"Research Engineer\" OR \"Research Scientist\" OR \"Applied Scientist\" OR \"Machine Learning Engineer\" OR \"Data Scientist\" OR \"AI Trainer\" OR \"annotator\" OR \"student\" OR \"estudante\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs018",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"reward model\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"DPO\" OR \"synthetic data generation\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs019",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"NeurIPS\" OR \"ICML\" OR \"ICLR\" OR \"EMNLP\" OR \"NAACL\" OR \"COLM\" OR \"reward model\" OR \"RLHF\" OR \"post-training\" OR \"LLM-as-a-judge\" OR \"evaluation harness\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs020",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"LLM evaluation\" OR \"reward model\" OR \"synthetic data\" OR \"fine-tuning\" OR \"large language model\" OR \"LLM\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs021",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Scale AI\" OR \"Mercor\" OR \"Invisible Technologies\" OR \"Appen\" OR \"Surge AI\" OR \"Toloka\" OR \"Snorkel AI\" OR \"Labelbox\") AND (\"engineer\" OR \"engineering\" OR \"infrastructure\" OR \"pipeline\" OR \"distributed\" OR \"research\") AND (\"RLHF\" OR \"LLM evaluation\" OR \"reward model\" OR \"synthetic data\" OR \"eval pipeline\") NOT (\"AI Trainer\" OR \"annotator\" OR \"freelance\" OR \"contractor\" OR \"expert contributor\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs022",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Whisper\" OR \"wav2vec\" OR \"speech LLM\" OR \"vision-language model\" OR \"vision language model\" OR \"multimodal LLM\" OR \"LLaVA\") AND (\"instruction tuning\" OR \"RLHF\" OR \"DPO\" OR \"SFT\" OR \"supervised fine-tuning\" OR \"preference optimization\" OR \"alignment\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs023",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"domain-specific LLM\" OR \"domain adaptation\" OR \"continued pretraining\" OR \"continual pretraining\" OR \"clinical LLM\" OR \"medical LLM\" OR \"legal LLM\" OR \"financial LLM\") AND (\"instruction tuning\" OR \"SFT\" OR \"RLHF\" OR \"DPO\" OR \"supervised fine-tuning\" OR \"LLM evaluation\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs024",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"red teaming\" OR \"red-teaming\" OR \"safety evaluation\" OR \"safety evals\" OR \"alignment research\" OR \"AI alignment\" OR \"safety fine-tuning\" OR \"harmlessness\") AND (\"LLM\" OR \"large language model\" OR \"language model\" OR \"RLHF\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs025",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"DeepSpeed\" OR \"FSDP\" OR \"Megatron-LM\" OR \"NVIDIA NeMo\" OR \"distributed training\" OR \"multi-node training\" OR \"multi-GPU training\" OR \"tensor parallelism\" OR \"pipeline parallelism\") AND (\"LLM\" OR \"large language model\" OR \"foundation model\" OR \"LLM training\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs026",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"RLHF\" OR \"DPO\" OR \"RLAIF\" OR \"post-training\" OR \"instruction tuning\" OR \"supervised fine-tuning\" OR \"SFT\") AND (\"Llama\" OR \"Mistral\" OR \"Qwen\" OR \"Gemma\" OR \"open-weight\" OR \"open weights\" OR \"open-source LLM\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs027",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"LLM evaluation\" OR \"evaluation harness\" OR \"eval harness\" OR \"evals\" OR \"model evaluation framework\" OR \"benchmark construction\" OR \"avaliação de LLM\" OR \"avaliação de modelos de linguagem\") AND (\"LLM\" OR \"large language model\" OR \"language model\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-gs028",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"NeurIPS\" OR \"ICML\" OR \"ICLR\" OR \"EMNLP\" OR \"NAACL\" OR \"COLM\" OR \"AAAI\" OR \"Datasets and Benchmarks track\") AND (\"RLHF\" OR \"DPO\" OR \"reward model\" OR \"instruction tuning\" OR \"post-training\" OR \"synthetic data\" OR \"distillation\" OR \"LLM-as-a-judge\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-cg000",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"Kaggle\") AND (\"Chatbot Arena\" OR \"human preference\" OR \"AIMO\" OR \"AI Mathematical Olympiad\" OR \"LLM 20 Questions\" OR \"LLM Prompt Recovery\" OR \"Kaggle Grandmaster\" OR \"Kaggle Master\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-cg001",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"huggingface.co\" OR \"Hugging Face Hub\" OR \"model card\" OR \"github.com\") AND (\"RLHF\" OR \"DPO\" OR \"SFT\" OR \"instruction-tuned\" OR \"evaluation harness\" OR \"benchmark dataset\")"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-cg002",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"reward model\" OR \"evaluation harness\" OR \"LLM evaluation\" OR \"large language model\") with structured_filters.companies = [\"Writer\", \"Character.AI\", \"Perplexity\", \"Together AI\", \"Reka\", \"AI21 Labs\", \"Inflection AI\", \"Adept\"]"
+    },
+    {
+      "id": "9000000010-prre-code-latam-20260812-cg003",
+      "run": "9000000010-prre-code-latam-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"treinamento de LLM\" OR \"treinamento de modelos de linguagem\" OR \"modelos de linguagem de grande porte\" OR \"LLMs em português\") AND (\"RLHF\" OR \"SFT\" OR \"DPO\" OR \"instruction tuning\" OR \"avaliação\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs000",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"DFIR\" OR \"digital forensics\" OR \"incident commander\" OR \"incident command\") AND (\"CISO\" OR \"Deputy CISO\" OR \"Chief Information Security Officer\" OR \"VP of Security\" OR \"Head of Security\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs001",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Field CISO\" OR \"BISO\" OR \"Business Information Security Officer\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs002",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Mandiant\" OR \"FireEye\" OR \"Kroll\" OR \"Stroz Friedberg\" OR \"Unit 42\" OR \"CrowdStrike Services\" OR \"Secureworks\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\" OR \"Deputy CISO\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs003",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"AI security\" OR \"LLM security\" OR \"prompt injection\" OR \"AI red team\" OR \"AI red teaming\" OR \"model security\" OR \"securing AI\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"security engineering\" OR \"security architect\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs004",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"red team\" OR \"purple team\" OR \"adversary emulation\" OR \"adversary simulation\" OR \"offensive security\") AND (\"CISO\" OR \"Chief Information Security Officer\" OR \"Head of Security\" OR \"VP of Security\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs005",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"first security hire\" OR \"first security leader\" OR \"built the security program\" OR \"built the security team\" OR \"founded the security team\" OR \"security program from scratch\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs006",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Head of Detection and Response\" OR \"Director of Detection and Response\" OR \"Head of Security Engineering\" OR \"VP of Security Engineering\" OR \"Head of Security Operations\" OR \"Deputy CISO\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs007",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident commander\" OR \"led incident response\" OR \"major incident\") AND (\"cybersecurity\" OR \"information security\" OR \"security incident\" OR \"breach\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs008",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"Black Hat\" OR \"DEF CON\" OR \"DEFCON\" OR \"BSides\" OR \"SANS\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs009",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"National Security Agency\" OR \"US Cyber Command\" OR \"Cybersecurity and Infrastructure Security Agency\" OR \"FBI Cyber\" OR \"Unit 8200\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"incident response\" OR \"threat hunting\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs010",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident response\" OR \"detection engineering\" OR \"threat hunting\" OR \"threat detection\" OR \"security operations center\" OR \"EDR\") AND (\"CISO\" OR \"Deputy CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\") NOT (\"Sales Engineer\" OR \"Solutions Engineer\" OR \"Product Marketing\" OR \"Account Executive\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs011",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"cloud security\" OR \"identity security\" OR \"zero trust\" OR \"security architecture\" OR \"security telemetry\") AND (\"CISO\" OR \"Chief Information Security Officer\" OR \"Head of Security\" OR \"VP of Security\" OR \"Deputy CISO\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs012",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"customer trust\" OR \"security assurance\" OR \"customer security reviews\" OR \"enterprise customers\" OR \"security reviews\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Head of Trust\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs013",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"insider threat\" OR \"identity threat\" OR \"ITDR\" OR \"credential compromise\" OR \"exfiltration\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs014",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"MITRE ATT&CK\" OR \"ATT&CK\" OR \"threat emulation\" OR \"attack simulation\" OR \"threat-informed defense\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\" OR \"Deputy CISO\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs015",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident response\" OR \"detection engineering\" OR \"detection and response\" OR \"red team\" OR \"threat hunting\") AND (\"Head\" OR \"Director\" OR \"VP\" OR \"Chief\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs016",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident response\" OR \"threat detection\" OR \"detection engineering\" OR \"red team\" OR \"security operations\") AND (\"Head\" OR \"Director\" OR \"VP\" OR \"Chief\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs017",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"security engineering\" OR \"Head of Security\" OR \"CISO\" OR \"incident response\" OR \"detection\" OR \"security architect\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs018",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident response\" OR \"DFIR\" OR \"red team\" OR \"threat hunting\") AND (\"Director\" OR \"VP\" OR \"practice lead\" OR \"Principal Consultant\") NOT (\"Account Executive\" OR \"Sales Engineer\" OR \"Solutions Engineer\" OR \"Channel\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs019",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"incident response\" OR \"detection engineering\" OR \"threat hunting\" OR \"red team\" OR \"digital forensics\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-gs020",
+      "run": "9000000014-ciso-20260812",
+      "source": "generated_strings",
+      "boolean": "(\"CISO\" OR \"Chief Information Security Officer\") AND (\"hands-on\" OR \"incident response\" OR \"security engineering\") NOT (\"vCISO\" OR \"fractional CISO\" OR \"virtual CISO\" OR \"CISO in Residence\" OR \"advisory CISO\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-cg000",
+      "run": "9000000014-ciso-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"OpenAI\" OR \"Anthropic\") AND (\"security\" OR \"CISO\" OR \"security engineering\" OR \"detection\") NOT (\"Solutions Engineer\" OR \"Account Executive\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-cg001",
+      "run": "9000000014-ciso-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"founder\" OR \"co-founder\" OR \"CTO\") AND (\"detection\" OR \"incident response\" OR \"offensive security\" OR \"threat intelligence\") AND (\"security\" OR \"cybersecurity\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-cg002",
+      "run": "9000000014-ciso-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"Head of Trust\" OR \"VP of Trust\" OR \"Chief Trust Officer\") AND (\"security\" OR \"incident response\" OR \"detection\") NOT (\"trust and safety\" OR \"content moderation\")"
+    },
+    {
+      "id": "9000000014-ciso-20260812-cg003",
+      "run": "9000000014-ciso-20260812",
+      "source": "coverage_gaps",
+      "boolean": "(\"OSCP\" OR \"GCFA\" OR \"GCIH\" OR \"GREM\" OR \"GXPN\") AND (\"CISO\" OR \"Head of Security\" OR \"VP of Security\" OR \"Director of Security\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs000",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND \"board observer\" AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs001",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"venture capital\" OR \"growth equity\") AND (\"Senior Associate\" OR Principal OR \"Vice President\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern OR Analyst) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs002",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"venture capital\" OR \"growth equity\") NOT (Principal OR \"Senior Associate\" OR \"Vice President\" OR \"Managing Director\" OR \"General Partner\" OR \"Managing Partner\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs003",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "\"board observer\" AND (\"Chief of Staff\" OR \"Strategic Finance\" OR \"Founder's Office\" OR \"Founders Office\" OR \"Business Operations\" OR \"Strategy & Operations\" OR \"Head of Business Development\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs004",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"venture capital\" OR \"growth equity\" OR \"board observer\" OR \"investment team\" OR \"Strategic Finance\" OR \"Chief of Staff\" OR \"Founder's Office\") NOT (\"Executive Assistant\" OR Intern OR Recruiter OR \"Investor Relations\" OR \"Head of Platform\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs005",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"Series A\" OR \"Series B\" OR \"Series C\" OR \"seed to Series\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs006",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"investment team\" OR \"investing team\" OR \"deal team\" OR \"investment professional\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs007",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"portfolio companies\" OR \"portfolio company\" OR \"term sheet\" OR \"led diligence\") AND (Principal OR \"Senior Associate\" OR \"Vice President\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs008",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"Oliver Wyman\" OR \"L.E.K.\" OR \"LEK Consulting\" OR \"Strategy&\" OR \"EY-Parthenon\" OR \"Parthenon Group\" OR \"Monitor Deloitte\" OR Kearney OR \"Roland Berger\") AND (\"venture capital\" OR \"growth equity\" OR \"board observer\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs009",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(TMT OR \"Technology Investment Banking\" OR \"Tech M&A\" OR \"Technology M&A\") AND (\"venture capital\" OR \"growth equity\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR \"Executive Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs010",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR Evercore) NOT (\"Managing Director\" OR \"Managing Partner\" OR \"Operating Partner\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs011",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"term sheet\" OR diligence OR fundraise OR \"board observer\" OR \"investment thesis\" OR sourced) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs012",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\" OR \"Goldman Sachs\" OR \"J.P. Morgan\" OR \"Morgan Stanley\" OR Evercore) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs013",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(Principal OR \"Senior Associate\" OR Associate OR Investor OR \"Vice President\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs014",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(Principal OR \"Senior Associate\" OR Associate OR Investor OR \"Vice President\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs015",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"term sheet\" OR diligence OR fundraise OR \"board observer\" OR \"investment thesis\" OR sourced) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR Intern) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs016",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR BCG OR \"Goldman Sachs\" OR \"J.P. Morgan\" OR \"Morgan Stanley\" OR Evercore) AND (\"Chief of Staff\" OR \"Head of Business Development\" OR \"Head of Partnerships\" OR \"Founder's Office\") AND (fundraise OR fundraising OR \"capital raise\" OR \"Series A\" OR \"Series B\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs017",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\" OR \"Goldman Sachs\" OR \"J.P. Morgan\" OR \"Morgan Stanley\" OR Evercore) AND (\"Strategic Finance\" OR \"Strat Finance\" OR \"Strategy & Operations\" OR \"Strategy and Operations\" OR \"Business Operations\" OR BizOps) AND (fundraise OR fundraising OR \"Series A\" OR \"Series B\" OR \"Series C\" OR \"board deck\" OR \"board materials\" OR \"investor updates\") NOT (\"Executive Assistant\" OR \"Investor Relations\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs018",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(Sequoia OR \"Andreessen Horowitz\" OR a16z OR Accel OR Greylock OR Lightspeed OR Benchmark OR \"Index Ventures\" OR \"General Catalyst\" OR \"Founders Fund\" OR \"Khosla Ventures\" OR \"Kleiner Perkins\") AND (\"Strategic Finance\" OR \"Chief of Staff\" OR \"Business Operations\" OR \"Strategy & Operations\" OR \"Founder's Office\" OR \"Corporate Development\") NOT (\"Executive Assistant\" OR Intern OR Recruiter OR \"Investor Relations\" OR \"Head of Platform\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs019",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(Sequoia OR \"Andreessen Horowitz\" OR a16z OR Accel OR Greylock OR Lightspeed OR Benchmark OR \"Index Ventures\" OR \"General Catalyst\" OR \"Founders Fund\" OR \"Khosla Ventures\" OR \"Kleiner Perkins\") AND (\"Strategic Finance\" OR \"Strat Finance\") NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\") NOT (\"Executive Assistant\" OR \"Investor Relations\" OR \"Head of Platform\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs020",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"Chief of Staff\" OR \"Strategic Finance\" OR \"board observer\" OR \"term sheet\" OR fundraise OR \"venture capital\") NOT (\"Executive Assistant\" OR Intern OR Recruiter OR \"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs021",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\") AND (\"venture capital\" OR \"growth equity\" OR venture) NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-gs022",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "generated_strings",
+      "boolean": "(\"Goldman Sachs\" OR \"Morgan Stanley\" OR \"J.P. Morgan\" OR JPMorgan OR Evercore OR Qatalyst OR Lazard OR Centerview OR Moelis) AND (\"venture capital\" OR \"growth equity\" OR \"board observer\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\" OR \"Executive Director\") NOT (\"Investor Relations\" OR \"Head of Platform\" OR \"Talent Partner\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\" OR \"Family Office\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-cg000",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "coverage_gaps",
+      "boolean": "(\"Prime Intellect\" OR Sciforium OR \"exa.ai\") AND (\"venture capital\" OR \"growth equity\" OR \"board observer\" OR \"Strategic Finance\" OR \"Chief of Staff\") NOT (\"Executive Assistant\" OR Intern OR Recruiter)"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-cg001",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "coverage_gaps",
+      "boolean": "(MBB OR \"ex-McKinsey\" OR \"ex-Bain\" OR \"ex-BCG\") AND (\"venture capital\" OR \"growth equity\" OR \"board observer\") AND (Principal OR \"Senior Associate\" OR \"Vice President\" OR Investor) NOT (\"Managing Partner\" OR \"General Partner\" OR \"Managing Director\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-cg002",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "coverage_gaps",
+      "boolean": "(McKinsey OR \"Bain & Company\" OR \"Bain and Company\" OR BCG OR \"Boston Consulting Group\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR Evercore) NOT (\"Managing Director\" OR \"Managing Partner\" OR \"Operating Partner\" OR Intern) NOT (\"Investor Relations\" OR \"Executive Assistant\" OR \"Wealth Management\" OR \"Asset Management\")"
+    },
+    {
+      "id": "9000000006-chief-of-staff-20260824-cg003",
+      "run": "9000000006-chief-of-staff-20260824",
+      "source": "coverage_gaps",
+      "boolean": "(Sequoia OR \"Andreessen Horowitz\" OR a16z OR Accel OR Greylock OR Lightspeed OR Benchmark OR \"Index Ventures\" OR \"General Catalyst\" OR \"Founders Fund\") AND (\"Head of Business Development\" OR \"Head of Partnerships\" OR \"VP Business Development\") AND \"board observer\""
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs000",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"OpenRLHF\" OR \"verl\" OR \"NeMo-Aligner\" OR \"TRLX\" OR \"SkyRL\" OR \"prime-rl\" OR \"DeepSpeed-Chat\" OR \"torchtune\" OR \"LLaMA-Factory\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs001",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"Tulu\" OR \"UltraFeedback\" OR \"HH-RLHF\" OR \"HelpSteer\" OR \"UltraChat\" OR \"OpenHermes\" OR \"Magpie\" OR \"Nectar\" OR \"WizardLM Evol-Instruct\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs002",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"RL environment\" OR \"RL environments\" OR \"reinforcement learning environment\" OR \"RLVR\" OR \"verifiable rewards\" OR \"SWE-Gym\" OR \"agent trajectories\" OR \"environment design\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs003",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"synthetic data generation\" OR \"synthetic data pipeline\" OR \"data generation pipeline\" OR \"Evol-Instruct\" OR \"AgentInstruct\" OR \"APIGen\" OR \"distillation pipeline\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs004",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-agent\" OR \"OpenHands\" OR \"Agentless\" OR \"AutoCodeRover\" OR \"mini-SWE-agent\" OR \"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs005",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"SWE-bench\" OR \"Terminal-Bench\" OR \"OSWorld\" OR \"WebArena\" OR \"τ-bench\" OR \"GPQA\" OR \"LiveCodeBench\" OR \"MLE-bench\" OR \"BrowseComp\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs006",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"eval harness\" OR \"evaluation harness\" OR \"LLM-as-a-judge\" OR \"LLM judge\" OR \"autograder\" OR \"model evaluation pipeline\" OR \"evals\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs007",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"reward model\" OR \"reward modeling\" OR \"preference optimization\" OR \"direct preference optimization\" OR \"preference data\" OR \"RLAIF\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs008",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"NeMo\" OR \"NeMo-Aligner\" OR \"NeMo RL\" OR \"Megatron\" OR \"Megatron-LM\" OR \"Megatron-Core\" OR \"Nemotron\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs009",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"DeepMind\" OR \"Gemini\") AND (\"post-training\" OR \"RLHF\" OR \"reinforcement learning\" OR \"fine-tuning\" OR \"model evaluation\" OR \"reward model\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs010",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"eval harness\" OR \"SWE-bench\" OR \"LLM-as-a-judge\" OR \"synthetic data generation\" OR \"RL environment\" OR \"post-training\" OR \"reward model\" OR \"instruction tuning\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs011",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"research engineer\" OR \"machine learning engineer\" OR \"ML engineer\" OR \"founding engineer\" OR \"software engineer\") AND (\"post-training\" OR \"RLHF\" OR \"evals\" OR \"evaluation\" OR \"synthetic data\" OR \"RL environment\" OR \"fine-tuning\") NOT (\"annotator\" OR \"AI trainer\" OR \"language specialist\" OR \"data labeling\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs012",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"Llama\" OR \"post-training\" OR \"RLHF\" OR \"reward model\" OR \"instruction tuning\" OR \"superintelligence\" OR \"GenAI\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs013",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"RLHF\" OR \"DPO\" OR \"supervised fine-tuning\" OR \"fine-tuning\" OR \"instruction tuning\" OR \"distillation\" OR \"reinforcement learning\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs014",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"benchmark\" OR \"benchmarks\" OR \"model evaluation\" OR \"capability evaluation\" OR \"evals\" OR \"red teaming\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs015",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"machine learning\" OR \"LLM\" OR \"large language model\" OR \"language models\" OR \"reinforcement learning\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-gs016",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "generated_strings",
+      "boolean": "(\"post-training\" OR \"reward model\" OR \"RLHF\" OR \"eval harness\" OR \"RL environments\") NOT (\"annotator\" OR \"solutions architect\" OR \"recruiter\" OR \"product manager\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-cg000",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "coverage_gaps",
+      "boolean": "(\"NeurIPS\" OR \"ICML\" OR \"ICLR\" OR \"COLM\" OR \"EMNLP\" OR \"first author\") AND (\"post-training\" OR \"RLHF\" OR \"evaluation\" OR \"reinforcement learning\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-cg001",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "coverage_gaps",
+      "boolean": "(\"Gemini\" OR \"Llama\" OR \"Claude\" OR \"Grok\" OR \"GPT-4\" OR \"Nemotron\") AND (\"post-training\" OR \"fine-tuning\" OR \"evaluation\" OR \"reward model\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-cg002",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "coverage_gaps",
+      "boolean": "(\"Amazon AGI\" OR \"AGI Foundations\" OR \"Apple Machine Learning Research\" OR \"AIML\" OR \"Microsoft AI\" OR \"AI Frontiers\" OR \"Microsoft Research\")"
+    },
+    {
+      "id": "9000000019-research-engineer-frontier-20260831-cg003",
+      "run": "9000000019-research-engineer-frontier-20260831",
+      "source": "coverage_gaps",
+      "boolean": "(\"function calling\" OR \"tool calling\" OR \"tool use\" OR \"BFCL\" OR \"xLAM\" OR \"ToolBench\") AND (\"training data\" OR \"fine-tuning\" OR \"post-training\" OR \"dataset\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs000",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"private offers\" OR \"private offer\" OR \"CPPO\") AND (\"co-sell\" OR \"co-selling\" OR \"cosell\" OR \"co-sold\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs001",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"ISV Accelerate\" OR \"APN Customer Engagement\" OR \"ACE program\" OR \"ACE opportunities\" OR \"Partner Central\" OR \"Partner Advantage\") AND (\"deal registration\" OR \"deal reg\" OR \"co-sell\" OR \"co-selling\" OR \"opportunity registration\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs002",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"partner-sourced\" OR \"partner sourced\" OR \"partner-influenced\" OR \"partner influenced\" OR \"sourced pipeline\" OR \"influenced pipeline\") AND (quota OR attainment OR \"closed-won\" OR \"closed won\" OR bookings) AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"AI/ML\" OR \"machine learning\" OR cloud)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs003",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"first partnerships hire\" OR \"first partner hire\" OR \"first alliances hire\" OR \"founding partnerships\" OR \"built the partner program\" OR \"built our partner program\" OR \"built the partnerships function\" OR \"stood up\" OR \"from the ground up\" OR \"from scratch\" OR \"zero to one\" OR \"0 to 1\" OR \"0-1\") AND (\"deal registration\" OR \"co-sell\" OR \"co-selling\" OR \"partner program\" OR \"channel program\" OR \"partner ecosystem\" OR alliances) AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"AI/ML\" OR \"machine learning\" OR cloud)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs004",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Solutions Architect\" OR \"Sales Engineer\" OR \"Partner Solutions Architect\" OR \"Solutions Engineer\") AND (\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\") AND (\"LLM\" OR \"LLMs\" OR \"GenAI\" OR \"generative AI\" OR \"foundation models\" OR agentic)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs005",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\" OR Ecosystem OR \"Channel Partners\" OR \"Business Development\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs006",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"co-sell\" OR \"co-selling\" OR \"co-sold\" OR cosell) AND (\"Bedrock\" OR \"SageMaker\" OR \"Vertex AI\" OR \"Azure OpenAI\" OR \"AI Foundry\" OR \"foundation models\" OR \"foundation model\" OR \"LLMs\" OR \"GPT-4\" OR \"Llama\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs007",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"OpenAI\" OR \"Anthropic\" OR \"Cohere\" OR \"Mistral\" OR \"Hugging Face\" OR \"AI21\" OR \"Together AI\") AND (\"partnership with\" OR \"partnered with\" OR \"alliance with\" OR \"joint solution\" OR \"joint solutions\" OR \"reference architecture\" OR \"co-sell\" OR \"Model Provider\") AND (\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\" OR Ecosystem)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs008",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Partner Development Manager\" OR \"Partner Sales Manager\" OR \"Partner Solutions Architect\" OR \"Partner Solution Architect\" OR \"ISV Partner Manager\") AND (\"Head of Partnerships\" OR \"Director of Partnerships\" OR \"Director, Partnerships\" OR \"Head of Alliances\" OR \"Director of Alliances\" OR \"Partnerships Lead\" OR \"Lead, Partnerships\") AND (\"LLM\" OR \"LLMs\" OR \"generative AI\" OR \"GenAI\" OR \"foundation models\" OR agentic)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs009",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"reference architecture\" OR \"reference architectures\" OR \"joint solution\" OR \"joint solutions\" OR \"joint offering\" OR \"joint offerings\" OR \"technical enablement\") AND (\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\") AND (\"LLM\" OR \"LLMs\" OR \"generative AI\" OR \"GenAI\" OR \"foundation models\" OR agentic OR \"AI agents\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs010",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"deal registration\" OR \"deal reg\" OR \"co-sell\" OR \"co-selling\" OR \"partner-sourced\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"foundation models\") NOT (\"Partner Manager\" OR \"Partnerships\" OR \"Alliances\" OR \"Channel Manager\" OR \"Partner Development\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs011",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Partner Solutions Architect\" OR \"Partner Solution Architect\" OR \"Partner SA\" OR \"Partner Engineer\" OR \"Partner Solutions Engineer\") AND (\"co-sell\" OR \"co-selling\" OR \"deal registration\" OR \"partner-sourced\" OR \"sourced pipeline\" OR alliances) AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"machine learning\" OR \"AI/ML\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs012",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"GSI\" OR \"GSIs\" OR \"global system integrator\" OR \"global systems integrator\" OR \"global system integrators\" OR \"SI partners\" OR \"consulting partners\") AND (\"Alliances\" OR \"Alliance Manager\" OR \"Partner Manager\" OR \"Partnerships\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"foundation models\" OR \"AI/ML\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs013",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"AWS Marketplace\" OR \"Google Cloud Marketplace\" OR \"GCP Marketplace\" OR \"Azure Marketplace\" OR \"Microsoft Marketplace\" OR \"Microsoft commercial marketplace\" OR \"Snowflake Marketplace\" OR \"Databricks Marketplace\") AND (listing OR listings OR drawdown OR \"committed spend\" OR \"committed-spend\" OR \"EDP\" OR \"MACC\" OR \"consumption commitments\" OR \"consumption commitment\") AND (\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\" OR \"Business Development\" OR \"co-sell\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs014",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Head of Partnerships\" OR \"Head of Alliances\" OR \"Director of Partnerships\" OR \"Director, Partnerships\" OR \"Partnerships Lead\" OR \"Lead, Partnerships\" OR \"Head of Ecosystem\") AND (\"LLM\" OR \"LLMs\" OR \"generative AI\" OR \"GenAI\" OR \"foundation models\" OR agentic OR \"AI agents\") AND (\"AWS\" OR \"Amazon Web Services\" OR \"Google Cloud\" OR \"GCP\" OR \"Azure\" OR hyperscaler OR hyperscalers OR Marketplace)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs015",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Partnerships\" OR \"Alliances\" OR \"Partner Manager\" OR \"Partner Development\" OR \"Partner Sales\" OR Ecosystem OR \"Channel Partners\" OR \"Cloud Partners\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs016",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(Alliance OR Alliances OR \"Partner Manager\" OR \"Partnerships\" OR \"Partner Development\") AND (\"co-sell\" OR \"co-selling\" OR \"partner-sourced\" OR \"sourced pipeline\" OR \"deal registration\" OR \"private offers\" OR \"joint pursuit\" OR \"joint pursuits\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs017",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"co-delivery\" OR \"co-deliver\" OR \"delivery partner\" OR \"services partner\" OR \"certified consultants\" OR \"certified engineers\" OR \"certification program\" OR \"competency program\" OR competencies) AND (Alliances OR Alliance OR \"Partnerships\" OR \"Partner Manager\" OR \"Partner Development\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"Bedrock\" OR \"Vertex AI\" OR \"Azure OpenAI\" OR \"Databricks\" OR \"Snowflake\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs018",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"MDF\" OR \"market development funds\" OR \"market development fund\") AND (\"deal registration\" OR \"deal reg\" OR \"partner tiers\" OR \"partner tiering\" OR \"tier progression\" OR \"co-sell\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"AI/ML\" OR \"machine learning\" OR \"data platform\" OR cloud)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs019",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"resale agreement\" OR \"reseller agreement\" OR \"referral agreement\" OR \"referral agreements\" OR \"rev share\" OR \"rev-share\" OR \"revenue share\" OR \"revenue-share\" OR \"partner agreements\" OR \"partner contracts\") AND (\"co-sell\" OR \"partner-sourced\" OR alliances OR \"partner program\" OR \"deal registration\") AND (\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"AI/ML\" OR \"machine learning\" OR \"foundation models\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs020",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Databricks\" OR \"Snowflake\") AND (Alliance OR Alliances OR \"Partner Manager\" OR \"Partnerships\" OR \"Partner Development\") AND (\"co-sell\" OR \"co-selling\" OR \"Partner Connect\" OR \"partner-sourced\" OR \"deal registration\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs021",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Ecosystem Manager\" OR \"Ecosystem Lead\" OR \"Ecosystem Partnerships\" OR \"Partner GTM\" OR \"Partner Sales Manager\" OR \"Cloud Alliances Manager\" OR \"Cloud Alliance Manager\" OR \"Cloud Partnerships\" OR \"Technology Partnerships\" OR \"Technology Alliances\") AND (\"LLM\" OR \"LLMs\" OR \"generative AI\" OR \"GenAI\" OR \"foundation models\" OR agentic) AND (\"co-sell\" OR \"co-selling\" OR \"deal registration\" OR \"partner-sourced\" OR \"sourced pipeline\" OR Marketplace)"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs022",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"Bedrock\" OR \"SageMaker\" OR \"Vertex AI\" OR \"Azure OpenAI\" OR \"AI Foundry\" OR \"Azure AI\") AND (\"Partner Development Manager\" OR \"Partner Manager\" OR \"Partner Development\" OR Alliances OR \"Partnerships\" OR \"ISV\") AND (\"co-sell\" OR \"co-selling\" OR \"deal registration\" OR \"partner-sourced\" OR \"sourced pipeline\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs023",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"LLM\" OR \"LLMs\" OR \"foundation models\" OR agentic OR \"AI agents\") AND (\"co-sell\" OR \"co-selling\" OR \"deal registration\" OR \"partner-sourced\" OR \"sourced pipeline\" OR Marketplace OR \"MDF\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-gs024",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "generated_strings",
+      "boolean": "(\"generative AI\" OR \"GenAI\" OR \"foundation models\" OR \"LLM\" OR \"LLMs\" OR agentic) AND (\"Partner Development Manager\" OR \"Partner Manager\" OR \"Partner Solutions Architect\" OR Alliances OR \"Partnerships\" OR \"ISV\" OR \"Partner Sales\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-cg000",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "coverage_gaps",
+      "boolean": "(\"NVIDIA Partner Network\" OR \"NPN\" OR \"Inception program\" OR \"DGX\" OR \"NVIDIA AI Enterprise\") AND (Alliances OR \"Partnerships\" OR \"Partner Manager\" OR \"Partner Development\") AND (\"co-sell\" OR \"deal registration\" OR \"partner-sourced\" OR \"sourced pipeline\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-cg001",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "coverage_gaps",
+      "boolean": "(\"Engagement Manager\" OR \"Implementation Consultant\" OR \"Forward Deployed\" OR \"Solutions Consultant\" OR \"Delivery Lead\") AND (\"Partnerships\" OR Alliances OR \"Partner Manager\") AND (\"co-sell\" OR \"deal registration\" OR \"partner-sourced\") AND (\"LLM\" OR \"generative AI\" OR \"GenAI\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-cg002",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "coverage_gaps",
+      "boolean": "(\"BFSI\" OR \"financial services\" OR banking OR \"capital markets\") AND (Alliances OR \"Partnerships\" OR \"Partner Manager\") AND (\"co-sell\" OR \"partner-sourced\" OR \"joint account plans\" OR \"account mapping\") AND (\"generative AI\" OR \"LLM\" OR \"GenAI\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-cg003",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "coverage_gaps",
+      "boolean": "(\"Azure IP co-sell\" OR \"co-sell ready\" OR \"co-sell incentivized\" OR \"Solutions Partner designation\" OR \"Marketplace Rewards\" OR \"Microsoft AI Cloud Partner Program\") AND (\"Partnerships\" OR Alliances OR \"Partner Manager\" OR \"Partner Development\")"
+    },
+    {
+      "id": "9000000013-partner-manager-ai-ecosystem-20260916-cg004",
+      "run": "9000000013-partner-manager-ai-ecosystem-20260916",
+      "source": "coverage_gaps",
+      "boolean": "(\"partner-sourced\" OR \"partner sourced\" OR \"partner-influenced\" OR \"partner influenced\") AND (quota OR attainment OR \"closed-won\" OR \"closed won\") AND (\"deal registration\" OR \"co-sell\" OR \"co-selling\" OR Marketplace)"
+    }
+  ]
+}

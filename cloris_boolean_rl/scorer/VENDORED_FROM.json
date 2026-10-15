@@ -1,0 +1,23 @@
+{
+  "source_repo": "long-horizon-sourcing-agent",
+  "source_path": "linkedin/boolean_score",
+  "commit": "685cf29c12380d37b6e8e630016f6e2be2214727",
+  "vendored_on": "2026-09-21",
+  "files": [
+    "__init__.py",
+    "parser.py",
+    "lexicon.py",
+    "score.py",
+    "enrich.py",
+    "lexicons/research-engineer-post-training.json"
+  ],
+  "sha256": {
+    "__init__.py": "625d6d39b186987e7999977155b74333d37c71b715a4d48282cd3a4df9f793be",
+    "parser.py": "c1307a4fdaf5217a8188e436c7c00136b453aa5930aad7773169264ace956b14",
+    "lexicon.py": "09a6b17c6033a97c3681efc21c0d068525c1a7a6b9894e06c663aa3beca33d91",
+    "score.py": "20945173588ef5cd1d81470d0c56d13438cf1664c51cdbca8f6b37fae9c7497e",
+    "enrich.py": "9e6c4cde037110d4bedc6e4a6df156df423a0bce9f30572f00ab33d9c1803801",
+    "lexicons/research-engineer-post-training.json": "fce45138b18d909a2bc9e57417b4ff4439f6de906e521d676f7df24d31a9e89b"
+  },
+  "note": "A byte-for-byte copy. Nothing here is edited in this repo: the scorer is the reward, and a reward that has drifted from the thing it scores is not a reward. Re-copy with tools/sync_scorer.py, which reports the diff and refuses to pretend nothing changed."
+}

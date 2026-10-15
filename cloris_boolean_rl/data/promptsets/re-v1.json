@@ -1,0 +1,5212 @@
+{
+  "role": "research-engineer-post-training",
+  "seed": 20260921,
+  "counts": {
+    "eval/anchor": 27,
+    "eval/anchor/lexicon": 27,
+    "eval/register": 28,
+    "eval/register/lexicon": 21,
+    "eval/register/ml_runs_76": 1,
+    "eval/register/real_plans": 6,
+    "train/anchor": 55,
+    "train/anchor/lexicon": 54,
+    "train/anchor/real_plans": 1,
+    "train/register": 134,
+    "train/register/lexicon": 54,
+    "train/register/ml_runs_76": 24,
+    "train/register/real_plans": 56
+  },
+  "prompts": [
+    {
+      "id": "lex-sweep-eval-agentic_coding-00",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"AutoCodeRover\" OR \"OpenHands\")",
+      "targets": [
+        "autocoderover",
+        "openhands"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"sandboxed execution\" OR \"execution sandbox\" OR \"sandbox environments\" OR \"containerized environments\" OR \"Docker harness\" OR \"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "execution-sandbox",
+          "coding-agents"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-00",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"MLE-bench\" OR \"Poeta benchmark\")",
+      "targets": [
+        "mle-bench",
+        "poeta-benchmark"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-01",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"MLE-bench\" OR \"τ-bench\" OR \"WebArena\")",
+      "targets": [
+        "mle-bench",
+        "tau-bench",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-02",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"ASSIN2\" OR \"BrowseComp\" OR \"Poeta benchmark\" OR \"τ-bench\")",
+      "targets": [
+        "assin2",
+        "browsecomp",
+        "poeta-benchmark",
+        "tau-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-03",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"BrowseComp\" OR \"CRUXEval\" OR \"MLE-bench\" OR \"τ-bench\" OR \"WebArena\")",
+      "targets": [
+        "browsecomp",
+        "cruxeval",
+        "mle-bench",
+        "tau-bench",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-04",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"BrowseComp\" OR \"CodeContests\" OR \"MLE-bench\" OR \"τ-bench\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "browsecomp",
+        "codecontests",
+        "mle-bench",
+        "tau-bench",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-05",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"ASSIN2\" OR \"BrowseComp\")",
+      "targets": [
+        "assin2",
+        "browsecomp"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-06",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"HumanEval\" OR \"τ-bench\" OR \"WebArena\")",
+      "targets": [
+        "humaneval",
+        "tau-bench",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-07",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"ASSIN2\" OR \"CodeContests\" OR \"HumanEval\" OR \"MLE-bench\")",
+      "targets": [
+        "assin2",
+        "codecontests",
+        "humaneval",
+        "mle-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-08",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"CodeContests\" OR \"MLE-bench\" OR \"Poeta benchmark\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "codecontests",
+        "mle-bench",
+        "poeta-benchmark",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-09",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"BrowseComp\" OR \"HumanEval\" OR \"MLE-bench\" OR \"Poeta benchmark\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "browsecomp",
+        "humaneval",
+        "mle-bench",
+        "poeta-benchmark",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-10",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"HumanEval\" OR \"WebArena\")",
+      "targets": [
+        "humaneval",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-11",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"τ-bench\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "tau-bench",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-12",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"CodeContests\" OR \"Poeta benchmark\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "codecontests",
+        "poeta-benchmark",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-benchmarks-13",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"ASSIN2\" OR \"CRUXEval\" OR \"MLE-bench\" OR \"VisualWebArena\" OR \"WebArena\")",
+      "targets": [
+        "assin2",
+        "cruxeval",
+        "mle-bench",
+        "visualwebarena",
+        "webarena"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-llm_umbrella-00",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"Gervásio\" OR \"Mistral\")",
+      "targets": [
+        "gervásio",
+        "mistral"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-llm_umbrella-01",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"Gervásio\" OR \"Mistral\" OR \"StarCoder\")",
+      "targets": [
+        "gervásio",
+        "mistral",
+        "starcoder"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-llm_umbrella-02",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"Amazônia IA\" OR \"Gervásio\" OR \"Mistral\" OR \"StarCoder\")",
+      "targets": [
+        "amazônia-ia",
+        "gervásio",
+        "mistral",
+        "starcoder"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-llm_umbrella-05",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"Amazônia IA\" OR \"StarCoder\")",
+      "targets": [
+        "amazônia-ia",
+        "starcoder"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-llm_umbrella-06",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"Amazônia IA\" OR \"Gervásio\" OR \"Mistral\")",
+      "targets": [
+        "amazônia-ia",
+        "gervásio",
+        "mistral"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-00",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"DPO\" OR \"RLVR\")",
+      "targets": [
+        "dpo",
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-01",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"LoRA\" OR \"RLAIF\" OR \"RLVR\")",
+      "targets": [
+        "lora",
+        "rlaif",
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-02",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"DPO\" OR \"LoRA\" OR \"RLAIF\" OR \"RLVR\")",
+      "targets": [
+        "dpo",
+        "lora",
+        "rlaif",
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-05",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"LoRA\" OR \"RLVR\")",
+      "targets": [
+        "lora",
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-06",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"DPO\" OR \"LoRA\" OR \"RLAIF\")",
+      "targets": [
+        "dpo",
+        "lora",
+        "rlaif"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-10",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"DPO\" OR \"LoRA\")",
+      "targets": [
+        "dpo",
+        "lora"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-eval-post_training_methods-11",
+      "task": "anchor",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"DPO\" OR \"LoRA\" OR \"RLVR\")",
+      "targets": [
+        "dpo",
+        "lora",
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-bare-co-founder",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"co-founder\"",
+      "targets": [
+        "co-founder"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"co-founder\" OR \"cofounder\" OR \"cofundador\" OR \"co founder\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-data-scientist",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"data scientist\"",
+      "targets": [
+        "data-scientist"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"data scientist\" OR \"data scientists\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-dpo",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"DPO\"",
+      "targets": [
+        "dpo"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"DPO\" OR \"direct preference optimization\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-evol-instruct",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"Evol-Instruct\"",
+      "targets": [
+        "evol-instruct"
+      ],
+      "families": [
+        "datasets"
+      ],
+      "reference": "(\"Evol-Instruct\" OR \"WizardLM Evol-Instruct\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-execution-sandbox",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"sandboxed execution\"",
+      "targets": [
+        "execution-sandbox"
+      ],
+      "families": [
+        "rl_environments",
+        "agentic_coding"
+      ],
+      "reference": "(\"sandboxed execution\" OR \"execution sandbox\" OR \"sandbox environments\" OR \"containerized environments\" OR \"Docker harness\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-frontier-model",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"frontier model\"",
+      "targets": [
+        "frontier-model"
+      ],
+      "families": [
+        "llm_umbrella",
+        "labs"
+      ],
+      "reference": "(\"frontier model\" OR \"frontier models\" OR \"foundation model\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-hugging-face",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"Hugging Face\"",
+      "targets": [
+        "hugging-face"
+      ],
+      "families": [
+        "model_release"
+      ],
+      "reference": "(\"Hugging Face\" OR \"Hugging Face Hub\" OR \"huggingface.co\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-information-retrieval",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"information retrieval\"",
+      "targets": [
+        "information-retrieval"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"information retrieval\" OR \"search relevance\" OR \"search ranking\" OR \"learning to rank\" OR \"query understanding\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-llm-evaluation",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"LLM evaluation\"",
+      "targets": [
+        "llm-evaluation"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"LLM evaluation\" OR \"LLM evals\" OR \"evaluating LLMs\" OR \"evaluation of LLMs\" OR \"avaliação de LLMs\" OR \"avaliação de modelos de linguagem\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 6
+      }
+    },
+    {
+      "id": "lex-bare-lora",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"LoRA\"",
+      "targets": [
+        "lora"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"LoRA\" OR \"low-rank adaptation\" OR \"low rank adaptation\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-megatron",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"Megatron\"",
+      "targets": [
+        "megatron"
+      ],
+      "families": [
+        "training_frameworks"
+      ],
+      "reference": "(\"Megatron\" OR \"Megatron-LM\" OR \"Megatron-Core\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-preference-data",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"preference data\"",
+      "targets": [
+        "preference-data"
+      ],
+      "families": [
+        "preference_and_reward",
+        "data_curation"
+      ],
+      "reference": "(\"preference data\" OR \"preference dataset\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-rlvr",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"RLVR\"",
+      "targets": [
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods",
+        "rl_environments"
+      ],
+      "reference": "(\"RLVR\" OR \"verifiable reward\" OR \"verifiable rewards\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-rubric",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"rubric\"",
+      "targets": [
+        "rubric"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"rubric\" OR \"rubrics\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-tau-bench",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"τ-bench\"",
+      "targets": [
+        "tau-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"τ-bench\" OR \"tau-bench\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-tool-calling",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"tool calling\"",
+      "targets": [
+        "tool-calling"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"tool calling\" OR \"function calling\" OR \"tool use\" OR \"tool-calling agents\" OR \"tool-calling environment\" OR \"tool calling agents\" OR \"tool calling environment\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-training-data",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "\"training data\"",
+      "targets": [
+        "training-data"
+      ],
+      "families": [
+        "data_curation"
+      ],
+      "reference": "(\"training data\" OR \"training data pipeline\" OR \"training pipeline\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-co-founder",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"co-founder\" OR \"cofounder\")",
+      "targets": [
+        "co-founder"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"co-founder\" OR \"cofounder\" OR \"cofundador\" OR \"co founder\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-execution-sandbox",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"sandboxed execution\" OR \"execution sandbox\")",
+      "targets": [
+        "execution-sandbox"
+      ],
+      "families": [
+        "rl_environments",
+        "agentic_coding"
+      ],
+      "reference": "(\"sandboxed execution\" OR \"execution sandbox\" OR \"sandbox environments\" OR \"containerized environments\" OR \"Docker harness\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-thin-rlvr",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"RLVR\" OR \"verifiable reward\")",
+      "targets": [
+        "rlvr"
+      ],
+      "families": [
+        "post_training_methods",
+        "rl_environments"
+      ],
+      "reference": "(\"RLVR\" OR \"verifiable reward\" OR \"verifiable rewards\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-tool-calling",
+      "task": "register",
+      "split": "eval",
+      "source": "lexicon",
+      "given": "(\"tool calling\" OR \"function calling\")",
+      "targets": [
+        "tool-calling"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"tool calling\" OR \"function calling\" OR \"tool use\" OR \"tool-calling agents\" OR \"tool-calling environment\" OR \"tool calling agents\" OR \"tool calling environment\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-10-g0",
+      "task": "register",
+      "split": "eval",
+      "source": "ml_runs_76",
+      "given": "(\"search relevance\")",
+      "targets": [
+        "information-retrieval"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"search relevance\" OR \"learning to rank\" OR \"information retrieval\" OR \"query understanding\" OR \"search ranking\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-10"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs008-g0",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"sandboxed execution\")",
+      "targets": [
+        "execution-sandbox"
+      ],
+      "families": [
+        "agentic_coding",
+        "post_training_practice",
+        "rl_environments"
+      ],
+      "reference": "(\"E2B\" OR \"Daytona\" OR \"Runloop\" OR \"code sandbox\" OR \"sandboxed execution\" OR \"execution sandbox\" OR \"Firecracker\" OR \"sandbox environments\" OR \"containerized environments\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs008"
+      }
+    },
+    {
+      "id": "real_plans-9000000010-prre-code-latam-20260812-gs012-g0",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"preference data\")",
+      "targets": [
+        "preference-data"
+      ],
+      "families": [
+        "data_curation",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"preference data\" OR \"preference dataset\" OR \"pairwise preferences\" OR \"human preference data\" OR \"rubric-based evaluation\" OR \"rubric grading\" OR \"rejection sampling\" OR \"best-of-N\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000010-prre-code-latam-20260812-gs012"
+      }
+    },
+    {
+      "id": "real_plans-9000000012-engagement-lead-20260801-gs013-g0",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"co-founder\")",
+      "targets": [
+        "co-founder"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"founder\" OR \"co-founder\" OR \"cofounder\" OR \"founding\" OR \"co founder\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000012-engagement-lead-20260801-gs013"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs004-g1",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"function calling\")",
+      "targets": [
+        "tool-calling"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"function calling\" OR \"API schema\" OR \"tool schema\" OR \"state machine\" OR \"tool calling\" OR \"tool use\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs004"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs005-g0",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"tool calling\")",
+      "targets": [
+        "tool-calling"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"tool calling\" OR \"function calling\" OR \"tool use\" OR \"browser-use\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs005"
+      }
+    },
+    {
+      "id": "real_plans-9000000021-gs004-g1",
+      "task": "register",
+      "split": "eval",
+      "source": "real_plans",
+      "given": "(\"rubric\")",
+      "targets": [
+        "rubric"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"calibration\" OR \"rubric\" OR \"rubrics\" OR \"quality assurance\" OR \"QC\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000021-gs004"
+      }
+    },
+    {
+      "id": "lex-sweep-train-agentic_coding-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Agentless\" OR \"mini-SWE-agent\")",
+      "targets": [
+        "agentless",
+        "mini-swe-agent"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code generation\" OR \"code gen\" OR \"program synthesis\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "coding-agents",
+          "code-generation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-agentic_coding-01",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Agentless\" OR \"mini-SWE-agent\" OR \"SWE-agent\")",
+      "targets": [
+        "agentless",
+        "mini-swe-agent",
+        "swe-agent"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code generation\" OR \"code gen\" OR \"program synthesis\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "coding-agents",
+          "code-generation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-agentic_coding-10",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"mini-SWE-agent\" OR \"SWE-agent\")",
+      "targets": [
+        "mini-swe-agent",
+        "swe-agent"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code generation\" OR \"code gen\" OR \"program synthesis\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "coding-agents",
+          "code-generation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-agents-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BFCL\" OR \"MCP server\")",
+      "targets": [
+        "bfcl",
+        "mcp"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"AI agents\" OR \"LLM agents\" OR \"agent orchestration\" OR \"agentic\" OR \"agentic workflows\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "ai-agents",
+          "agentic"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"FaQuAD\" OR \"GAIA benchmark\")",
+      "targets": [
+        "faquad",
+        "gaia-benchmark"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-01",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"IFEval\" OR \"MiniWoB++\" OR \"SWE-bench\")",
+      "targets": [
+        "ifeval",
+        "miniwob",
+        "swe-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-02",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Aider Polyglot\" OR \"FaQuAD\" OR \"Stanford HELM\" OR \"IFEval\")",
+      "targets": [
+        "aider-polyglot",
+        "faquad",
+        "helm",
+        "ifeval"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-03",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"AlpacaEval\" OR \"BFCL\" OR \"BLUEX\" OR \"FaQuAD\" OR \"RewardBench\")",
+      "targets": [
+        "alpacaeval",
+        "bfcl",
+        "bluex",
+        "faquad",
+        "rewardbench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-04",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"AlpacaEval\" OR \"AndroidWorld\" OR \"EvalPlus\" OR \"GAIA benchmark\" OR \"MBPP\" OR \"OSWorld\")",
+      "targets": [
+        "alpacaeval",
+        "androidworld",
+        "evalplus",
+        "gaia-benchmark",
+        "mbpp",
+        "osworld"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-05",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"FaQuAD\" OR \"Open PT LLM Leaderboard\")",
+      "targets": [
+        "faquad",
+        "open-pt-llm-leaderboard"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-06",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"AgentBench\" OR \"AlpacaEval\" OR \"Arena-Hard\")",
+      "targets": [
+        "agentbench",
+        "alpacaeval",
+        "arena-hard"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-07",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"DS-1000\" OR \"Stanford HELM\" OR \"MT-Bench\" OR \"ToolBench\")",
+      "targets": [
+        "ds-1000",
+        "helm",
+        "mt-bench",
+        "toolbench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-08",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"AgentBench\" OR \"BrowserGym\" OR \"EvalPlus\" OR \"RewardBench\" OR \"SWE-bench\")",
+      "targets": [
+        "agentbench",
+        "browsergym",
+        "evalplus",
+        "rewardbench",
+        "swe-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-09",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BrowserGym\" OR \"EvalPlus\" OR \"JudgeBench\" OR \"Mind2Web\" OR \"OSWorld\" OR \"ToolBench\")",
+      "targets": [
+        "browsergym",
+        "evalplus",
+        "judgebench",
+        "mind2web",
+        "osworld",
+        "toolbench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-10",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"EvalPlus\" OR \"Open PT LLM Leaderboard\")",
+      "targets": [
+        "evalplus",
+        "open-pt-llm-leaderboard"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-11",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BrowserGym\" OR \"DS-1000\" OR \"OSWorld\")",
+      "targets": [
+        "browsergym",
+        "ds-1000",
+        "osworld"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-12",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"ALFWorld\" OR \"GPQA\" OR \"LiveCodeBench\" OR \"MultiPL-E\")",
+      "targets": [
+        "alfworld",
+        "gpqa",
+        "livecodebench",
+        "multipl-e"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-benchmarks-13",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"DS-1000\" OR \"LiveCodeBench\" OR \"MultiPL-E\" OR \"OSWorld\" OR \"Terminal-Bench\")",
+      "targets": [
+        "ds-1000",
+        "livecodebench",
+        "multipl-e",
+        "osworld",
+        "terminal-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"lm-evaluation-harness\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "lm-eval-harness"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-01",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Inspect AI\" OR \"lm-evaluation-harness\" OR \"RAGAS\")",
+      "targets": [
+        "inspect-ai",
+        "lm-eval-harness",
+        "ragas"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-02",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Inspect AI\" OR \"lm-evaluation-harness\" OR \"OpenCompass\" OR \"simple-evals\")",
+      "targets": [
+        "inspect-ai",
+        "lm-eval-harness",
+        "opencompass",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-03",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"Inspect AI\" OR \"lm-evaluation-harness\" OR \"RAGAS\" OR \"simple-evals\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "inspect-ai",
+        "lm-eval-harness",
+        "ragas",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-04",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"Inspect AI\" OR \"lm-evaluation-harness\" OR \"OpenCompass\" OR \"RAGAS\" OR \"simple-evals\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "inspect-ai",
+        "lm-eval-harness",
+        "opencompass",
+        "ragas",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-05",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"OpenCompass\" OR \"RAGAS\")",
+      "targets": [
+        "opencompass",
+        "ragas"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-06",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Inspect AI\" OR \"OpenCompass\" OR \"simple-evals\")",
+      "targets": [
+        "inspect-ai",
+        "opencompass",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-07",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Inspect AI\" OR \"lm-evaluation-harness\" OR \"RAGAS\" OR \"simple-evals\")",
+      "targets": [
+        "inspect-ai",
+        "lm-eval-harness",
+        "ragas",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-08",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"Inspect AI\" OR \"lm-evaluation-harness\" OR \"OpenCompass\" OR \"simple-evals\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "inspect-ai",
+        "lm-eval-harness",
+        "opencompass",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-11",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"Inspect AI\" OR \"lm-evaluation-harness\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "inspect-ai",
+        "lm-eval-harness"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-12",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Inspect AI\" OR \"OpenCompass\" OR \"RAGAS\" OR \"simple-evals\")",
+      "targets": [
+        "inspect-ai",
+        "opencompass",
+        "ragas",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-evaluation-13",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"BigCode Evaluation Harness\" OR \"lm-evaluation-harness\" OR \"OpenCompass\" OR \"RAGAS\" OR \"simple-evals\")",
+      "targets": [
+        "bigcode-evaluation-harness",
+        "lm-eval-harness",
+        "opencompass",
+        "ragas",
+        "simple-evals"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\" OR \"evaluation harness\" OR \"eval harness\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "evaluation",
+          "eval-harness"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"DeepSeek-Coder\" OR \"Nemotron\")",
+      "targets": [
+        "deepseek-coder",
+        "nemotron"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-01",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Gemini\" OR \"GPT-4\" OR \"Llama\")",
+      "targets": [
+        "gemini",
+        "gpt-4",
+        "llama"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-02",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"Gemini\" OR \"Grok\" OR \"Qwen2.5-Coder\")",
+      "targets": [
+        "cabrita",
+        "gemini",
+        "grok",
+        "qwen2-5-coder"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-03",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"Canarim\" OR \"Code Llama\" OR \"DeepSeek-Coder\" OR \"Tucano\")",
+      "targets": [
+        "cabrita",
+        "canarim",
+        "code-llama",
+        "deepseek-coder",
+        "tucano"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-04",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"Canarim\" OR \"Gemini\" OR \"GPT-4\" OR \"Qwen\" OR \"Tucano\")",
+      "targets": [
+        "cabrita",
+        "canarim",
+        "gemini",
+        "gpt-4",
+        "qwen",
+        "tucano"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-05",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"DeepSeek-Coder\" OR \"Llama\")",
+      "targets": [
+        "deepseek-coder",
+        "llama"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-06",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Canarim\" OR \"GPT-4\" OR \"Grok\")",
+      "targets": [
+        "canarim",
+        "gpt-4",
+        "grok"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-07",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Canarim\" OR \"DeepSeek-Coder\" OR \"Sabía\" OR \"TeenyTinyLlama\")",
+      "targets": [
+        "canarim",
+        "deepseek-coder",
+        "sabía",
+        "teenytinyllama"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-08",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"DeepSeek-Coder\" OR \"Nemotron\" OR \"Qwen2.5-Coder\" OR \"TeenyTinyLlama\")",
+      "targets": [
+        "cabrita",
+        "deepseek-coder",
+        "nemotron",
+        "qwen2-5-coder",
+        "teenytinyllama"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-09",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"Claude\" OR \"Code Llama\" OR \"GPT-4\" OR \"Llama\" OR \"Nemotron\")",
+      "targets": [
+        "cabrita",
+        "claude",
+        "code-llama",
+        "gpt-4",
+        "llama",
+        "nemotron"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 6,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-10",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"Sabía\")",
+      "targets": [
+        "cabrita",
+        "sabía"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-11",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Grok\" OR \"Qwen\" OR \"Qwen2.5-Coder\")",
+      "targets": [
+        "grok",
+        "qwen",
+        "qwen2-5-coder"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-12",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Cabrita\" OR \"GPT-4\" OR \"Qwen2.5-Coder\" OR \"xLAM\")",
+      "targets": [
+        "cabrita",
+        "gpt-4",
+        "qwen2-5-coder",
+        "xlam"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-llm_umbrella-13",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Code Llama\" OR \"GPT-4\" OR \"Grok\" OR \"Qwen2.5-Coder\" OR \"Sabía\")",
+      "targets": [
+        "code-llama",
+        "gpt-4",
+        "grok",
+        "qwen2-5-coder",
+        "sabía"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"LLM\" OR \"LLMs\" OR \"large language model\" OR \"large language models\" OR \"language model\" OR \"language models\" OR \"modelo de linguagem\" OR \"modelos de linguagem\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "llm",
+          "portuguese-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-multimodal-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"LLaVA\" OR \"Whisper\")",
+      "targets": [
+        "llava",
+        "whisper"
+      ],
+      "families": [
+        "multimodal"
+      ],
+      "reference": "(\"VLM\" OR \"vision-language model\" OR \"multimodal LLM\" OR \"speech LLM\" OR \"vision language model\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "vlm",
+          "speech-llm"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"PEFT\" OR \"RLHF\")",
+      "targets": [
+        "peft",
+        "rlhf"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-01",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"PEFT\" OR \"QLoRA\" OR \"RLHF\")",
+      "targets": [
+        "peft",
+        "qlora",
+        "rlhf"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-02",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"GRPO\" OR \"PEFT\" OR \"RLHF\" OR \"SFT\")",
+      "targets": [
+        "grpo",
+        "peft",
+        "rlhf",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-03",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"GRPO\" OR \"PEFT\" OR \"QLoRA\" OR \"RLHF\" OR \"SFT\")",
+      "targets": [
+        "grpo",
+        "peft",
+        "qlora",
+        "rlhf",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 5,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-06",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"PEFT\" OR \"QLoRA\" OR \"SFT\")",
+      "targets": [
+        "peft",
+        "qlora",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-07",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"GRPO\" OR \"PEFT\" OR \"QLoRA\" OR \"SFT\")",
+      "targets": [
+        "grpo",
+        "peft",
+        "qlora",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 4,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-10",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"PEFT\" OR \"SFT\")",
+      "targets": [
+        "peft",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-post_training_methods-11",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"GRPO\" OR \"QLoRA\" OR \"RLHF\")",
+      "targets": [
+        "grpo",
+        "qlora",
+        "rlhf"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "sweep_size": 3,
+        "anchor_concepts": [
+          "fine-tuning",
+          "distillation"
+        ]
+      }
+    },
+    {
+      "id": "lex-sweep-train-rl_environments-00",
+      "task": "anchor",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"GRPO\" OR \"SWE-Gym\")",
+      "targets": [
+        "grpo",
+        "swe-gym"
+      ],
+      "families": [
+        "rl_environments"
+      ],
+      "reference": "(\"RL environment\" OR \"RL environments\" OR \"reinforcement learning environment\" OR \"ambientes de RL\" OR \"environment design\" OR \"environment scaling\" OR \"agentic RL\" OR \"agent trajectories\" OR \"trajectories\")",
+      "meta": {
+        "sweep_size": 2,
+        "anchor_concepts": [
+          "rl-environment",
+          "agent-trajectories"
+        ]
+      }
+    },
+    {
+      "id": "real_plans-9000000010-prre-code-latam-20260812-gs000-s0",
+      "task": "anchor",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"IFEval\" OR \"RewardBench\" OR \"Arena-Hard\" OR \"Arena-Hard-Auto\" OR \"AlpacaEval\" OR \"WildBench\" OR \"MMLU-Pro\" OR \"GPQA\")",
+      "targets": [
+        "alpacaeval",
+        "arena-hard",
+        "gpqa",
+        "ifeval",
+        "rewardbench",
+        "wildbench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "shape": "lone_sweep",
+        "base": "9000000010-prre-code-latam-20260812-gs000",
+        "anchor_concepts": [
+          "benchmark",
+          "leaderboard"
+        ]
+      }
+    },
+    {
+      "id": "lex-bare-agent-trajectories",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"agent trajectories\"",
+      "targets": [
+        "agent-trajectories"
+      ],
+      "families": [
+        "rl_environments"
+      ],
+      "reference": "(\"agent trajectories\" OR \"trajectories\" OR \"trajectory collection\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-agentic",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"agentic\"",
+      "targets": [
+        "agentic"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"agentic\" OR \"agentic workflows\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-ai-agents",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"AI agents\"",
+      "targets": [
+        "ai-agents"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"AI agents\" OR \"LLM agents\" OR \"agent orchestration\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-bedrock",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"Amazon Bedrock\"",
+      "targets": [
+        "bedrock"
+      ],
+      "families": [
+        "cloud_platforms"
+      ],
+      "reference": "(\"Amazon Bedrock\" OR \"AWS Bedrock\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-benchmark",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"benchmark\"",
+      "targets": [
+        "benchmark"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-bfcl",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"BFCL\"",
+      "targets": [
+        "bfcl"
+      ],
+      "families": [
+        "benchmarks",
+        "agents"
+      ],
+      "reference": "(\"BFCL\" OR \"Berkeley Function Calling\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-code-generation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"code generation\"",
+      "targets": [
+        "code-generation"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"code generation\" OR \"code gen\" OR \"program synthesis\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-code-model",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"code LLM\"",
+      "targets": [
+        "code-model"
+      ],
+      "families": [
+        "llm_umbrella",
+        "agentic_coding"
+      ],
+      "reference": "(\"code LLM\" OR \"code LLMs\" OR \"code models\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-coding-agents",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"coding agent\"",
+      "targets": [
+        "coding-agents"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-bare-distillation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"distillation\"",
+      "targets": [
+        "distillation"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"teacher model\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-eval-harness",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"evaluation harness\"",
+      "targets": [
+        "eval-harness"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation harness\" OR \"eval harness\" OR \"eval suite\" OR \"model evaluation framework\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-bare-evaluation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"evaluation\"",
+      "targets": [
+        "evaluation"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 7
+      }
+    },
+    {
+      "id": "lex-bare-fine-tuning",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"fine-tuning\"",
+      "targets": [
+        "fine-tuning"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 6
+      }
+    },
+    {
+      "id": "lex-bare-founding-engineer",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"founding engineer\"",
+      "targets": [
+        "founding-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"founding engineer\" OR \"founding AI engineer\" OR \"founding ML engineer\" OR \"founding machine learning engineer\" OR \"first AI hire\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-frontier-lab",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"frontier lab\"",
+      "targets": [
+        "frontier-lab"
+      ],
+      "families": [
+        "labs"
+      ],
+      "reference": "(\"frontier lab\" OR \"frontier labs\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-head-of-ai",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"head of AI\"",
+      "targets": [
+        "head-of-ai"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"head of AI\" OR \"head of research\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-helm",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"Stanford HELM\"",
+      "targets": [
+        "helm"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"Stanford HELM\" OR \"HELM benchmark\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-hybrid-search",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"hybrid search\"",
+      "targets": [
+        "hybrid-search"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"hybrid search\" OR \"hybrid retrieval\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-instruction-data",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"instruction data\"",
+      "targets": [
+        "instruction-data"
+      ],
+      "families": [
+        "data_curation"
+      ],
+      "reference": "(\"instruction data\" OR \"SFT data\" OR \"SFT dataset\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-instruction-tuning",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"instruction tuning\"",
+      "targets": [
+        "instruction-tuning"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"instruction tuning\" OR \"instruction-tuned\" OR \"instruction tuned\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-leaderboard",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"leaderboard\"",
+      "targets": [
+        "leaderboard"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"leaderboard\" OR \"leaderboard de LLMs\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-llm-as-a-judge",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"LLM-as-a-judge\"",
+      "targets": [
+        "llm-as-a-judge"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"LLM-as-a-judge\" OR \"LLM judge\" OR \"LLM-as-judge\" OR \"llm as judge\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-lm-eval-harness",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"lm-evaluation-harness\"",
+      "targets": [
+        "lm-eval-harness"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"lm-evaluation-harness\" OR \"lm-eval-harness\" OR \"lm-eval\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-mcp",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"MCP server\"",
+      "targets": [
+        "mcp"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"MCP server\" OR \"Model Context Protocol\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-ml-engineer",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"machine learning engineer\"",
+      "targets": [
+        "ml-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"machine learning engineer\" OR \"ML engineer\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-model-evaluation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"model evaluation\"",
+      "targets": [
+        "model-evaluation"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"model evaluation\" OR \"model evaluation pipeline\" OR \"capability evaluation\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-nemo",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"NeMo\"",
+      "targets": [
+        "nemo"
+      ],
+      "families": [
+        "training_frameworks"
+      ],
+      "reference": "(\"NeMo\" OR \"NeMo RL\" OR \"NVIDIA NeMo\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-peft",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"PEFT\"",
+      "targets": [
+        "peft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"PEFT\" OR \"parameter-efficient fine-tuning\" OR \"parameter efficient fine tuning\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-portuguese-llm",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"Portuguese LLM\"",
+      "targets": [
+        "portuguese-llm"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"Portuguese LLM\" OR \"LLM em português\" OR \"modelo de linguagem em português\" OR \"Portuguese LLM leaderboard\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-bare-pretraining",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"pretraining\"",
+      "targets": [
+        "pretraining"
+      ],
+      "families": [
+        "pretraining"
+      ],
+      "reference": "(\"pretraining\" OR \"pretraining data\" OR \"pre-training data\" OR \"pretraining corpus\" OR \"pré-treinamento\" OR \"pre training data\" OR \"pré treinamento\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-bare-rag",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"RAG\"",
+      "targets": [
+        "rag"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"retrieval-augmented generation\" OR \"retrieval augmented generation\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-released-checkpoint",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"released checkpoint\"",
+      "targets": [
+        "released-checkpoint"
+      ],
+      "families": [
+        "model_release"
+      ],
+      "reference": "(\"released checkpoint\" OR \"published checkpoint\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-reranking",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"reranker\"",
+      "targets": [
+        "reranking"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"reranker\" OR \"reranking\" OR \"cross-encoder\" OR \"cross encoder\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-research-scientist",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"research scientist\"",
+      "targets": [
+        "research-scientist"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"research scientist\" OR \"researcher\" OR \"pesquisador\" OR \"cientista\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-bare-reward-model",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"reward model\"",
+      "targets": [
+        "reward-model"
+      ],
+      "families": [
+        "preference_and_reward"
+      ],
+      "reference": "(\"reward model\" OR \"reward modeling\" OR \"reward models\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-sft",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"SFT\"",
+      "targets": [
+        "sft"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"SFT\" OR \"supervised fine-tuning\" OR \"supervised fine tuning\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-stil",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"STIL\"",
+      "targets": [
+        "stil"
+      ],
+      "families": [
+        "venues"
+      ],
+      "reference": "(\"STIL\" OR \"Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-swe-bench",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"SWE-bench\"",
+      "targets": [
+        "swe-bench"
+      ],
+      "families": [
+        "benchmarks"
+      ],
+      "reference": "(\"SWE-bench\" OR \"SWE-bench Verified\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-synthetic-data",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"synthetic data\"",
+      "targets": [
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation"
+      ],
+      "reference": "(\"synthetic data\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"dados sintéticos\" OR \"geração de dados sintéticos\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 6
+      }
+    },
+    {
+      "id": "lex-bare-tech-lead",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"tech lead\"",
+      "targets": [
+        "tech-lead"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"tech lead\" OR \"research lead\" OR \"líder técnico\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-bare-vector-search",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"vector search\"",
+      "targets": [
+        "vector-search"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"vector search\" OR \"vector database\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 2
+      }
+    },
+    {
+      "id": "lex-bare-vlm",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "\"VLM\"",
+      "targets": [
+        "vlm"
+      ],
+      "families": [
+        "multimodal"
+      ],
+      "reference": "(\"VLM\" OR \"vision-language model\" OR \"multimodal LLM\" OR \"vision language model\")",
+      "meta": {
+        "shape": "bare",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-code-model",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"code LLM\" OR \"code LLMs\")",
+      "targets": [
+        "code-model"
+      ],
+      "families": [
+        "llm_umbrella",
+        "agentic_coding"
+      ],
+      "reference": "(\"code LLM\" OR \"code LLMs\" OR \"code models\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-coding-agents",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"coding agent\" OR \"coding agents\")",
+      "targets": [
+        "coding-agents"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-thin-distillation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"distillation\" OR \"model distillation\")",
+      "targets": [
+        "distillation"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"distillation\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"teacher model\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-thin-evaluation",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"evaluation\" OR \"evaluations\")",
+      "targets": [
+        "evaluation"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"evaluated\" OR \"evaluating\" OR \"avaliação\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 7
+      }
+    },
+    {
+      "id": "lex-thin-fine-tuning",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"fine-tuning\" OR \"fine-tuned\")",
+      "targets": [
+        "fine-tuning"
+      ],
+      "families": [
+        "post_training_methods"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine-tuned\" OR \"ajuste fino\" OR \"LLM fine-tuning\" OR \"fine-tuning de LLM\" OR \"fine-tuning de LLMs\" OR \"fine tuning\" OR \"fine tuned\" OR \"llm fine tuning\" OR \"fine tuning de llm\" OR \"fine tuning de llms\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 6
+      }
+    },
+    {
+      "id": "lex-thin-instruction-data",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"instruction data\" OR \"SFT data\")",
+      "targets": [
+        "instruction-data"
+      ],
+      "families": [
+        "data_curation"
+      ],
+      "reference": "(\"instruction data\" OR \"SFT data\" OR \"SFT dataset\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-llm-as-a-judge",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"LLM-as-a-judge\" OR \"LLM judge\")",
+      "targets": [
+        "llm-as-a-judge"
+      ],
+      "families": [
+        "evaluation"
+      ],
+      "reference": "(\"LLM-as-a-judge\" OR \"LLM judge\" OR \"LLM-as-judge\" OR \"llm as judge\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-portuguese-llm",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"Portuguese LLM\" OR \"LLM em português\")",
+      "targets": [
+        "portuguese-llm"
+      ],
+      "families": [
+        "llm_umbrella"
+      ],
+      "reference": "(\"Portuguese LLM\" OR \"LLM em português\" OR \"modelo de linguagem em português\" OR \"Portuguese LLM leaderboard\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 4
+      }
+    },
+    {
+      "id": "lex-thin-pretraining",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"pretraining\" OR \"pretraining data\")",
+      "targets": [
+        "pretraining"
+      ],
+      "families": [
+        "pretraining"
+      ],
+      "reference": "(\"pretraining\" OR \"pretraining data\" OR \"pre-training data\" OR \"pretraining corpus\" OR \"pré-treinamento\" OR \"pre training data\" OR \"pré treinamento\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 5
+      }
+    },
+    {
+      "id": "lex-thin-reranking",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"reranker\" OR \"reranking\")",
+      "targets": [
+        "reranking"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"reranker\" OR \"reranking\" OR \"cross-encoder\" OR \"cross encoder\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "lex-thin-synthetic-data",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"synthetic data\" OR \"synthetic data generation\")",
+      "targets": [
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation"
+      ],
+      "reference": "(\"synthetic data\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"dados sintéticos\" OR \"geração de dados sintéticos\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 6
+      }
+    },
+    {
+      "id": "lex-thin-vlm",
+      "task": "register",
+      "split": "train",
+      "source": "lexicon",
+      "given": "(\"VLM\" OR \"vision-language model\")",
+      "targets": [
+        "vlm"
+      ],
+      "families": [
+        "multimodal"
+      ],
+      "reference": "(\"VLM\" OR \"vision-language model\" OR \"multimodal LLM\" OR \"vision language model\")",
+      "meta": {
+        "shape": "thin",
+        "expected_forms": 3
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-00-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RAG\")",
+      "targets": [
+        "rag"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"retrieval-augmented generation\" OR \"retrieval augmented generation\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-00"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-01-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"hybrid retrieval\" OR \"cross-encoder\")",
+      "targets": [
+        "hybrid-search",
+        "reranking"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"hybrid retrieval\" OR \"hybrid search\" OR \"cross-encoder\" OR \"reranker\" OR \"reranking\" OR \"BM25\" OR \"cross encoder\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-01"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-06-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"founding AI engineer\")",
+      "targets": [
+        "founding-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"founding AI engineer\" OR \"founding ML engineer\" OR \"founding machine learning engineer\" OR \"first AI hire\" OR \"founding engineer\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-06"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-09-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"multi-agent\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langchain",
+        "langgraph",
+        "multi-agent",
+        "rag"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"multi-agent\" OR \"fine-tuning\" OR \"fine tuned\" OR \"multi agent\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-09"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-11-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RAG\" OR \"LangGraph\" OR \"LangChain\" OR \"agentic\" OR \"fine-tuned\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langchain",
+        "langgraph",
+        "rag"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"LangGraph\" OR \"LangChain\" OR \"agentic\" OR \"fine-tuned\" OR \"fine-tuning\" OR \"fine tuned\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-11"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-12-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"LangGraph\" OR \"LangChain\" OR \"RAG\" OR \"agentic\" OR \"multi-agent\" OR \"fine-tuned\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langchain",
+        "langgraph",
+        "multi-agent",
+        "rag"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"LangGraph\" OR \"LangChain\" OR \"RAG\" OR \"agentic\" OR \"multi-agent\" OR \"fine-tuned\" OR \"fine-tuning\" OR \"multi agent\" OR \"fine tuned\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-12"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-15-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RAG\" OR \"agentic\" OR \"LangGraph\" OR \"multi-agent\" OR \"LLM fine-tuning\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langgraph",
+        "multi-agent",
+        "rag"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"agentic\" OR \"LangGraph\" OR \"multi-agent\" OR \"LLM fine-tuning\" OR \"fine-tuning\" OR \"multi agent\" OR \"llm fine tuning\" OR \"retrieval augmented\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-15"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-17-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"agentic\" OR \"multi-agent\" OR \"AI agents\")",
+      "targets": [
+        "agentic",
+        "ai-agents",
+        "multi-agent"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"agentic\" OR \"multi-agent\" OR \"AI agents\" OR \"agentic workflows\" OR \"agent orchestration\" OR \"llm agents\" OR \"multi agent\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-17"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-18-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"LangChain\" OR \"LangGraph\" OR \"RAG\" OR \"fine-tuned\" OR \"agentic\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langchain",
+        "langgraph",
+        "rag"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"LangChain\" OR \"LangGraph\" OR \"RAG\" OR \"fine-tuned\" OR \"agentic\" OR \"fine-tuning\" OR \"fine tuned\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-18"
+      }
+    },
+    {
+      "id": "ml_runs_76-principal_ai_engineer-20-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"vector database\")",
+      "targets": [
+        "agentic",
+        "fine-tuning",
+        "langchain",
+        "langgraph",
+        "rag",
+        "vector-search"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks",
+        "post_training_methods",
+        "post_training_practice",
+        "retrieval"
+      ],
+      "reference": "(\"RAG\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"fine-tuned\" OR \"vector database\" OR \"fine-tuning\" OR \"vector search\" OR \"fine tuned\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "principal_ai_engineer-20"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-00-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"fine-tuning\" OR \"post-training\" OR \"instruction tuning\" OR \"pretraining\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "fine-tuning",
+        "instruction-tuning",
+        "post-training",
+        "pretraining",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "post_training_methods",
+        "post_training_practice",
+        "pretraining"
+      ],
+      "reference": "(\"RLHF\" OR \"fine-tuning\" OR \"fine-tuned\" OR \"post-training\" OR \"instruction tuning\" OR \"pretraining\" OR \"pré-treinamento\" OR \"ajuste fino\" OR \"benchmark\" OR \"benchmarks\" OR \"fine tuning\" OR \"fine tuned\" OR \"post training\" OR \"pré treinamento\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-00"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-01-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"MT-Bench\" OR \"Arena-Hard\" OR \"AlpacaEval\" OR \"RewardBench\" OR \"WildBench\" OR \"JudgeBench\" OR \"IFEval\" OR \"LLM-as-a-judge\" OR \"evaluation harness\")",
+      "targets": [
+        "alpacaeval",
+        "arena-hard",
+        "eval-harness",
+        "ifeval",
+        "judgebench",
+        "llm-as-a-judge",
+        "mt-bench",
+        "rewardbench",
+        "wildbench"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"MT-Bench\" OR \"Arena-Hard\" OR \"AlpacaEval\" OR \"RewardBench\" OR \"WildBench\" OR \"JudgeBench\" OR \"IFEval\" OR \"LLM-as-a-judge\" OR \"LLM-as-judge\" OR \"LLM judge\" OR \"evaluation harness\" OR \"eval harness\" OR \"llm as judge\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-01"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-02-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"supervised fine-tuning\" OR \"post-training\" OR \"instruction tuning\" OR \"QLoRA\" OR \"distillation\" OR \"synthetic data\")",
+      "targets": [
+        "distillation",
+        "instruction-tuning",
+        "post-training",
+        "qlora",
+        "sft",
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"supervised fine-tuning\" OR \"SFT\" OR \"post-training\" OR \"instruction tuning\" OR \"QLoRA\" OR \"distillation\" OR \"synthetic data\" OR \"model distillation\" OR \"distilled model\" OR \"distilled models\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"supervised fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-02"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-09-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"fine-tuning\" OR \"evaluation harness\" OR \"reward model\" OR \"post-training\" OR \"synthetic data\")",
+      "targets": [
+        "eval-harness",
+        "fine-tuning",
+        "post-training",
+        "reward-model",
+        "rlhf",
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"RLHF\" OR \"fine-tuning\" OR \"evaluation harness\" OR \"reward model\" OR \"post-training\" OR \"synthetic data\" OR \"eval harness\" OR \"reward modeling\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"fine tuning\" OR \"reward models\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-09"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-11-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"instruction tuning\" OR \"post-training\" OR \"fine-tuning\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "fine-tuning",
+        "instruction-tuning",
+        "post-training",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"RLHF\" OR \"instruction tuning\" OR \"post-training\" OR \"fine-tuning\" OR \"ajuste fino\" OR \"benchmark\" OR \"benchmarks\" OR \"post training\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-11"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-13-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"benchmark\" OR \"leaderboard\" OR \"evaluation\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "leaderboard"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"leaderboard\" OR \"evaluation\" OR \"avaliação\" OR \"evaluations\" OR \"eval\" OR \"evals\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-13"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-14-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"reward model\" OR \"post-training\" OR \"instruction tuning\" OR \"LLM-as-a-judge\" OR \"evaluation harness\" OR \"synthetic data generation\" OR \"preference optimization\")",
+      "targets": [
+        "eval-harness",
+        "instruction-tuning",
+        "llm-as-a-judge",
+        "post-training",
+        "preference-optimization",
+        "reward-model",
+        "rlhf",
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"RLHF\" OR \"reward model\" OR \"post-training\" OR \"instruction tuning\" OR \"LLM-as-a-judge\" OR \"evaluation harness\" OR \"synthetic data generation\" OR \"preference optimization\" OR \"reward modeling\" OR \"llm judge\" OR \"eval harness\" OR \"synthetic data\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"reward models\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-14"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-16-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"reward model\" OR \"post-training\" OR \"evaluation harness\")",
+      "targets": [
+        "eval-harness",
+        "post-training",
+        "reward-model",
+        "rlhf"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"RLHF\" OR \"reward model\" OR \"post-training\" OR \"evaluation harness\" OR \"reward modeling\" OR \"eval harness\" OR \"reward models\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-16"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-26-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"fine-tuned\" OR \"instruction tuning\" OR \"post-training\" OR \"evaluation harness\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "eval-harness",
+        "fine-tuning",
+        "instruction-tuning",
+        "post-training"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuned\" OR \"fine-tuning\" OR \"instruction tuning\" OR \"post-training\" OR \"evaluation harness\" OR \"benchmark\" OR \"eval harness\" OR \"benchmarks\" OR \"fine tuned\" OR \"fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-26"
+      }
+    },
+    {
+      "id": "ml_runs_76-prre_code_brazil-28-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"pré-treinamento\" OR \"ajuste fino\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "fine-tuning",
+        "instruction-tuning",
+        "post-training",
+        "pretraining",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "post_training_methods",
+        "post_training_practice",
+        "pretraining"
+      ],
+      "reference": "(\"RLHF\" OR \"post-training\" OR \"instruction tuning\" OR \"pré-treinamento\" OR \"ajuste fino\" OR \"benchmark\" OR \"pretraining\" OR \"fine-tuning\" OR \"benchmarks\" OR \"post training\" OR \"pré treinamento\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "prre_code_brazil-28"
+      }
+    },
+    {
+      "id": "ml_runs_76-research_engineer_frontier-06-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"eval harness\" OR \"LLM-as-a-judge\" OR \"autograder\" OR \"model evaluation pipeline\" OR \"evals\")",
+      "targets": [
+        "autograder",
+        "eval-harness",
+        "evaluation",
+        "llm-as-a-judge",
+        "model-evaluation"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"eval harness\" OR \"evaluation harness\" OR \"LLM-as-a-judge\" OR \"LLM judge\" OR \"autograder\" OR \"model evaluation pipeline\" OR \"evals\" OR \"model evaluation\" OR \"evaluation\" OR \"evaluations\" OR \"eval\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "research_engineer_frontier-06"
+      }
+    },
+    {
+      "id": "ml_runs_76-research_engineer_frontier-11-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"research engineer\" OR \"machine learning engineer\" OR \"founding engineer\")",
+      "targets": [
+        "founding-engineer",
+        "ml-engineer",
+        "research-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"research engineer\" OR \"machine learning engineer\" OR \"ML engineer\" OR \"founding engineer\" OR \"software engineer\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "research_engineer_frontier-11"
+      }
+    },
+    {
+      "id": "ml_runs_76-research_engineer_frontier-14-g0",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"benchmark\" OR \"model evaluation\" OR \"evals\" OR \"red teaming\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "model-evaluation",
+        "red-teaming"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"benchmark\" OR \"benchmarks\" OR \"model evaluation\" OR \"capability evaluation\" OR \"evals\" OR \"red teaming\" OR \"evaluation\" OR \"evaluations\" OR \"eval\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "research_engineer_frontier-14"
+      }
+    },
+    {
+      "id": "ml_runs_76-research_engineer_frontier-18-g1",
+      "task": "register",
+      "split": "train",
+      "source": "ml_runs_76",
+      "given": "(\"post-training\" OR \"fine-tuning\" OR \"evaluation\" OR \"reward model\")",
+      "targets": [
+        "evaluation",
+        "fine-tuning",
+        "post-training",
+        "reward-model"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"post-training\" OR \"fine-tuning\" OR \"evaluation\" OR \"reward model\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"reward modeling\" OR \"post training\" OR \"fine tuning\" OR \"reward models\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "research_engineer_frontier-18"
+      }
+    },
+    {
+      "id": "real_plans-9000000002-cg005-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evaluation harness\" OR \"evals\")",
+      "targets": [
+        "eval-harness",
+        "evaluation"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"evaluation harness\" OR \"evals\" OR \"guardrails\" OR \"prompt optimization\" OR \"eval harness\" OR \"evaluation\" OR \"evaluations\" OR \"eval\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000002-cg005"
+      }
+    },
+    {
+      "id": "real_plans-9000000002-gs012-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"embeddings\" OR \"reranking\" OR \"vector search\")",
+      "targets": [
+        "embeddings",
+        "reranking",
+        "vector-search"
+      ],
+      "families": [
+        "retrieval"
+      ],
+      "reference": "(\"retrieval augmented generation\" OR \"RAG pipeline\" OR \"retrieval pipeline\" OR \"embeddings\" OR \"reranking\" OR \"vector search\" OR \"vector database\" OR \"reranker\" OR \"embedding\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000002-gs012"
+      }
+    },
+    {
+      "id": "real_plans-9000000002-gs015-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"ML engineer\" OR \"applied scientist\")",
+      "targets": [
+        "applied-scientist",
+        "ml-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"ML engineer\" OR \"machine learning engineer\" OR \"applied scientist\" OR \"applied ML\" OR \"NLP engineer\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000002-gs015"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-cg000-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"evals\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "fine-tuning",
+        "post-training",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"evals\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"benchmarks\" OR \"fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-cg000"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-cg002-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"post-training\" OR \"fine-tuning\" OR \"evals\")",
+      "targets": [
+        "evaluation",
+        "fine-tuning",
+        "post-training"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"post-training\" OR \"fine-tuning\" OR \"evals\" OR \"data quality\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"post training\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-cg002"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs002-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"lm-evaluation-harness\" OR \"HELM benchmark\")",
+      "targets": [
+        "helm",
+        "lm-eval-harness"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"lm-evaluation-harness\" OR \"OpenAI Evals\" OR \"EleutherAI\" OR \"BigCode\" OR \"HELM benchmark\" OR \"lm-eval-harness\" OR \"stanford helm\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs002"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs003-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"reward model\")",
+      "targets": [
+        "reward-model"
+      ],
+      "families": [
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"reward model\" OR \"reward modeling\" OR \"reward models\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs003"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs003-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\")",
+      "targets": [
+        "code-generation"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"code\" OR \"coding\" OR \"code generation\" OR \"software engineering\" OR \"code gen\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs003"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs005-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"post-training\" OR \"synthetic data\" OR \"RLHF\")",
+      "targets": [
+        "evaluation",
+        "post-training",
+        "rlhf",
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"post-training\" OR \"human data\" OR \"data quality\" OR \"synthetic data\" OR \"RLHF\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs005"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs007-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "post-training",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"post-training\" OR \"data quality\" OR \"RLHF\" OR \"benchmark\" OR \"human data\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"benchmarks\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs007"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs008-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"evaluation harness\" OR \"model evaluation\")",
+      "targets": [
+        "eval-harness",
+        "evaluation",
+        "model-evaluation"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"evaluation harness\" OR \"benchmarking\" OR \"model quality\" OR \"model evaluation\" OR \"data quality\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"eval harness\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs008"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs012-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\")",
+      "targets": [
+        "evaluation"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"dataset\" OR \"datasets\" OR \"data pipeline\" OR \"evals\" OR \"evaluation\" OR \"data quality\" OR \"evaluations\" OR \"eval\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs012"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs014-g2",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"evaluation\" OR \"benchmark\" OR \"data quality\" OR \"dataset\" OR \"evaluations\" OR \"eval\" OR \"benchmarks\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs014"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs015-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"program synthesis\" OR \"code LLM\")",
+      "targets": [
+        "code-generation",
+        "code-model"
+      ],
+      "families": [
+        "agentic_coding",
+        "llm_umbrella",
+        "post_training_practice"
+      ],
+      "reference": "(\"program synthesis\" OR \"code generation\" OR \"code LLM\" OR \"code LLMs\" OR \"neural code\" OR \"code gen\" OR \"code models\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs015"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs016-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"coding agent\")",
+      "targets": [
+        "coding-agents"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"SWE agent\" OR \"software engineering agent\" OR \"code assistant\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs016"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-fresh-20260727-gs018-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"post-training\" OR \"RLHF\" OR \"evals\" OR \"fine-tuning\" OR \"model evaluation\")",
+      "targets": [
+        "evaluation",
+        "fine-tuning",
+        "model-evaluation",
+        "post-training",
+        "rlhf"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"post-training\" OR \"RLHF\" OR \"evals\" OR \"fine-tuning\" OR \"model evaluation\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"post training\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-fresh-20260727-gs018"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs000-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"post-training\" OR \"RLHF\" OR \"SFT\")",
+      "targets": [
+        "fine-tuning",
+        "post-training",
+        "rlhf",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine tuning\" OR \"post-training\" OR \"post training\" OR \"RLHF\" OR \"SFT\" OR \"supervised fine-tuning\" OR \"supervised fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs000"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs001-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"lm-evaluation-harness\" OR \"EvalPlus\" OR \"SWE-agent\" OR \"AgentBench\" OR \"terminal-bench\")",
+      "targets": [
+        "agentbench",
+        "evalplus",
+        "lm-eval-harness",
+        "swe-agent",
+        "terminal-bench"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"lm-evaluation-harness\" OR \"lm-eval\" OR \"EvalPlus\" OR \"BigCodeBench\" OR \"SWE-agent\" OR \"AgentBench\" OR \"terminal-bench\" OR \"OpenAI Evals\" OR \"lm-eval-harness\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs001"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs005-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"fine-tuning\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "fine-tuning",
+        "post-training",
+        "rlhf"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"evaluation\" OR \"fine-tuning\" OR \"post-training\" OR \"RLHF\" OR \"benchmark\" OR \"benchmarks\" OR \"evaluations\" OR \"eval\" OR \"fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs005"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs006-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"fine-tuning\" OR \"post-training\")",
+      "targets": [
+        "code-generation",
+        "fine-tuning",
+        "post-training"
+      ],
+      "families": [
+        "agentic_coding",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"coding\" OR \"code generation\" OR \"fine-tuning\" OR \"post-training\" OR \"Python\" OR \"code gen\" OR \"fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs006"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs009-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evals\" OR \"eval harness\" OR \"model evaluation\" OR \"benchmarks\")",
+      "targets": [
+        "benchmark",
+        "eval-harness",
+        "evaluation",
+        "model-evaluation"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"evals\" OR \"eval harness\" OR \"evaluation harness\" OR \"model evaluation\" OR \"model quality\" OR \"benchmarking\" OR \"benchmarks\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"benchmark\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs009"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs011-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"post-training\" OR \"instruction tuning\" OR \"SFT\" OR \"RLHF\")",
+      "targets": [
+        "instruction-tuning",
+        "post-training",
+        "rlhf",
+        "sft"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"post-training\" OR \"post training\" OR \"instruction tuning\" OR \"SFT\" OR \"RLHF\" OR \"supervised fine-tuning\" OR \"supervised fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs011"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs011-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"synthetic data\" OR \"evals\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "synthetic-data"
+      ],
+      "families": [
+        "benchmarks",
+        "data_curation",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"data quality\" OR \"data curation\" OR \"synthetic data\" OR \"evals\" OR \"evaluation\" OR \"benchmark\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\" OR \"evaluations\" OR \"eval\" OR \"benchmarks\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs011"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-gs019-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"evals\" OR \"post-training\" OR \"fine-tuning\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "code-generation",
+        "evaluation",
+        "fine-tuning",
+        "post-training"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"coding\" OR \"code generation\" OR \"evals\" OR \"post-training\" OR \"fine-tuning\" OR \"data quality\" OR \"benchmark\" OR \"code gen\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"benchmarks\" OR \"post training\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-gs019"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-cg003-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"post-training\" OR \"evaluation\")",
+      "targets": [
+        "evaluation",
+        "fine-tuning",
+        "post-training"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"post-training\" OR \"evaluation\" OR \"model training\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"fine tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-cg003"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs000-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"agent trajectories\")",
+      "targets": [
+        "agent-trajectories"
+      ],
+      "families": [
+        "post_training_practice",
+        "rl_environments"
+      ],
+      "reference": "(\"agent trajectories\" OR \"trajectory collection\" OR \"trajectory data\" OR \"agent rollouts\" OR \"rollout data\" OR \"trajectories\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs000"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs005-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"coding agent\" OR \"code generation\" OR \"SWE-bench\")",
+      "targets": [
+        "code-generation",
+        "coding-agents",
+        "swe-bench"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "post_training_practice"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"software engineering agent\" OR \"code model\" OR \"SWE-bench\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code gen\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs005"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs006-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"coding agent\")",
+      "targets": [
+        "code-generation",
+        "coding-agents"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"code generation\" OR \"coding agent\" OR \"coding agents\" OR \"unit tests\" OR \"software engineering\" OR \"code gen\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs006"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs009-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"eval harness\")",
+      "targets": [
+        "eval-harness"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"eval harness\" OR \"evaluation harness\" OR \"execution-based evaluation\" OR \"execution-based evals\" OR \"benchmark construction\" OR \"built evals\" OR \"evals infrastructure\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs009"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs009-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"coding agent\" OR \"code models\" OR \"SWE-bench\")",
+      "targets": [
+        "code-generation",
+        "code-model",
+        "coding-agents",
+        "swe-bench"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "llm_umbrella",
+        "post_training_practice"
+      ],
+      "reference": "(\"code generation\" OR \"coding agent\" OR \"coding agents\" OR \"code models\" OR \"SWE-bench\" OR \"code gen\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code llm\" OR \"code llms\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs009"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs012-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"coding agents\" OR \"SWE-bench\")",
+      "targets": [
+        "code-generation",
+        "coding-agents",
+        "swe-bench"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "post_training_practice"
+      ],
+      "reference": "(\"code generation\" OR \"coding agents\" OR \"program repair\" OR \"program synthesis\" OR \"SWE-bench\" OR \"code gen\" OR \"coding agent\" OR \"agentic coding\" OR \"software engineering agents\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs012"
+      }
+    },
+    {
+      "id": "real_plans-9000000005-prre-code-20260727-gs014-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"code generation\" OR \"code models\" OR \"SWE-bench\" OR \"post-training\" OR \"RLHF\" OR \"coding agents\")",
+      "targets": [
+        "code-generation",
+        "code-model",
+        "coding-agents",
+        "post-training",
+        "rlhf",
+        "swe-bench"
+      ],
+      "families": [
+        "agentic_coding",
+        "benchmarks",
+        "llm_umbrella",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"code generation\" OR \"coding models\" OR \"code models\" OR \"SWE-bench\" OR \"post-training\" OR \"RLHF\" OR \"coding agents\" OR \"code gen\" OR \"code llm\" OR \"code llms\" OR \"coding agent\" OR \"agentic coding\" OR \"software engineering agents\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000005-prre-code-20260727-gs014"
+      }
+    },
+    {
+      "id": "real_plans-9000000006-chief-of-staff-20260824-gs018-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"Benchmark\")",
+      "targets": [
+        "benchmark"
+      ],
+      "families": [
+        "benchmarks",
+        "post_training_practice"
+      ],
+      "reference": "(\"Sequoia\" OR \"Andreessen Horowitz\" OR \"a16z\" OR \"Accel\" OR \"Greylock\" OR \"Lightspeed\" OR \"Benchmark\" OR \"Index Ventures\" OR \"General Catalyst\" OR \"Founders Fund\" OR \"Khosla Ventures\" OR \"Kleiner Perkins\" OR \"benchmarks\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000006-chief-of-staff-20260824-gs018"
+      }
+    },
+    {
+      "id": "real_plans-9000000007-gs004-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"model evaluation\" OR \"red teaming\" OR \"evaluations\")",
+      "targets": [
+        "evaluation",
+        "model-evaluation",
+        "red-teaming"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"human data\" OR \"data operations\" OR \"model evaluation\" OR \"red teaming\" OR \"evaluations\" OR \"annotation\" OR \"evaluation\" OR \"eval\" OR \"evals\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000007-gs004"
+      }
+    },
+    {
+      "id": "real_plans-9000000010-prre-code-latam-20260812-gs011-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"LLM-as-a-judge\" OR \"autograder\")",
+      "targets": [
+        "autograder",
+        "llm-as-a-judge"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"LLM-as-a-judge\" OR \"LLM as a judge\" OR \"LLM-as-judge\" OR \"LLM judge\" OR \"judge model\" OR \"model-as-a-judge\" OR \"automated grader\" OR \"auto-grader\" OR \"autograder\" OR \"llm as judge\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000010-prre-code-latam-20260812-gs011"
+      }
+    },
+    {
+      "id": "real_plans-9000000010-prre-code-latam-20260812-gs013-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"model distillation\")",
+      "targets": [
+        "distillation"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"knowledge distillation\" OR \"model distillation\" OR \"distilled model\" OR \"teacher model\" OR \"student model\" OR \"distillation\" OR \"distilled models\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000010-prre-code-latam-20260812-gs013"
+      }
+    },
+    {
+      "id": "real_plans-9000000010-prre-code-latam-20260812-gs017-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"RLHF\" OR \"post-training\" OR \"reward model\" OR \"instruction tuning\" OR \"evaluation harness\")",
+      "targets": [
+        "eval-harness",
+        "instruction-tuning",
+        "post-training",
+        "reward-model",
+        "rlhf"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice",
+        "preference_and_reward"
+      ],
+      "reference": "(\"RLHF\" OR \"post-training\" OR \"reward model\" OR \"instruction tuning\" OR \"evaluation harness\" OR \"reward modeling\" OR \"eval harness\" OR \"post training\" OR \"reward models\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000010-prre-code-latam-20260812-gs017"
+      }
+    },
+    {
+      "id": "real_plans-9000000012-engagement-lead-20260801-gs012-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"LangGraph\" OR \"multi-agent\")",
+      "targets": [
+        "langgraph",
+        "multi-agent"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks"
+      ],
+      "reference": "(\"LangGraph\" OR \"multi-agent\" OR \"agentic AI\" OR \"RAG pipeline\" OR \"RAG pipelines\" OR \"multi agent\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000012-engagement-lead-20260801-gs012"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-cg000-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"ajuste fino\")",
+      "targets": [
+        "fine-tuning"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"ajuste fino\" OR \"entrenamiento\" OR \"evaluación\" OR \"dataset\" OR \"modelo\" OR \"datos sintéticos\" OR \"fine-tuning\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-cg000"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs000-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\")",
+      "targets": [
+        "fine-tuning"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine tuning\" OR \"fine-tune\" OR \"finetuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs000"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs000-g2",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evaluation\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"dataset\" OR \"evaluation\" OR \"benchmark\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"benchmarks\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs000"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs002-g2",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"benchmark\" OR \"evaluation\")",
+      "targets": [
+        "benchmark",
+        "evaluation"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"benchmark\" OR \"evaluation\" OR \"dataset\" OR \"benchmarks\" OR \"evaluations\" OR \"eval\" OR \"evals\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs002"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs003-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"coding agent\" OR \"code generation\")",
+      "targets": [
+        "code-generation",
+        "coding-agents"
+      ],
+      "families": [
+        "agentic_coding"
+      ],
+      "reference": "(\"coding agent\" OR \"coding agents\" OR \"code generation\" OR \"code evaluation\" OR \"agentic coding\" OR \"software engineering agents\" OR \"code gen\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs003"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs004-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"AI agents\" OR \"multi-agent\" OR \"agentic\")",
+      "targets": [
+        "agentic",
+        "ai-agents",
+        "multi-agent"
+      ],
+      "families": [
+        "agents"
+      ],
+      "reference": "(\"AI agent\" OR \"AI agents\" OR \"multi-agent\" OR \"agentic\" OR \"llm agents\" OR \"multi agent\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs004"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs006-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"evaluation\")",
+      "targets": [
+        "evaluation",
+        "fine-tuning"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"model training\" OR \"fine-tuning\" OR \"fine tuning\" OR \"evaluation\" OR \"evaluations\" OR \"eval\" OR \"evals\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs006"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs008-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"transformer\")",
+      "targets": [
+        "transformer"
+      ],
+      "families": [
+        "llm_umbrella",
+        "post_training_practice"
+      ],
+      "reference": "(\"transformer\" OR \"transformers\" OR \"BERT\" OR \"GPT\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs008"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs008-g2",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evaluation\")",
+      "targets": [
+        "evaluation"
+      ],
+      "families": [
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"training\" OR \"evaluation\" OR \"dataset\" OR \"evaluations\" OR \"eval\" OR \"evals\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs008"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs010-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"synthetic data\")",
+      "targets": [
+        "synthetic-data"
+      ],
+      "families": [
+        "data_curation",
+        "post_training_practice"
+      ],
+      "reference": "(\"validation\" OR \"synthetic data\" OR \"data curation\" OR \"deduplication\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs010"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs011-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"VLM\")",
+      "targets": [
+        "vlm"
+      ],
+      "families": [
+        "multimodal"
+      ],
+      "reference": "(\"multimodal\" OR \"vision-language\" OR \"vision language\" OR \"VLM\" OR \"vision-language model\" OR \"vision language model\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs011"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs011-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evaluation\" OR \"benchmark\" OR \"fine-tuning\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "fine-tuning"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"evaluation\" OR \"benchmark\" OR \"dataset\" OR \"fine-tuning\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"benchmarks\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs011"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs013-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"Machine Learning Engineer\" OR \"Research Engineer\" OR \"Applied Scientist\")",
+      "targets": [
+        "applied-scientist",
+        "ml-engineer",
+        "research-engineer"
+      ],
+      "families": [
+        "titles"
+      ],
+      "reference": "(\"Machine Learning Engineer\" OR \"ML Engineer\" OR \"Research Engineer\" OR \"Applied Scientist\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs013"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs013-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"evaluation\" OR \"benchmark\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "fine-tuning"
+      ],
+      "families": [
+        "benchmarks",
+        "evaluation",
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"model training\" OR \"evaluation\" OR \"benchmark\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"benchmarks\" OR \"fine tuning\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs013"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs014-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"post-training\" OR \"instruction tuning\")",
+      "targets": [
+        "fine-tuning",
+        "instruction-tuning",
+        "post-training"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine tuning\" OR \"finetuning\" OR \"post-training\" OR \"instruction tuning\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs014"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs015-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"fine-tuning\" OR \"post-training\")",
+      "targets": [
+        "fine-tuning",
+        "post-training"
+      ],
+      "families": [
+        "post_training_methods",
+        "post_training_practice"
+      ],
+      "reference": "(\"fine-tuning\" OR \"fine tuning\" OR \"finetuning\" OR \"model training\" OR \"post-training\" OR \"post training\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs015"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs016-g1",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"evaluation\" OR \"benchmark\" OR \"synthetic data\")",
+      "targets": [
+        "benchmark",
+        "evaluation",
+        "synthetic-data"
+      ],
+      "families": [
+        "benchmarks",
+        "data_curation",
+        "evaluation",
+        "post_training_practice"
+      ],
+      "reference": "(\"evaluation\" OR \"benchmark\" OR \"validation\" OR \"synthetic data\" OR \"dataset\" OR \"pipeline\" OR \"evaluations\" OR \"eval\" OR \"evals\" OR \"benchmarks\" OR \"synthetic data generation\" OR \"synthetic data pipeline\" OR \"synthetic data pipelines\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs016"
+      }
+    },
+    {
+      "id": "real_plans-9000000016-gs017-g0",
+      "task": "register",
+      "split": "train",
+      "source": "real_plans",
+      "given": "(\"AI agents\" OR \"multi-agent\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"CrewAI\" OR \"AutoGen\")",
+      "targets": [
+        "agentic",
+        "ai-agents",
+        "autogen",
+        "crewai",
+        "langchain",
+        "langgraph",
+        "multi-agent"
+      ],
+      "families": [
+        "agents",
+        "app_frameworks"
+      ],
+      "reference": "(\"AI agent\" OR \"AI agents\" OR \"multi-agent\" OR \"agentic\" OR \"LangChain\" OR \"LangGraph\" OR \"CrewAI\" OR \"AutoGen\" OR \"llm agents\" OR \"multi agent\")",
+      "meta": {
+        "shape": "stripped",
+        "base": "9000000016-gs017"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Training repo: torch/TRL live here, never in the Cloris checkout
+.venv/
+__pycache__/
+*.pyc
+.env
+runs/
+checkpoints/
+wandb/
+*.pt
+*.safetensors
+data/*.jsonl
+!data/.gitkeep
+.pytest_cache/
+*.egg-info/
+release/

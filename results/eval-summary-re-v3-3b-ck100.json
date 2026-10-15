@@ -1,0 +1,1342 @@
+{
+  "description": "Held-out Set B evaluation of three GRPO runs as recorded on their run dates; aggregate metrics and run configuration only.",
+  "held_out_prompts": {
+    "n": 55,
+    "by_task": {
+      "anchor": 27,
+      "register": 28
+    }
+  },
+  "runs": {
+    "re-v1-20260922-1407": {
+      "config": {
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "max_steps": 100,
+        "learning_rate": 1e-05,
+        "beta": 0.04,
+        "temperature": 0.9,
+        "top_p": 0.95,
+        "generations": 8,
+        "max_completion_length": 160,
+        "per_device_batch": 8,
+        "grad_accum": 2,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.0,
+        "four_bit": true,
+        "seed": 20260921,
+        "prompts": 300
+      },
+      "eval": {
+        "generated": "2026-09-22T21:06:37+00:00",
+        "note": "first GRPO run, re-v1 split, 100 steps (rig2 0-50, rig3 51-100); eval on rig4 at 4 samples to fit the free-tier hour",
+        "prompts": {
+          "n": 55,
+          "by_task": {
+            "anchor": 27,
+            "register": 28
+          }
+        },
+        "systems": {
+          "bare": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 28,
+              "contract": 27
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -12.9442,
+                "median": -12.9569,
+                "min": -13.1298,
+                "max": -12.8042
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.8615,
+                "median": -0.7886,
+                "min": -2.0307,
+                "max": -0.2877
+              }
+            }
+          },
+          "enricher": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 28,
+              "contract": 27
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -12.9442,
+                "median": -12.9569,
+                "min": -13.1298,
+                "max": -12.8042
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.8615,
+                "median": -0.7886,
+                "min": -2.0307,
+                "max": -0.2877
+              }
+            }
+          },
+          "reference": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": 0.1695,
+              "median": -0.1054,
+              "min": -0.5266,
+              "max": 0.9378
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": 0.1695,
+              "median": -0.1054,
+              "min": -0.5266,
+              "max": 0.9378
+            },
+            "gates": {
+              "ok": 55
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": 0.7104,
+                "median": 0.7141,
+                "min": 0.5065,
+                "max": 0.9378
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.3522,
+                "median": -0.313,
+                "min": -0.5266,
+                "max": -0.1054
+              }
+            }
+          },
+          "base": {
+            "sampled": true,
+            "best_of_n": {
+              "n": 55,
+              "mean": -3.2309,
+              "median": -0.3603,
+              "min": -13.8155,
+              "max": 0.7671
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -8.1734,
+              "median": -9.4114,
+              "min": -13.8155,
+              "max": 0.153
+            },
+            "gates": {
+              "ok": 23,
+              "contract": 9,
+              "unreadable": 9,
+              "multi_family": 7,
+              "off_target": 4,
+              "off_concept": 2,
+              "not_all_class": 1
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -2.9837,
+                "median": 0.4713,
+                "min": -13.0253,
+                "max": 0.7671
+              },
+              "register": {
+                "n": 28,
+                "mean": -3.4692,
+                "median": -0.6093,
+                "min": -13.8155,
+                "max": -0.1054
+              }
+            },
+            "diversity": {
+              "mean_distinct_term_sets": 3.636,
+              "mean_pairwise_jaccard": 0.2061,
+              "mode_collapsed_prompts": 1,
+              "mean_illegal_per_prompt": 0.618
+            }
+          },
+          "checkpoint": {
+            "sampled": true,
+            "best_of_n": {
+              "n": 55,
+              "mean": -2.7644,
+              "median": -0.3603,
+              "min": -13.8155,
+              "max": 0.7671
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -7.213,
+              "median": -6.5378,
+              "min": -13.8155,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 24,
+              "off_target": 10,
+              "unreadable": 10,
+              "multi_family": 6,
+              "contract": 3,
+              "off_concept": 1,
+              "not_all_class": 1
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -2.9865,
+                "median": 0.3872,
+                "min": -13.0253,
+                "max": 0.7671
+              },
+              "register": {
+                "n": 28,
+                "mean": -2.5502,
+                "median": -0.6093,
+                "min": -13.8155,
+                "max": -0.1054
+              }
+            },
+            "diversity": {
+              "mean_distinct_term_sets": 3.855,
+              "mean_pairwise_jaccard": 0.1812,
+              "mode_collapsed_prompts": 0,
+              "mean_illegal_per_prompt": 0.164
+            }
+          }
+        },
+        "win_rates": {
+          "bare_vs_enricher": {
+            "n": 55,
+            "wins": 0,
+            "losses": 0,
+            "ties": 55,
+            "win_rate": 0.0,
+            "decisive_win_rate": 0.0
+          },
+          "bare_vs_base": {
+            "n": 55,
+            "wins": 8,
+            "losses": 32,
+            "ties": 15,
+            "win_rate": 0.1455,
+            "decisive_win_rate": 0.2
+          },
+          "enricher_vs_bare": {
+            "n": 55,
+            "wins": 0,
+            "losses": 0,
+            "ties": 55,
+            "win_rate": 0.0,
+            "decisive_win_rate": 0.0
+          },
+          "enricher_vs_base": {
+            "n": 55,
+            "wins": 8,
+            "losses": 32,
+            "ties": 15,
+            "win_rate": 0.1455,
+            "decisive_win_rate": 0.2
+          },
+          "reference_vs_bare": {
+            "n": 55,
+            "wins": 55,
+            "losses": 0,
+            "ties": 0,
+            "win_rate": 1.0,
+            "decisive_win_rate": 1.0
+          },
+          "reference_vs_enricher": {
+            "n": 55,
+            "wins": 55,
+            "losses": 0,
+            "ties": 0,
+            "win_rate": 1.0,
+            "decisive_win_rate": 1.0
+          },
+          "reference_vs_base": {
+            "n": 55,
+            "wins": 48,
+            "losses": 0,
+            "ties": 7,
+            "win_rate": 0.8727,
+            "decisive_win_rate": 1.0
+          },
+          "base_vs_bare": {
+            "n": 55,
+            "wins": 32,
+            "losses": 8,
+            "ties": 15,
+            "win_rate": 0.5818,
+            "decisive_win_rate": 0.8
+          },
+          "base_vs_enricher": {
+            "n": 55,
+            "wins": 32,
+            "losses": 8,
+            "ties": 15,
+            "win_rate": 0.5818,
+            "decisive_win_rate": 0.8
+          },
+          "checkpoint_vs_bare": {
+            "n": 55,
+            "wins": 31,
+            "losses": 5,
+            "ties": 19,
+            "win_rate": 0.5636,
+            "decisive_win_rate": 0.8611
+          },
+          "checkpoint_vs_enricher": {
+            "n": 55,
+            "wins": 31,
+            "losses": 5,
+            "ties": 19,
+            "win_rate": 0.5636,
+            "decisive_win_rate": 0.8611
+          },
+          "checkpoint_vs_base": {
+            "n": 55,
+            "wins": 10,
+            "losses": 4,
+            "ties": 41,
+            "win_rate": 0.1818,
+            "decisive_win_rate": 0.7143
+          }
+        }
+      }
+    },
+    "re-v2-3b-20260922-2051": {
+      "config": {
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "max_steps": 200,
+        "learning_rate": 5e-05,
+        "warmup_steps": 10,
+        "lr_scheduler": "cosine",
+        "beta": 0.04,
+        "temperature": 0.9,
+        "top_p": 0.95,
+        "generations": 8,
+        "max_completion_length": 128,
+        "per_device_batch": 8,
+        "grad_accum": 4,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.0,
+        "four_bit": true,
+        "seed": 20260921,
+        "prompts": 300
+      },
+      "eval": {
+        "generated": "2026-09-23T03:45:01+00:00",
+        "note": "run 2: re-v2-3b, Qwen/Qwen2.5-3B-Instruct, 200 steps, eval 8 samples",
+        "prompts": {
+          "n": 55,
+          "by_task": {
+            "anchor": 27,
+            "register": 28
+          }
+        },
+        "systems": {
+          "bare": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 28,
+              "contract": 27
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -12.9442,
+                "median": -12.9569,
+                "min": -13.1298,
+                "max": -12.8042
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.8615,
+                "median": -0.7886,
+                "min": -2.0307,
+                "max": -0.2877
+              }
+            }
+          },
+          "enricher": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -6.793,
+              "median": -2.0307,
+              "min": -13.1298,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 28,
+              "contract": 27
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -12.9442,
+                "median": -12.9569,
+                "min": -13.1298,
+                "max": -12.8042
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.8615,
+                "median": -0.7886,
+                "min": -2.0307,
+                "max": -0.2877
+              }
+            }
+          },
+          "reference": {
+            "sampled": false,
+            "best_of_n": {
+              "n": 55,
+              "mean": 0.1695,
+              "median": -0.1054,
+              "min": -0.5266,
+              "max": 0.9378
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": 0.1695,
+              "median": -0.1054,
+              "min": -0.5266,
+              "max": 0.9378
+            },
+            "gates": {
+              "ok": 55
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": 0.7104,
+                "median": 0.7141,
+                "min": 0.5065,
+                "max": 0.9378
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.3522,
+                "median": -0.313,
+                "min": -0.5266,
+                "max": -0.1054
+              }
+            }
+          },
+          "base": {
+            "sampled": true,
+            "best_of_n": {
+              "n": 55,
+              "mean": -1.9909,
+              "median": -0.313,
+              "min": -13.0417,
+              "max": 0.6517
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -5.3319,
+              "median": -4.5526,
+              "min": -13.0417,
+              "max": -0.2877
+            },
+            "gates": {
+              "ok": 32,
+              "multi_family": 10,
+              "off_target": 4,
+              "unreadable": 4,
+              "wrong_family": 2,
+              "contract": 1,
+              "not_all_class": 1,
+              "padded": 1
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -3.0516,
+                "median": 0.3592,
+                "min": -13.0417,
+                "max": 0.6517
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.9681,
+                "median": -0.465,
+                "min": -10.7396,
+                "max": -0.1054
+              }
+            },
+            "diversity": {
+              "mean_distinct_term_sets": 7.309,
+              "mean_pairwise_jaccard": 0.3264,
+              "mode_collapsed_prompts": 0,
+              "mean_illegal_per_prompt": 0.127
+            }
+          },
+          "checkpoint": {
+            "sampled": true,
+            "best_of_n": {
+              "n": 55,
+              "mean": -0.4624,
+              "median": -0.2877,
+              "min": -13.0417,
+              "max": 0.8746
+            },
+            "mean_of_n": {
+              "n": 55,
+              "mean": -1.1912,
+              "median": -0.35,
+              "min": -13.0417,
+              "max": 0.8746
+            },
+            "gates": {
+              "ok": 51,
+              "umbrella_only": 3,
+              "unreadable": 1
+            },
+            "by_task": {
+              "anchor": {
+                "n": 27,
+                "mean": -0.3547,
+                "median": 0.6069,
+                "min": -13.0417,
+                "max": 0.8746
+              },
+              "register": {
+                "n": 28,
+                "mean": -0.5662,
+                "median": -0.3223,
+                "min": -1.4508,
+                "max": -0.2827
+              }
+            },
+            "diversity": {
+              "mean_distinct_term_sets": 5.6,
+              "mean_pairwise_jaccard": 0.5552,
+              "mode_collapsed_prompts": 7,
+              "mean_illegal_per_prompt": 0
+            }
+          }
+        },
+        "win_rates": {
+          "bare_vs_enricher": {
+            "n": 55,
+            "wins": 0,
+            "losses": 0,
+            "ties": 55,
+            "win_rate": 0.0,
+            "decisive_win_rate": 0.0
+          },
+          "bare_vs_base": {
+            "n": 55,
+            "wins": 1,
+            "losses": 38,
+            "ties": 16,
+            "win_rate": 0.0182,
+            "decisive_win_rate": 0.0256
+          },
+          "enricher_vs_bare": {
+            "n": 55,
+            "wins": 0,
+            "losses": 0,
+            "ties": 55,
+            "win_rate": 0.0,
+            "decisive_win_rate": 0.0
+          },
+          "enricher_vs_base": {
+            "n": 55,
+            "wins": 1,
+            "losses": 38,
+            "ties": 16,
+            "win_rate": 0.0182,
+            "decisive_win_rate": 0.0256
+          },
+          "reference_vs_bare": {
+            "n": 55,
+            "wins": 55,
+            "losses": 0,
+            "ties": 0,
+            "win_rate": 1.0,
+            "decisive_win_rate": 1.0
+          },
+          "reference_vs_enricher": {
+            "n": 55,
+            "wins": 55,
+            "losses": 0,
+            "ties": 0,
+            "win_rate": 1.0,
+            "decisive_win_rate": 1.0
+          },
+          "reference_vs_base": {
+            "n": 55,
+            "wins": 39,
+            "losses": 0,
+            "ties": 16,
+            "win_rate": 0.7091,
+            "decisive_win_rate": 1.0
+          },
+          "base_vs_bare": {
+            "n": 55,
+            "wins": 38,
+            "losses": 1,
+            "ties": 16,
+            "win_rate": 0.6909,
+            "decisive_win_rate": 0.9744
+          },
+          "base_vs_enricher": {
+            "n": 55,
+            "wins": 38,
+            "losses": 1,
+            "ties": 16,
+            "win_rate": 0.6909,
+            "decisive_win_rate": 0.9744
+          },
+          "checkpoint_vs_bare": {
+            "n": 55,
+            "wins": 48,
+            "losses": 0,
+            "ties": 7,
+            "win_rate": 0.8727,
+            "decisive_win_rate": 1.0
+          },
+          "checkpoint_vs_enricher": {
+            "n": 55,
+            "wins": 48,
+            "losses": 0,
+            "ties": 7,
+            "win_rate": 0.8727,
+            "decisive_win_rate": 1.0
+          },
+          "checkpoint_vs_base": {
+            "n": 55,
+            "wins": 31,
+            "losses": 1,
+            "ties": 23,
+            "win_rate": 0.5636,
+            "decisive_win_rate": 0.9688
+          }
+        }
+      }
+    },
+    "re-v3-3b-ck100-20260923-0303": {
+      "config": {
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "max_steps": 200,
+        "learning_rate": 5e-05,
+        "warmup_steps": 10,
+        "lr_scheduler": "cosine",
+        "beta": 0.04,
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "generations": 8,
+        "max_completion_length": 128,
+        "per_device_batch": 8,
+        "grad_accum": 4,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.0,
+        "four_bit": true,
+        "seed": 20260921,
+        "prompts": 300
+      },
+      "eval": {
+        "checkpoint-100": {
+          "generated": "2026-09-23T08:23:48+00:00",
+          "note": "run 2: re-v3-3b-t10-ck100, Qwen/Qwen2.5-3B-Instruct, 200 steps, eval 8 samples",
+          "prompts": {
+            "n": 55,
+            "by_task": {
+              "anchor": 27,
+              "register": 28
+            }
+          },
+          "systems": {
+            "bare": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 28,
+                "contract": 27
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -12.9442,
+                  "median": -12.9569,
+                  "min": -13.1298,
+                  "max": -12.8042
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.8615,
+                  "median": -0.7886,
+                  "min": -2.0307,
+                  "max": -0.2877
+                }
+              }
+            },
+            "enricher": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 28,
+                "contract": 27
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -12.9442,
+                  "median": -12.9569,
+                  "min": -13.1298,
+                  "max": -12.8042
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.8615,
+                  "median": -0.7886,
+                  "min": -2.0307,
+                  "max": -0.2877
+                }
+              }
+            },
+            "reference": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": 0.1695,
+                "median": -0.1054,
+                "min": -0.5266,
+                "max": 0.9378
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": 0.1695,
+                "median": -0.1054,
+                "min": -0.5266,
+                "max": 0.9378
+              },
+              "gates": {
+                "ok": 55
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": 0.7104,
+                  "median": 0.7141,
+                  "min": 0.5065,
+                  "max": 0.9378
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.3522,
+                  "median": -0.313,
+                  "min": -0.5266,
+                  "max": -0.1054
+                }
+              }
+            },
+            "base": {
+              "sampled": true,
+              "best_of_n": {
+                "n": 55,
+                "mean": -1.9909,
+                "median": -0.313,
+                "min": -13.0417,
+                "max": 0.6517
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -5.3319,
+                "median": -4.5526,
+                "min": -13.0417,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 32,
+                "multi_family": 10,
+                "off_target": 4,
+                "unreadable": 4,
+                "wrong_family": 2,
+                "contract": 1,
+                "not_all_class": 1,
+                "padded": 1
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -3.0516,
+                  "median": 0.3592,
+                  "min": -13.0417,
+                  "max": 0.6517
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.9681,
+                  "median": -0.465,
+                  "min": -10.7396,
+                  "max": -0.1054
+                }
+              },
+              "diversity": {
+                "mean_distinct_term_sets": 7.309,
+                "mean_pairwise_jaccard": 0.3264,
+                "mode_collapsed_prompts": 0,
+                "mean_illegal_per_prompt": 0.127
+              }
+            },
+            "checkpoint": {
+              "sampled": true,
+              "best_of_n": {
+                "n": 55,
+                "mean": -0.248,
+                "median": -0.2827,
+                "min": -13.0417,
+                "max": 0.7742
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -1.3553,
+                "median": -0.5669,
+                "min": -13.0417,
+                "max": 0.7462
+              },
+              "gates": {
+                "ok": 48,
+                "multi_family": 3,
+                "wrong_family": 2,
+                "contract": 1,
+                "not_all_class": 1
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": 0.0769,
+                  "median": 0.5929,
+                  "min": -13.0417,
+                  "max": 0.7742
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.5614,
+                  "median": -0.313,
+                  "min": -1.3739,
+                  "max": -0.2827
+                }
+              },
+              "diversity": {
+                "mean_distinct_term_sets": 7.182,
+                "mean_pairwise_jaccard": 0.4033,
+                "mode_collapsed_prompts": 0,
+                "mean_illegal_per_prompt": 0.018
+              }
+            }
+          },
+          "win_rates": {
+            "bare_vs_enricher": {
+              "n": 55,
+              "wins": 0,
+              "losses": 0,
+              "ties": 55,
+              "win_rate": 0.0,
+              "decisive_win_rate": 0.0
+            },
+            "bare_vs_base": {
+              "n": 55,
+              "wins": 1,
+              "losses": 38,
+              "ties": 16,
+              "win_rate": 0.0182,
+              "decisive_win_rate": 0.0256
+            },
+            "enricher_vs_bare": {
+              "n": 55,
+              "wins": 0,
+              "losses": 0,
+              "ties": 55,
+              "win_rate": 0.0,
+              "decisive_win_rate": 0.0
+            },
+            "enricher_vs_base": {
+              "n": 55,
+              "wins": 1,
+              "losses": 38,
+              "ties": 16,
+              "win_rate": 0.0182,
+              "decisive_win_rate": 0.0256
+            },
+            "reference_vs_bare": {
+              "n": 55,
+              "wins": 55,
+              "losses": 0,
+              "ties": 0,
+              "win_rate": 1.0,
+              "decisive_win_rate": 1.0
+            },
+            "reference_vs_enricher": {
+              "n": 55,
+              "wins": 55,
+              "losses": 0,
+              "ties": 0,
+              "win_rate": 1.0,
+              "decisive_win_rate": 1.0
+            },
+            "reference_vs_base": {
+              "n": 55,
+              "wins": 39,
+              "losses": 0,
+              "ties": 16,
+              "win_rate": 0.7091,
+              "decisive_win_rate": 1.0
+            },
+            "base_vs_bare": {
+              "n": 55,
+              "wins": 38,
+              "losses": 1,
+              "ties": 16,
+              "win_rate": 0.6909,
+              "decisive_win_rate": 0.9744
+            },
+            "base_vs_enricher": {
+              "n": 55,
+              "wins": 38,
+              "losses": 1,
+              "ties": 16,
+              "win_rate": 0.6909,
+              "decisive_win_rate": 0.9744
+            },
+            "checkpoint_vs_bare": {
+              "n": 55,
+              "wins": 50,
+              "losses": 0,
+              "ties": 5,
+              "win_rate": 0.9091,
+              "decisive_win_rate": 1.0
+            },
+            "checkpoint_vs_enricher": {
+              "n": 55,
+              "wins": 50,
+              "losses": 0,
+              "ties": 5,
+              "win_rate": 0.9091,
+              "decisive_win_rate": 1.0
+            },
+            "checkpoint_vs_base": {
+              "n": 55,
+              "wins": 30,
+              "losses": 1,
+              "ties": 24,
+              "win_rate": 0.5455,
+              "decisive_win_rate": 0.9677
+            }
+          }
+        },
+        "checkpoint-200": {
+          "generated": "2026-09-23T10:02:25+00:00",
+          "note": "run 2: re-v3-3b-t10, Qwen/Qwen2.5-3B-Instruct, 200 steps, eval 8 samples",
+          "prompts": {
+            "n": 55,
+            "by_task": {
+              "anchor": 27,
+              "register": 28
+            }
+          },
+          "systems": {
+            "bare": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 28,
+                "contract": 27
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -12.9442,
+                  "median": -12.9569,
+                  "min": -13.1298,
+                  "max": -12.8042
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.8615,
+                  "median": -0.7886,
+                  "min": -2.0307,
+                  "max": -0.2877
+                }
+              }
+            },
+            "enricher": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -6.793,
+                "median": -2.0307,
+                "min": -13.1298,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 28,
+                "contract": 27
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -12.9442,
+                  "median": -12.9569,
+                  "min": -13.1298,
+                  "max": -12.8042
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.8615,
+                  "median": -0.7886,
+                  "min": -2.0307,
+                  "max": -0.2877
+                }
+              }
+            },
+            "reference": {
+              "sampled": false,
+              "best_of_n": {
+                "n": 55,
+                "mean": 0.1695,
+                "median": -0.1054,
+                "min": -0.5266,
+                "max": 0.9378
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": 0.1695,
+                "median": -0.1054,
+                "min": -0.5266,
+                "max": 0.9378
+              },
+              "gates": {
+                "ok": 55
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": 0.7104,
+                  "median": 0.7141,
+                  "min": 0.5065,
+                  "max": 0.9378
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.3522,
+                  "median": -0.313,
+                  "min": -0.5266,
+                  "max": -0.1054
+                }
+              }
+            },
+            "base": {
+              "sampled": true,
+              "best_of_n": {
+                "n": 55,
+                "mean": -1.9909,
+                "median": -0.313,
+                "min": -13.0417,
+                "max": 0.6517
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -5.3319,
+                "median": -4.5526,
+                "min": -13.0417,
+                "max": -0.2877
+              },
+              "gates": {
+                "ok": 32,
+                "multi_family": 10,
+                "off_target": 4,
+                "unreadable": 4,
+                "wrong_family": 2,
+                "contract": 1,
+                "not_all_class": 1,
+                "padded": 1
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -3.0516,
+                  "median": 0.3592,
+                  "min": -13.0417,
+                  "max": 0.6517
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.9681,
+                  "median": -0.465,
+                  "min": -10.7396,
+                  "max": -0.1054
+                }
+              },
+              "diversity": {
+                "mean_distinct_term_sets": 7.309,
+                "mean_pairwise_jaccard": 0.3264,
+                "mode_collapsed_prompts": 0,
+                "mean_illegal_per_prompt": 0.127
+              }
+            },
+            "checkpoint": {
+              "sampled": true,
+              "best_of_n": {
+                "n": 55,
+                "mean": -0.4607,
+                "median": -0.2877,
+                "min": -13.0417,
+                "max": 0.8746
+              },
+              "mean_of_n": {
+                "n": 55,
+                "mean": -1.4701,
+                "median": -0.7318,
+                "min": -13.0417,
+                "max": 0.8369
+              },
+              "gates": {
+                "ok": 48,
+                "wrong_family": 2,
+                "multi_family": 2,
+                "padded": 1,
+                "not_all_class": 1,
+                "umbrella_only": 1
+              },
+              "by_task": {
+                "anchor": {
+                  "n": 27,
+                  "mean": -0.3523,
+                  "median": 0.6517,
+                  "min": -13.0417,
+                  "max": 0.8746
+                },
+                "register": {
+                  "n": 28,
+                  "mean": -0.5653,
+                  "median": -0.465,
+                  "min": -1.3739,
+                  "max": -0.2827
+                }
+              },
+              "diversity": {
+                "mean_distinct_term_sets": 7.036,
+                "mean_pairwise_jaccard": 0.4382,
+                "mode_collapsed_prompts": 0,
+                "mean_illegal_per_prompt": 0
+              }
+            }
+          },
+          "win_rates": {
+            "bare_vs_enricher": {
+              "n": 55,
+              "wins": 0,
+              "losses": 0,
+              "ties": 55,
+              "win_rate": 0.0,
+              "decisive_win_rate": 0.0
+            },
+            "bare_vs_base": {
+              "n": 55,
+              "wins": 1,
+              "losses": 38,
+              "ties": 16,
+              "win_rate": 0.0182,
+              "decisive_win_rate": 0.0256
+            },
+            "enricher_vs_bare": {
+              "n": 55,
+              "wins": 0,
+              "losses": 0,
+              "ties": 55,
+              "win_rate": 0.0,
+              "decisive_win_rate": 0.0
+            },
+            "enricher_vs_base": {
+              "n": 55,
+              "wins": 1,
+              "losses": 38,
+              "ties": 16,
+              "win_rate": 0.0182,
+              "decisive_win_rate": 0.0256
+            },
+            "reference_vs_bare": {
+              "n": 55,
+              "wins": 55,
+              "losses": 0,
+              "ties": 0,
+              "win_rate": 1.0,
+              "decisive_win_rate": 1.0
+            },
+            "reference_vs_enricher": {
+              "n": 55,
+              "wins": 55,
+              "losses": 0,
+              "ties": 0,
+              "win_rate": 1.0,
+              "decisive_win_rate": 1.0
+            },
+            "reference_vs_base": {
+              "n": 55,
+              "wins": 39,
+              "losses": 0,
+              "ties": 16,
+              "win_rate": 0.7091,
+              "decisive_win_rate": 1.0
+            },
+            "base_vs_bare": {
+              "n": 55,
+              "wins": 38,
+              "losses": 1,
+              "ties": 16,
+              "win_rate": 0.6909,
+              "decisive_win_rate": 0.9744
+            },
+            "base_vs_enricher": {
+              "n": 55,
+              "wins": 38,
+              "losses": 1,
+              "ties": 16,
+              "win_rate": 0.6909,
+              "decisive_win_rate": 0.9744
+            },
+            "checkpoint_vs_bare": {
+              "n": 55,
+              "wins": 50,
+              "losses": 0,
+              "ties": 5,
+              "win_rate": 0.9091,
+              "decisive_win_rate": 1.0
+            },
+            "checkpoint_vs_enricher": {
+              "n": 55,
+              "wins": 50,
+              "losses": 0,
+              "ties": 5,
+              "win_rate": 0.9091,
+              "decisive_win_rate": 1.0
+            },
+            "checkpoint_vs_base": {
+              "n": 55,
+              "wins": 32,
+              "losses": 2,
+              "ties": 21,
+              "win_rate": 0.5818,
+              "decisive_win_rate": 0.9412
+            }
+          }
+        }
+      }
+    }
+  }
+}

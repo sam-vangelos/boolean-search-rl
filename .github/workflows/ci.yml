@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[core]"
+      - name: Run unit tests
+        run: pytest -q
+      - name: Check deterministic split and prompt set
+        run: |
+          python tools/build_split.py --check
+          python tools/build_prompts.py --check
+      - name: Smoke test deterministic eval and local sidecar
+        run: |
+          python tools/run_eval.py --out /tmp/eval.json
+          python tools/serve_sidecar.py --fake --port 18765 &
+          SERVER_PID=$!
+          trap "kill $SERVER_PID 2>/dev/null || true" EXIT
+          for i in $(seq 1 20); do
+            if curl -sf http://127.0.0.1:18765/health >/dev/null; then
+              break
+            fi
+            sleep 0.2
+          done
+          curl -sf http://127.0.0.1:18765/health
+          curl -sf -X POST http://127.0.0.1:18765/enrich \
+            -H "Content-Type: application/json" \
+            -d '{"task":"register","given":"(\"RLHF\")","n":2}'
