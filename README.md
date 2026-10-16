@@ -4,8 +4,6 @@ A strong sourcer writes a Boolean search string in the language candidates use a
 
 The agent already has a rule-based enricher that adds spellings from its dictionary, but it can only reuse words already declared for a concept and never proposes a general class for a list of names. On test prompts built from concepts the model never saw during training, that dictionary enricher left every string unchanged. Evaluated across all 55 held-out prompts on 23 September 2026 by taking the best of eight suggestions per prompt, the trained model improved on the enricher's string on 50 prompts, tied on 5, and made none worse.
 
-I am a recruiter, not a machine-learning engineer, and I designed the training setup and built it by directing AI coding agents.
-
 > Curated public snapshot as of 15 October 2026. Private development history, working plans, model weights and run directories are omitted.
 
 ## System architecture and design choices
@@ -82,10 +80,6 @@ To serve or export a trained adapter:
 
 - [`docs/technical-reference.md`](docs/technical-reference.md) — the full technical description: every mechanism, constant and file, and how correctness is verified.
 - [`results/eval-summary-re-v3-3b-ck100.json`](results/eval-summary-re-v3-3b-ck100.json) — recorded evaluation summary for the table above.
-
-## How it was built
-
-I built this repository as a senior technical recruiter directing AI coding agents under a written plan before each slice and tests that assert the held-out split, prompt disjointness, and reward gates as identities. I ran the GRPO training on Colab GPUs and the GGUF export and serving work on a laptop.
 
 ## License
 
